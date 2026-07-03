@@ -1,0 +1,48 @@
+# Devourer Plugin - Fleets
+
+fleet "Small Devourer"
+	government "Devourer"
+	names "devourer"
+	cargo 0
+	variant 3
+		"Devourer 'Death' IX" 6
+		"Devourer 'Quantum' IV" 2
+	variant 2
+		"Devourer 'Quantum' IV" 4
+	variant 1
+		"Devourer 'Death' IX" 10
+
+fleet "Large Devourer"
+	government "Devourer"
+	names "devourer"
+	cargo 3
+	variant 2
+		"Devourer 'Kayysinetheyu' V" 3
+		"Devourer 'Quantum' IV" 6
+		"Devourer 'Death' IX" 12
+	variant 1
+		"Devourer 'Tisli' VI" 1
+		"Devourer 'Kayysinetheyu' V" 2
+		"Devourer 'Quantum' IV" 8
+		"Devourer 'Death' IX" 20
+
+fleet "Devourer Superheavy Fleet"
+	government "Devourer"
+	names "devourer"
+	cargo 5
+	variant 1
+		"Devourer Superheavy" 1
+		"Devourer 'Tisli' VI" 2
+		"Devourer 'Kayysinetheyu' V" 4
+		"Devourer 'Quantum' IV" 12
+		"Devourer 'Death' IX" 30
+
+fleet "Devourer Patrol"
+	government "Devourer"
+	names "devourer"
+	cargo 0
+	variant 2
+		"Devourer 'Quantum' IV" 3
+	variant 1
+		"Devourer 'Death' IX" 8
+		"Devourer 'Quantum' IV" 1

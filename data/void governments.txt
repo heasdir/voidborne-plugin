@@ -1,0 +1,21 @@
+# Voidborne Plugin - Governments
+
+government "Voidborne"
+	"display name" "Voidborne Collective"
+	color 0.4 0.1 0.6
+	language "Voidborne"
+
+	"player reputation" 600
+	"crew attack" 1
+	"crew defense" 2
+	"send untranslated hails"
+	"friendly hail" "vessel ignore"
+	"friendly disabled" "friendly disabled"
+	"hostile hail" "hostile silence"
+	"hostile disabled" "hostile disabled"
+	"attitude toward"
+		"Devourer" -1000
+
+	"bribe" 0.02
+	"fine" 0
+	"death sentence" "attacking"

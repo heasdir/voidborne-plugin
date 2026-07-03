@@ -1,0 +1,32 @@
+government "Devourer"
+	"display name" "Devourer Swarm"
+	color 0.1 0.3 0.0
+	language "Devourer"
+
+	"player reputation" -1000
+	"crew attack" 5
+	"crew defense" 3
+	"send untranslated hails"
+	"friendly hail" "devourer hail"
+	"friendly disabled" "devourer disabled"
+	"hostile hail" "devourer hostile"
+	"hostile disabled" "devourer disabled"
+		attitude toward
+		"Voidborne" -1.0
+		"Merchant" -1.0
+		"Republic" -1.0
+		"Syndicate" -1.0
+		"Free Worlds" -1.0
+		"Navy" -1.0
+		"Militia" -1.0
+		"Pirate" -1.0
+		"Hai" -1.0
+		"Wanderer" -1.0
+		"Coalition" -1.0
+		"Quarg" -1.0
+		"Pug" -1.0
+		"Korath" -1.0
+
+	"bribe" 0
+	"fine" 0
+	"death sentence" "existing"

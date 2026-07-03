@@ -1,0 +1,42 @@
+# Voidborne Plugin - Shipyards and Outfitters
+
+shipyard "Voidborne Basic"
+	"Vindihaa"
+	"Vind Sxug"
+
+shipyard "Voidborne Advanced"
+	"Vindihaa"
+	"Vind Sxug"
+	"Vind Xhemex"
+	"Vind Mahathe"
+
+outfitter "Voidborne Basic"
+	"Void Reactor"
+	"Void Thruster"
+	"Void Steering"
+	"Void Lance"
+
+outfitter "Voidborne Advanced"
+	"Void Reactor"
+	"Void Thruster"
+	"Void Steering"
+	"Void Lance"
+	"Void Cannon"
+	"Void Annihilator"
+	"Void Shield Generator"
+
+#OMNIS SUPPORT------------VOIDBORNE
+shipyard "developer"
+	"Vindihaa"
+	"Vind Sxug"
+	"Vind Xhemex"
+	"Vind Mahathe"
+
+outfitter "developer"
+	"Void Reactor"
+	"Void Thruster"
+	"Void Steering"
+	"Void Lance"
+	"Void Cannon"
+	"Void Annihilator"
+	"Void Shield Generator"

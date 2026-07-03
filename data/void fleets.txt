@@ -1,0 +1,44 @@
+# Voidborne Plugin - Fleets
+
+fleet "Small Voidborne"
+	government "Voidborne"
+	names "void"
+	cargo 2
+	commodities Medical Metal
+	variant 3
+		"Vindihaa" 4
+		"Vind Sxug" 2
+	variant 2
+		"Vind Sxug" 3
+	variant 1
+		"Vindihaa" 6
+		"Vind Sxug" 1
+
+fleet "Large Voidborne"
+	government "Voidborne"
+	names "void"
+	cargo 5
+	commodities Medical Metal "Heavy Metals"
+	variant 2
+		"Vind Xhemex" 2
+		"Vind Sxug" 4
+		"Vindihaa" 8
+	variant 1
+		"Vind Mahathe" 1
+		"Vind Xhemex" 2
+		"Vind Sxug" 6
+		"Vindihaa" 12
+	variant 1
+		"Vind Xhemex" 3
+		"Vind Sxug" 5
+		"Vindihaa" 10
+
+fleet "Void Patrol"
+	government "Voidborne"
+	names "void"
+	cargo 0
+	variant 2
+		"Vind Sxug" 2
+	variant 1
+		"Vindihaa" 3
+		"Vind Sxug" 1

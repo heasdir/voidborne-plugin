@@ -1,0 +1,22 @@
+
+	government "Devourer"
+	color 0.0 0.3 0.05
+	"display name" "Devourer Swarm"
+
+	attitude toward
+		"Voidborne" -1.0
+		"Merchant" -1.0
+		"Republic" -1.0
+		"Syndicate" -1.0
+		"Free Worlds" -1.0
+		"Navy" -1.0
+		"Militia" -1.0
+		"Pirate" -1.0
+		"Hai" -1.0
+		"Wanderer" -1.0
+		"Coalition" -1.0
+		"Quarg" -1.0
+		"Pug" -1.0
+		"Korath" -1.0
+
+	"description"	`The Devourers do not negotiate. They do not communicate. They do not even seem to be truly alive in any sense understood by the galaxy's civilizations. What they do is consume.`

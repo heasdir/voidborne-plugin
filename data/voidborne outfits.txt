@@ -1,0 +1,136 @@
+# Voidborne Plugin - Outfits
+
+outfit "Void Reactor"
+	category "Power"
+	"cost" 400000
+	"mass" 10
+	"outfit space" -10
+	"energy generation" 5.2
+	"heat generation" 2.8
+	"flotsam chance" 0.3
+	thumbnail "outfit/void reactor"
+	description "The Void Reactor is a compact power source that draws energy from quantum vacuum fluctuations. It provides steady, clean power with only moderate heat output."
+
+outfit "Void Thruster"
+	category "Engines"
+	"cost" 250000
+	"mass" 15
+	"outfit space" -15
+	"engine capacity" -15
+	"thrust" 40
+	"thrusting energy" 2.8
+	"thrusting heat" 3.4
+	"flare sprite" "effect/void engine"
+	"reverse flare sprite" "effect/void engine"
+	"steering flare sprite" "effect/void engine"
+	"flare sound" "impulse engine"
+	"reverse flare sound" "impulse engine"
+	"steering flare sound" "impulse engine"
+	"flotsam chance" 0.4
+	thumbnail "outfit/void thruster"
+	description "Void Thrusters manipulate space-time to provide thrust without traditional reaction mass. They are efficient but generate significant heat."
+
+outfit "Void Steering"
+	category "Engines"
+	"cost" 180000
+	"mass" 12
+	"outfit space" -12
+	"engine capacity" -12
+	"turn" 2299
+	"turning energy" 2.2
+	"turning heat" 2.6
+	"flare sprite" "effect/void engine"
+	"steering flare sprite" "effect/void engine"
+	"flare sound" "impulse engine"
+	"steering flare sound" "impulse engine"
+	"flotsam chance" 0.4
+	thumbnail "outfit/void steering"
+	description "Using the same principles as Void Thrusters, these steering modules provide exceptional maneuverability for Voidborne ships."
+
+outfit "Void Lance"
+	category "Guns"
+	"cost" 380000
+	"mass" 8
+	"outfit space" -8
+	"weapon capacity" -8
+	"gun ports" -1
+	"flotsam chance" 0.2
+	thumbnail "outfit/void lance"
+	description "Void Lances fire concentrated beams of exotic energy across vast distances. Their per-shot damage is modest, but their extreme range and high rate of fire overwhelm enemies before they can close in."
+	weapon
+		sprite "projectile/void lance"
+		sound "laser"
+		"hit effect" "void hit"
+		"inaccuracy" 1.0
+		"velocity" 24
+		"lifetime" 30
+		"reload" 4
+		"firing heat" 1.5
+		"firing energy" 2.5
+		"shield damage" 70
+		"hull damage" 90
+		"hit force" 4
+		"range" 700
+
+outfit "Void Cannon"
+	category "Guns"
+	"cost" 880000
+	"mass" 18
+	"outfit space" -18
+	"weapon capacity" -18
+	"gun ports" -1
+	"flotsam chance" 0.2
+	thumbnail "outfit/void cannon"
+	description "Void Cannons fire condensed bolts of vacuum energy across impressive distances. These weapons form the backbone of Voidborne fleets, striking enemies long before they can retaliate."
+	weapon
+		sprite "projectile/void cannon"
+		sound "voidshotcannon"
+		"hit effect" "void hit"
+		"inaccuracy" 0.8
+		"velocity" 18
+		"lifetime" 55
+		"reload" 20
+		"firing heat" 6.0
+		"firing energy" 8.0
+		"shield damage" 520
+		"hull damage" 485
+		"hit force" 20
+		"range" 900
+
+outfit "Void Annihilator"
+	category "Guns"
+	"cost" 1800000
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"gun ports" -1
+	"flotsam chance" 0.15
+	thumbnail "outfit/void annihilator"
+	description "The Void Annihilator tears at the fabric of reality itself from extreme range. Reserved for the largest Voidborne warships, enemies are often destroyed before they even detect the incoming fire."
+	weapon
+		sprite "projectile/void annihilator"
+		sound "inferno"
+		"hit effect" "void hit"
+		"inaccuracy" 0.5
+		"velocity" 16
+		"lifetime" 75
+		"reload" 40
+		"firing heat" 15.0
+		"firing energy" 20.0
+		"shield damage" 980
+		"hull damage" 860
+		"hit force" 50
+		"range" 1100
+
+outfit "Void Shield Generator"
+	category "Systems"
+	"cost" 600000
+	"mass" 25
+	"outfit space" -25
+	"shield generation" 2.5
+	"shield energy" 2.2
+	"energy consumption" 2.0
+	"heat generation" 1.8
+	"flotsam chance" 0.3
+	thumbnail "outfit/void shield generator"
+	description "Void Shield Generators create a barrier of warped space around the ship, efficiently regenerating shields even under fire."

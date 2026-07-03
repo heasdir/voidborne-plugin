@@ -1,0 +1,79 @@
+# Voidborne Plugin - Missions
+
+mission "First Contact: Void Signal"
+	name "Mysterious Signal"
+	description "An unusual signal has been detected from unexplored space near the galactic rim. The source appears artificial but matches no known technology. Investigate the signal origin at the Void Gateway system, accessible via a newly discovered wormhole near Aldhibain."
+	landing
+	source "New Boston"
+	destination "Void Anchor"
+	to offer
+		"combat rating" > 50
+	on offer
+		conversation
+			`A Navy officer approaches you at the spaceport. "Captain," she says, "we've been tracking an anomalous signal from the edge of mapped space. It's not Hai, not Wanderer, not anything we've seen before. The Navy wants someone discreet to investigate. A wormhole near Aldhibain seems to lead toward the signal source. Interested?"`
+			choice
+				`	"What's the pay?"`
+					goto pay
+				`	"Sounds too dangerous."`
+					decline
+			label pay
+			`	"Standard recon pay," she says, "plus a bonus if you bring back actionable intel. 500,000 credits total — half now, half on completion. The coordinates are in your nav computer. You'll need to take the Aldhibain wormhole to reach it. Be careful out there."`
+			choice
+				`	"I'll take the job."`
+					accept
+				`	"On second thought, I'll pass."`
+					decline
+	on visit
+		dialog "You've arrived at the signal source. A strange alien structure floats in the void ahead, surrounded by ships of unknown design. The wormhole flickers behind you — your only way back. You detect a landing pad on the planet below."
+	on complete
+		payment 250000
+		event "voidborne contact made"
+		event "voidborne scout"
+		conversation
+			`You transmit your findings back to Navy Command. The officer's voice crackles through the comm, barely concealing her alarm. "Voidborne? We've heard whispers but never confirmed... Get back through the Aldhibain wormhole immediately, Captain. This changes everything."`
+
+mission "Voidborne: The Observation"
+	name "Eyes in the Dark"
+	description "The Voidborne have made contact. Meet with their representative at the Void Observatory in the Dark Expanse system, accessible through the Void Gateway system."
+	landing
+	source "Void Anchor"
+	destination "Void Observatory"
+	to offer
+		has "First Contact: Void Signal: done"
+	on offer
+		conversation
+			`A Voidborne construct, humanoid but clearly synthetic, approaches you at the Void Anchor spaceport. Its voice resonates directly in your mind. "You have seen our ships. You know we are here. The Collective wishes to speak with you. Travel to the Dark Expanse. Our Observatory awaits. There is much to discuss."`
+			choice
+				`	"All right. I'll go."`
+					accept
+				`	"I don't trust you."`
+					decline
+	on accept
+		event "voidborne contact made"
+	on visit
+		dialog `The Void Observatory towers above you as you dock. You feel a strange pressure in your mind, like someone is reading your thoughts. A door slides open, revealing a chamber filled with holographic star maps spanning the entire galaxy.`
+	on complete
+		payment 100000
+		event "voidborne trust earned"
+		conversation
+			`A Voidborne entity, more organic than the construct, floats in the center of the chamber. Its form shifts subtly, never quite settling. "We are the Voidborne," it says. "We have watched your galaxy for millennia. Now we must act. A threat approaches from the void beyond — the Devourers. They consume everything. Stars, planets, civilizations. They are coming, and your galaxy is in their path. We do not ask you to trust us. We ask you to prepare. Will you help us?"`
+			choice
+				`	"What kind of threat are we facing?"`
+					goto threat
+				`	"This isn't my fight."`
+					decline
+			label threat
+			`	"The Devourers," the entity says, its form darkening. "They are ancient. They have consumed entire galaxies. We escaped them once. Now they follow. We came here not to conquer, but to build a defense. Your people, the Hai, the Wanderers — all of you are in danger. Take this data. Share it with your leaders. We will contact you again."`
+			choice
+				`	"I'll spread the warning."`
+					goto acceptmission
+				`	"How do I know this isn't a trick?"`
+					goto doubt
+			label doubt
+			`	"You don't," the entity admits. "But when the first of their scouts arrive, you will remember this conversation. Go now. Time is shorter than you know."`
+			choice
+				`	"Fine. I'll go."`
+					goto acceptmission
+			label acceptmission
+			`	The entity nods slowly. "Thank you, Captain. The wormhole will remain open. Return when you are ready. There is much to prepare."`
+				accept

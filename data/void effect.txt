@@ -1,0 +1,25 @@
+# Voidborne Plugin - Effects
+
+effect "void hit"
+	sprite "effect/explosion/void hit"
+	"lifetime" 6
+	"velocity scale" 0.15
+	"random angle" 360
+	"random spin" 5
+	"random velocity" 2
+
+effect "void engine fire"
+	sprite "effect/void engine"
+	"lifetime" 4
+	"velocity scale" 2
+	"random angle" 15
+	"random spin" 2
+	"random velocity" 0.5
+
+effect "void engine flare"
+	sprite "effect/void engine"
+	"lifetime" 3
+	"velocity scale" 3
+	"random angle" 10
+	"random spin" 1
+	"random velocity" 0.3

@@ -1,0 +1,279 @@
+# Devourer Plugin - Outfits
+
+outfit "Devourer Bio-Reactor"
+	category "Power"
+	"cost" 600000
+	"mass" 12
+	"outfit space" -12
+	"energy generation" 6.8
+	"heat generation" 4.2
+	"flotsam chance" 0.15
+	thumbnail "outfit/devourer bio reactor"
+	description "The Devourer Bio-Reactor is a living power source — a pulsing organ that converts consumed organic matter into energy. It produces immense power but generates significant waste heat, vented through chitinous exhaust ports."
+
+outfit "Devourer Chitin Thruster"
+	category "Engines"
+	"cost" 520000
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"thrust" 38.0
+	"thrusting energy" 3.5
+	"thrusting heat" 4.5
+	"flare sprite" "effect/devourer engine"
+	"reverse flare sprite" "effect/devourer engine"
+	"steering flare sprite" "effect/devourer engine"
+	"flare sound" "ion torch"
+	"reverse flare sound" "ion torch"
+	"steering flare sound" "ion torch"
+	"flotsam chance" 0.2
+	thumbnail "outfit/devourer chitin thruster"
+	description "Devourer thrusters are grown, not built. Flexing chitinous plates expel superheated gases from the creature's metabolism, providing thrust that rivals advanced Voidborne engines. The exhaust smells faintly of rot."
+
+outfit "Devourer Chitin Steering"
+	category "Engines"
+	"cost" 440000
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"turn" 490
+	"turning energy" 3.0
+	"turning heat" 3.8
+	"flare sprite" "effect/devourer engine"
+	"steering flare sprite" "effect/devourer engine"
+	"flare sound" "ion torch"
+	"steering flare sound" "ion torch"
+	"flotsam chance" 0.2
+	thumbnail "outfit/devourer chitin steering"
+	description "Grown from the same chitinous material as Devourer thrusters, these steering organs allow Devourer ships to turn with unsettling, jerky precision — like a predator tracking prey."
+
+outfit "Devourer Spine Launcher"
+	category "Guns"
+	"cost" 420000
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	"flotsam chance" 0.25
+	thumbnail "outfit/spine launcher"
+	description "The Spine Launcher fires hardened bone projectiles at extreme velocity. While each individual spine does modest damage, the weapon's terrifying rate of fire can shred shields in seconds."
+	weapon
+		sprite "projectile/devourer spine"
+		sound "warder"
+		"hit effect" "devourer hit"
+		"inaccuracy" 1.5
+		"velocity" 22
+		"lifetime" 22
+		"reload" 3
+		"burst count" 3
+		"burst reload" 2
+		"firing heat" 1.8
+		"firing energy" 2.5
+		"shield damage" 14
+		"hull damage" 20
+		"hit force" 4
+		"range" 500
+
+outfit "Devourer Acid Cannon"
+	category "Guns"
+	"cost" 720000
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	"flotsam chance" 0.2
+	thumbnail "outfit/acid cannon"
+	description "The Acid Cannon fires globules of corrosive bio-acid that cling to hulls and eat through armor. The acid continues damaging the target for several seconds after impact."
+	weapon
+		sprite "projectile/devourer acid"
+		sound "irate"
+		"hit effect" "devourer acid hit"
+		"inaccuracy" 0.6
+		"velocity" 16
+		"lifetime" 40
+		"reload" 22
+		"burst count" 2
+		"burst reload" 8
+		"firing heat" 7.0
+		"firing energy" 9.0
+		"shield damage" 160
+		"hull damage" 220
+		"hit force" 30
+		"corrosion damage" 25
+		"range" 700
+
+outfit "Devourer Maw Cannon"
+	category "Guns"
+	"cost" 1400000
+	"mass" 38
+	"outfit space" -38
+	"weapon capacity" -38
+	"gun ports" -1
+	"flotsam chance" 0.1
+	thumbnail "outfit/devourer maw cannon"
+	description "The Maw Cannon is a living weapon grafted onto Devourer warships. It fires dense bolts of calcified bio-matter at devastating velocities. The impact is catastrophic."
+	weapon
+		sprite "projectile/devourer maw"
+		sound "inferno"
+		"hit effect" "devourer heavy hit"
+		"inaccuracy" 0.4
+		"velocity" 14
+		"lifetime" 55
+		"reload" 40
+		"firing heat" 16.0
+		"firing energy" 22.0
+		"shield damage" 480
+		"hull damage" 620
+		"hit force" 70
+		"range" 900
+
+outfit "Devourer Spore Launcher"
+	category "Secondary Weapons"
+	"cost" 350000
+	"mass" 15
+	"outfit space" -15
+	"weapon capacity" -15
+	"gun ports" -1
+	"flotsam chance" 0.2
+	thumbnail "outfit/spore launcher"
+	description "The Spore Launcher fires clusters of parasitic spores that attach to enemy hulls and slowly consume their armor. A favorite of Devourer scouts for softening targets before the main fleet arrives."
+	weapon
+		sprite "projectile/devourer spore"
+		sound "minelayer"
+		"hit effect" "devourer spore hit"
+		"inaccuracy" 2.0
+		"velocity" 10
+		"lifetime" 35
+		"reload" 60
+		"firing heat" 5.0
+		"firing energy" 6.0
+		"shield damage" 40
+		"hull damage" 80
+		"hit force" 10
+		"corrosion damage" 40
+		"range" 550
+
+outfit "Devourer Spine Turret"
+	category "Turrets"
+	"cost" 680000
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"turret mounts" -1
+	"flotsam chance" 0.2
+	thumbnail "outfit/spine turret"
+	description "A turret-mounted Spine Launcher providing 360-degree coverage with the same withering hail of bone projectiles. Swarms of these turrets make approaching a Devourer capital ship a lethal proposition."
+	weapon
+		sprite "projectile/devourer spine"
+		sound "warder"
+		"hit effect" "devourer hit"
+		"inaccuracy" 1.8
+		"turret turn" 4
+		"velocity" 22
+		"lifetime" 22
+		"reload" 3
+		"burst count" 3
+		"burst reload" 2
+		"firing heat" 1.8
+		"firing energy" 2.5
+		"shield damage" 14
+		"hull damage" 20
+		"hit force" 4
+		"range" 500
+
+outfit "Devourer Acid Turret"
+	category "Turrets"
+	"cost" 1100000
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"turret mounts" -1
+	"flotsam chance" 0.15
+	thumbnail "outfit/acid turret"
+	description "The Acid Turret lobs corrosive globules in any direction. Ships that survive the initial impact find their hull integrity rapidly deteriorating as the acid continues its work."
+	weapon
+		sprite "projectile/devourer acid"
+		sound "irate"
+		"hit effect" "devourer acid hit"
+		"inaccuracy" 0.8
+		"turret turn" 3
+		"velocity" 16
+		"lifetime" 40
+		"reload" 22
+		"burst count" 2
+		"burst reload" 8
+		"firing heat" 7.0
+		"firing energy" 9.0
+		"shield damage" 160
+		"hull damage" 220
+		"hit force" 30
+		"corrosion damage" 25
+		"range" 700
+
+outfit "Devourer Scream Battery"
+	category "Turrets"
+	"cost" 1600000
+	"mass" 45
+	"outfit space" -45
+	"weapon capacity" -45
+	"turret mounts" -1
+	"flotsam chance" 0.05
+	thumbnail "outfit/scream battery"
+	description "The Scream Battery is a psychological weapon — a living organ that emits concentrated waves of telepathic agony. It does minimal physical damage but overwhelms enemy crews with pure terror, scrambling their ship systems and causing them to lose control."
+	weapon
+		sprite "projectile/devourer scream"
+		sound "javelin"
+		"hit effect" "devourer scream hit"
+		"inaccuracy" 0.3
+		"turret turn" 3.5
+		"velocity" 30
+		"lifetime" 15
+		"reload" 90
+		"firing heat" 20.0
+		"firing energy" 30.0
+		"shield damage" 60
+		"hull damage" 30
+		"hit force" 5
+		"scrambling damage" 200
+		"range" 650
+
+outfit "Devourer Carapace Shield"
+	category "Systems"
+	"cost" 800000
+	"mass" 30
+	"outfit space" -30
+	"shield generation" 3.0
+	"shield energy" 2.8
+	"energy consumption" 2.5
+	"heat generation" 2.0
+	"flotsam chance" 0.15
+	thumbnail "outfit/carapace shield"
+	description "Devourer ships do not use energy shields — they grow layers of hardened chitin that deflect incoming fire. The Carapace Shield is a living armor plate that regenerates when fed energy, sealing wounds like scar tissue."
+
+outfit "Devourer Regeneration Organ"
+	category "Systems"
+	"cost" 950000
+	"mass" 25
+	"outfit space" -25
+	"hull repair rate" 4.0
+	"hull energy" 3.0
+	"hull heat" 2.5
+	"flotsam chance" 0.1
+	thumbnail "outfit/regeneration organ"
+	description "A pulsing organ grafted into the ship's structure, the Regeneration Organ slowly repairs hull damage by consuming energy and converting it into new chitin growth. Severely damaged ships can heal themselves mid-battle if given enough time."
+
+outfit "Devourer Dimensional Rift"
+	category "Systems"
+	"cost" 5000000
+	"mass" 80
+	"outfit space" -80
+	"jump drive" 1
+	"jump speed" 0.3
+	"jump fuel" 400
+	"jump heat" 50
+	"jump range" 600 #higher fuel cost means higher fuel range
+	"jump effect" "devourer rift open"
+	"jump sound" "devourer rift"
+	"flotsam chance" 0.01
+	thumbnail "outfit/devourer dimensional rift"
+	description "The Dimensional Rift organ allows Devourer Superheavy ships to tear holes in spacetime, opening temporary wormholes to the 4th dimension. From these rifts pour Devourer reinforcements — or worse, things that should never exist in three-dimensional space."

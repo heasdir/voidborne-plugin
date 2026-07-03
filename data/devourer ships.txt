@@ -1,0 +1,308 @@
+# Devourer Plugin - Ships
+# Ancient consumers of galaxies
+
+ship "Devourer 'Death' IX"
+	sprite "ship/devourer death ix"
+	attributes
+		category "Drone"
+		"cost" 1200000
+		"shields" 600
+		"hull" 900
+		"automaton"
+		"required crew" 0
+		"bunks" 0
+		"mass" 45
+		"drag" 2.0
+		"heat dissipation" 0.7
+		"fuel capacity" 300
+		"cargo space" 0
+		"outfit space" 180
+		"weapon capacity" 60
+		"engine capacity" 40
+		"gun ports" 2
+		weapon
+			"blast radius" 2
+			"shield damage" 6
+			"hull damage" 10
+			"hit force" 4
+	outfits
+		"Devourer Bio-Reactor"
+		"Devourer Chitin Thruster"
+		"Devourer Chitin Steering"
+		"Devourer Spine Launcher" 2
+		"Jump Drive"
+	engine -6 28
+	engine 6 28
+	gun -10 -12
+	gun 10 -12
+	description "Devourer 'Death' IX drones are the smallest of the swarm — expendable, numerous, and utterly without fear. They attack in waves, each one a mindless extension of the hive's hunger."
+
+ship "Devourer 'Quantum' IV"
+	sprite "ship/devourer quantum iv"
+	attributes
+		category "Light Warship"
+		"cost" 4200000
+		"shields" 2800
+		"hull" 4200
+		"required crew" 3
+		"bunks" 6
+		"mass" 110
+		"drag" 2.8
+		"heat dissipation" 0.65
+		"fuel capacity" 500
+		"cargo space" 20
+		"outfit space" 300
+		"weapon capacity" 100
+		"engine capacity" 70
+		"gun ports" 4
+		weapon
+			"blast radius" 5
+			"shield damage" 15
+			"hull damage" 22
+			"hit force" 12
+	outfits
+		"Devourer Bio-Reactor" 2
+		"Devourer Chitin Thruster"
+		"Devourer Chitin Steering"
+		"Devourer Spine Launcher" 2
+		"Devourer Acid Cannon" 2
+		"Jump Drive"
+	engine -10 42
+	engine 10 42
+	gun -16 -8 "Devourer Spine Launcher"
+	gun 16 -8 "Devourer Spine Launcher"
+	gun -10 -6 "Devourer Acid Cannon"
+	gun 10 -6 "Devourer Acid Cannon"
+	description "Devourer 'Quantum' IV scouts are fast, predatory vessels that range ahead of the main swarm. Their name is a dark joke among Voidborne intelligence — these ships violate physics in ways that should be impossible."
+
+ship "Devourer 'Kayysinetheyu' V"
+	sprite "ship/kayysinetheyu"
+	attributes
+		category "Heavy Warship"
+		"cost" 15000000
+		"shields" 16000
+		"hull" 24000
+		"required crew" 28
+		"bunks" 45
+		"mass" 360
+		"drag" 6.2
+		"heat dissipation" 0.55
+		"fuel capacity" 700
+		"cargo space" 50
+		"outfit space" 550
+		"weapon capacity" 200
+		"engine capacity" 130
+		"gun ports" 8
+		"turret mounts" 3
+		weapon
+			"blast radius" 15
+			"shield damage" 50
+			"hull damage" 70
+			"hit force" 35
+	outfits
+		"Devourer Bio-Reactor" 4
+		"Devourer Chitin Thruster" 2
+		"Devourer Chitin Steering" 2
+		"Devourer Maw Cannon" 2
+		"Devourer Acid Cannon" 4
+		"Devourer Spine Launcher" 2
+		"Devourer Acid Turret" 2
+		"Devourer Spine Turret" 1
+		"Devourer Carapace Shield" 2
+		"Devourer Regeneration Organ"
+		"Jump Drive"
+	engine -20 70
+	engine 20 70
+	gun -30 -15 "Devourer Maw Cannon"
+	gun 30 -15 "Devourer Maw Cannon"
+	gun -22 -10 "Devourer Acid Cannon"
+	gun 22 -10 "Devourer Acid Cannon"
+	gun -14 -8 "Devourer Acid Cannon"
+	gun 14 -8 "Devourer Acid Cannon"
+	gun -8 -5 "Devourer Spine Launcher"
+	gun 8 -5 "Devourer Spine Launcher"
+	turret -25 -5 "Devourer Acid Turret"
+	turret 25 -5 "Devourer Acid Turret"
+	turret 0 -12 "Devourer Spine Turret"
+	description "Devourer 'Kayysinetheyu' V — the name is unpronounceable by most species, which is fitting. These heavy warships form the crushing core of Devourer fleets, their maw cannons capable of swallowing smaller ships whole. They regenerate damage faster than most weapons can inflict it."
+
+ship "Devourer 'Tisli' VI"
+	sprite "ship/tisli"
+	attributes
+		category "Heavy Warship"
+		"cost" 55000000
+		"shields" 55000
+		"hull" 85000
+		"required crew" 110
+		"bunks" 230
+		"mass" 820
+		"drag" 11.5
+		"heat dissipation" 0.45
+		"fuel capacity" 1100
+		"cargo space" 180
+		"outfit space" 980
+		"weapon capacity" 380
+		"engine capacity" 240
+		"gun ports" 16
+		"turret mounts" 6
+		"drone bays" 12
+		weapon
+			"blast radius" 35
+			"shield damage" 130
+			"hull damage" 190
+			"hit force" 80
+	outfits
+		"Devourer Bio-Reactor" 8
+		"Devourer Chitin Thruster" 3
+		"Devourer Chitin Steering" 3
+		"Devourer Maw Cannon" 4
+		"Devourer Acid Cannon" 6
+		"Devourer Spine Launcher" 6
+		"Devourer Spore Launcher" 2
+		"Devourer Acid Turret" 4
+		"Devourer Spine Turret" 2
+		"Devourer Carapace Shield" 4
+		"Devourer Regeneration Organ" 2
+		"Jump Drive"
+	engine -32 115
+	engine 32 115
+	engine -22 105
+	engine 22 105
+	gun -42 -22 "Devourer Maw Cannon"
+	gun 42 -22 "Devourer Maw Cannon"
+	gun -30 -18 "Devourer Maw Cannon"
+	gun 30 -18 "Devourer Maw Cannon"
+	gun -22 -14 "Devourer Acid Cannon"
+	gun 22 -14 "Devourer Acid Cannon"
+	gun -16 -10 "Devourer Acid Cannon"
+	gun 16 -10 "Devourer Acid Cannon"
+	gun -12 -8 "Devourer Acid Cannon"
+	gun 12 -8 "Devourer Acid Cannon"
+	gun -8 -5 "Devourer Spine Launcher"
+	gun 8 -5 "Devourer Spine Launcher"
+	gun -6 -4 "Devourer Spine Launcher"
+	gun 6 -4 "Devourer Spine Launcher"
+	gun -4 -3 "Devourer Spore Launcher"
+	gun 4 -3 "Devourer Spore Launcher"
+	turret -35 -10 "Devourer Acid Turret"
+	turret 35 -10 "Devourer Acid Turret"
+	turret -20 -5 "Devourer Acid Turret"
+	turret 20 -5 "Devourer Acid Turret"
+	turret -10 0 "Devourer Spine Turret"
+	turret 10 0 "Devourer Spine Turret"
+	bay "Drone" -20 -30
+	bay "Drone" 20 -30
+	bay "Drone" -35 -15
+	bay "Drone" 35 -15
+	bay "Drone" -30 10
+	bay "Drone" 30 10
+	bay "Light Warship" -25 35
+	bay "Light Warship" 25 35
+	bay "Light Warship" -15 45
+	bay "Light Warship" 15 45
+	bay "Light Warship" 0 50
+	bay "Light Warship" 0 55
+	description "Devourer 'Tisli' VI — the name is deceptively short for something so vast. These capital ships anchor Devourer battle lines and disgorge swarms of smaller Devourer craft from their organic hangar bays."
+
+ship "Devourer Superheavy"
+	sprite "ship/devourer superheavy"
+	attributes
+		category "Superheavy"
+		"cost" 120000000
+		"shields" 85000
+		"hull" 120000
+		"required crew" 200
+		"bunks" 400
+		"mass" 1200
+		"drag" 18.0
+		"heat dissipation" 0.4
+		"fuel capacity" 2000
+		"cargo space" 300
+		"outfit space" 1400
+		"weapon capacity" 500
+		"engine capacity" 350
+		"gun ports" 20
+		"turret mounts" 8
+		"drone bays" 30
+		weapon
+			"blast radius" 50
+			"shield damage" 200
+			"hull damage" 280
+			"hit force" 100
+	outfits
+		"Devourer Bio-Reactor" 12
+		"Devourer Chitin Thruster" 4
+		"Devourer Chitin Steering" 4
+		"Devourer Maw Cannon" 4
+		"Devourer Acid Cannon" 8
+		"Devourer Spine Launcher" 8
+		"Devourer Spore Launcher" 4
+		"Devourer Acid Turret" 4
+		"Devourer Spine Turret" 2
+		"Devourer Scream Battery" 2
+		"Devourer Carapace Shield" 4
+		"Devourer Regeneration Organ" 3
+		"Devourer Dimensional Rift"
+	engine -45 180
+	engine 45 180
+	engine -30 170
+	engine 30 170
+	gun -50 -25 "Devourer Maw Cannon"
+	gun 50 -25 "Devourer Maw Cannon"
+	gun -40 -20 "Devourer Maw Cannon"
+	gun 40 -20 "Devourer Maw Cannon"
+	gun -30 -15 "Devourer Acid Cannon"
+	gun 30 -15 "Devourer Acid Cannon"
+	gun -22 -12 "Devourer Acid Cannon"
+	gun 22 -12 "Devourer Acid Cannon"
+	gun -18 -10 "Devourer Acid Cannon"
+	gun 18 -10 "Devourer Acid Cannon"
+	gun -14 -8 "Devourer Acid Cannon"
+	gun 14 -8 "Devourer Acid Cannon"
+	gun -10 -6 "Devourer Spine Launcher"
+	gun 10 -6 "Devourer Spine Launcher"
+	gun -8 -5 "Devourer Spine Launcher"
+	gun 8 -5 "Devourer Spine Launcher"
+	gun -6 -4 "Devourer Spine Launcher"
+	gun 6 -4 "Devourer Spine Launcher"
+	gun -4 -3 "Devourer Spore Launcher"
+	gun 4 -3 "Devourer Spore Launcher"
+	turret -40 -15 "Devourer Acid Turret"
+	turret 40 -15 "Devourer Acid Turret"
+	turret -25 -8 "Devourer Acid Turret"
+	turret 25 -8 "Devourer Acid Turret"
+	turret -15 -2 "Devourer Spine Turret"
+	turret 15 -2 "Devourer Spine Turret"
+	turret -5 5 "Devourer Scream Battery"
+	turret 5 5 "Devourer Scream Battery"
+	bay "Drone" -55 -40
+	bay "Drone" 55 -40
+	bay "Drone" -65 -25
+	bay "Drone" 65 -25
+	bay "Drone" -70 0
+	bay "Drone" 70 0
+	bay "Drone" -65 30
+	bay "Drone" 65 30
+	bay "Drone" -55 50
+	bay "Drone" 55 50
+	bay "Light Warship" -45 -50
+	bay "Light Warship" 45 -50
+	bay "Light Warship" -50 -35
+	bay "Light Warship" 50 -35
+	bay "Light Warship" -55 -10
+	bay "Light Warship" 55 -10
+	bay "Light Warship" -50 20
+	bay "Light Warship" 50 20
+	bay "Light Warship" -40 45
+	bay "Light Warship" 40 45
+	bay "Light Warship" -25 60
+	bay "Light Warship" 25 60
+	bay "Light Warship" 0 70
+	bay "Light Warship" 0 75
+	bay "Heavy Warship" -30 -60
+	bay "Heavy Warship" 30 -60
+	bay "Heavy Warship" -20 -70
+	bay "Heavy Warship" 20 -70
+	bay "Heavy Warship" 0 -80
+	bay "Heavy Warship" 0 -85
+	description "Devourer Superheavies are the apex predators of the Devourer fleet — living fortresses that disgorge entire fleets from their cavernous hangar bays while tearing holes in reality itself. Engaging one is not a battle — it is a survival situation. Destroy it before the rift stabilizes, or be consumed."

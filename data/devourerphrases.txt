@@ -1,0 +1,49 @@
+# Devourer Plugin - Phrases
+
+phrase "devourer"
+	word
+		"Death"
+	word
+		"Quantum"
+	word
+		"Kayysinetheyu"
+	word
+		"Tisli"
+	word
+		"Maw"
+	word
+		"Hunger"
+	word
+		"Void"
+	word
+		"Consume"
+	word
+		"Endless"
+	word
+		"Silence"
+
+phrase "devourer hail"
+	word
+		`The Devourer ship does not respond. But you feel something — a pressure in your mind. Hunger. It is hungry.`
+	word
+		`Silence. Then, a thought not your own: "You are small. You will be consumed."`
+	word
+		`No transmission. No hail. Just an overwhelming sense of being watched by something vast and ancient.`
+	word
+		`Your mind is filled with images — galaxies dying, stars going dark, endless hunger. The Devourer does not speak. It shows you what it is.`
+
+phrase "devourer hostile"
+	word
+		`The Devourer ship turns toward you. Your mind screams a warning that isn't yours. It is coming.`
+	word
+		`"Prey." The word echoes in your skull. Weapons fire follows.`
+	word
+		`A soundless roar fills your head. The Devourer's weapons glow with sick green light.`
+
+phrase "devourer disabled"
+	word
+		`The dying Devourer ship broadcasts no distress signal. Instead, your mind floods with rage — pure, ancient fury at being denied its meal.`
+	word
+		`"Not... finished..." The thought fades as the Devourer ship goes dark.`
+	word
+		`For a moment, you feel what the Devourer feels. Hunger. Always hunger. Then nothing.`

@@ -1,0 +1,25 @@
+# Voidborne Plugin - News
+
+news "voidborne sighting"
+	location
+		government "Republic" "Syndicate" "Free Worlds"
+	name
+		word
+			"Unexplained ship sightings reported on the galactic rim"
+			"Alien vessels spotted near uncharted space"
+			"Mysterious energy signatures baffle scientists"
+	message
+		word
+			`Traders and patrols along the galactic rim have reported seeing strange, dark ships that don't match any known designs. Navy officials have declined to comment, but rumors are spreading that these may be a new alien species. "They just watched us and then vanished," said one freighter captain. "It was unsettling."`
+
+news "voidborne alliance"
+	location
+		government "Republic" "Free Worlds"
+	name
+		word
+			"Voidborne Collective offers alliance against unknown threat"
+			"Alien faction warns of galactic invasion"
+			"Navy confirms contact with Voidborne Collective"
+	message
+		word
+			`In a stunning development, the mysterious Voidborne Collective has established diplomatic contact with the Republic. According to leaked reports, the aliens claim to be fleeing an even greater threat — something they call "the Devourers." Military officials are taking the warning seriously, though many remain skeptical of the Voidborne's true intentions.`

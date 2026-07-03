@@ -1,0 +1,33 @@
+# Voidborne Plugin - Random Events
+
+event "voidborne arrival"
+	galaxy
+		system "Void Gateway"
+			add fleet "Void Patrol" 600
+		system "Dark Expanse"
+			add fleet "Small Voidborne" 800
+		government "Voidborne"
+			"player reputation" 10
+
+event "voidborne contact made"
+	government "Voidborne"
+		"player reputation" 100
+	news "voidborne sighting"
+
+event "voidborne trust earned"
+	government "Voidborne"
+		"player reputation" 200
+	news "voidborne alliance"
+
+event "voidborne escalation"
+	galaxy
+		system "Void Gateway"
+			add fleet "Large Voidborne" 1200
+		system "Dark Expanse"
+			add fleet "Large Voidborne" 1000
+		government "Voidborne"
+			"player reputation" -50
+
+event "voidborne scout"
+	system "Aldhibain"
+		add fleet "Voidborne Patrol" 400

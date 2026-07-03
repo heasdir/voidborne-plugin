@@ -1,0 +1,39 @@
+# Voidborne Plugin - Phrases
+
+phrase "void"
+	word
+		"Void"
+	word
+		"Borne"
+		"Halved"
+		"Geda"
+		"Vid"
+	word
+		"-VX"
+		"-77"
+		"-99"
+		"-LORD"
+
+phrase "vessel ignore"
+	word
+		"The alien ship continues on its course, ignoring you completely."
+	word
+		`The Voidborne vessel emits a brief signal — "Vo Et" — then falls silent and moves away.`
+	word
+		`"Ai Shik," a voice resonates in your mind. The ship drifts past without stopping.`
+
+phrase "hostile silence"
+	word
+		"The Voidborne vessel makes no response. Its weapons power up instead."
+	word
+		`A cold voice echoes in your head — "Berideqe" — as the alien ship's weapons glow with violet energy.`
+	word
+		`"Anad," the Voidborne ship transmits. Warning lights flash across its hull as it locks weapons.`
+
+phrase "hostile disabled"
+	word
+		`"Vo Et... Anad..." the dying Voidborne ship whispers into your mind before falling silent.`
+
+phrase "friendly disabled"
+	word
+		`"Ai Shik," the crippled Voidborne vessel transmits weakly. "Berideqe..."`

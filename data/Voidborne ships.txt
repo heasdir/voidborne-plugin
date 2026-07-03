@@ -1,0 +1,160 @@
+# Voidborne Plugin - Ships
+# A mysterious faction from the void between galaxies
+
+ship "Vindihaa"
+	sprite "ship/void drone"
+	thumbnail "thumbnail/void drone"
+	attributes
+		category "Drone"
+		"cost" 900000
+		"shields" 800
+		"hull" 400
+		"automaton" #required for robotic ships
+		"required crew" 0
+		"bunks" 0
+		"mass" 50
+		"drag" 2.3
+		"heat dissipation" 0.85
+		"fuel capacity" 400 #i gave them fuel because the other ships do not have drone bays 
+		"cargo space" 0
+		"outfit space" 199
+		"weapon capacity" 60
+		"engine capacity" 40
+		weapon
+			"blast radius" 1
+			"shield damage" 4
+			"hull damage" 2
+			"hit force" 3
+	outfits
+		"Void Reactor"
+		"Void Thruster"
+		"Void Steering"
+		"Jump Drive"
+	engine -8 32
+	engine 8 32
+	gun 0 -15 "Void Lance"
+	description "These small, alien drones seem to patrol the edges of known space. Their power source is unlike anything in human technology, drawing energy seemingly from nowhere."
+
+ship "Vind Sxug"
+	sprite "ship/void scout"
+	thumbnail "thumbnail/void scout"
+	attributes
+		category "Light Warship"
+		"cost" 3400000
+		"shields" 3200
+		"hull" 1800
+		"required crew" 4
+		"bunks" 8
+		"mass" 120
+		"drag" 3.1
+		"heat dissipation" 0.75
+		"fuel capacity" 600
+		"cargo space" 30
+		"outfit space" 311
+		"weapon capacity" 90
+		"engine capacity" 70
+		weapon
+			"blast radius" 4
+			"shield damage" 12
+			"hull damage" 6
+			"hit force" 10
+	outfits
+		"Void Reactor" 2
+		"Void Thruster"
+		"Void Steering"
+		"Void Lance" 2
+		"Jump Drive"
+	engine -12 45
+	engine 12 45
+	gun -18 -8 "Void Lance"
+	gun 18 -8 "Void Lance"
+	description "Void Scouts, or in their language, Vind Sxug, are the eyes and ears of the Voidborne fleet. Quick and agile, they probe the boundaries of our galaxy, gathering information on the civilizations within."
+
+ship "Vind Xhemex"
+	sprite "ship/void harbinger"
+	thumbnail "thumbnail/void harbinger"
+	attributes
+		category "Heavy Warship"
+		"cost" 12800000
+		"shields" 18000
+		"hull" 9500
+		"required crew" 32
+		"bunks" 50
+		"mass" 380
+		"drag" 6.8
+		"heat dissipation" 0.65
+		"fuel capacity" 800
+		"cargo space" 60
+		"outfit space" 570
+		"weapon capacity" 180
+		"engine capacity" 130
+		weapon
+			"blast radius" 12
+			"shield damage" 48
+			"hull damage" 32
+			"hit force" 35
+	outfits
+		"Void Reactor" 4
+		"Void Thruster" 2
+		"Void Steering" 2
+		"Void Cannon" 2
+		"Void Lance" 4
+		"Void Shield Generator"
+		"Jump Drive"
+	engine -22 75
+	engine 22 75
+	gun -28 -12 "Void Cannon"
+	gun 28 -12 "Void Cannon"
+	gun -15 -8 "Void Lance"
+	gun 15 -8 "Void Lance"
+	gun -8 -6 "Void Lance"
+	gun 8 -6 "Void Lance"
+	description "The Void Harbinger, or in their language Vind Xhemex, is the backbone of the Voidborne fleet. These formidable warships appear when the Voidborne are serious about enforcing their will on the galaxy."
+
+ship "Vind Mahathe"
+	sprite "ship/void mothership"
+	thumbnail "thumbnail/void mothership"
+	attributes
+		category "Heavy Warship"
+		"cost" 50000000
+		"shields" 65000
+		"hull" 32000
+		"required crew" 120
+		"bunks" 250
+		"mass" 850
+		"drag" 12.4
+		"heat dissipation" 0.55
+		"fuel capacity" 1200
+		"cargo space" 200
+		"outfit space" 1000
+		"weapon capacity" 350
+		"engine capacity" 250
+		weapon
+			"blast radius" 30
+			"shield damage" 120
+			"hull damage" 80
+			"hit force" 80
+	outfits
+		"Void Reactor" 8
+		"Void Thruster" 3
+		"Void Steering" 3
+		"Void Cannon" 6
+		"Void Lance" 8
+		"Void Shield Generator" 2
+		"Void Annihilator" 2
+		"Jump Drive"
+	engine -35 120
+	engine 35 120
+	gun -40 -20 "Void Annihilator"
+	gun 40 -20 "Void Annihilator"
+	gun -30 -15 "Void Cannon"
+	gun 30 -15 "Void Cannon"
+	gun -22 -10 "Void Cannon"
+	gun 22 -10 "Void Cannon"
+	gun -15 -8 "Void Lance"
+	gun 15 -8 "Void Lance"
+	gun -10 -6 "Void Lance"
+	gun 10 -6 "Void Lance"
+	gun -8 -4 "Void Lance"
+	gun 8 -4 "Void Lance" #add 4 more
+	description "Void Motherships or in their language, Vind Mahathe, are rarely seen, and when they are, entire fleets tremble. These massive constructs serve as command centers for Voidborne incursions into our galaxy."

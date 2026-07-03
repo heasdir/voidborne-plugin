@@ -1,0 +1,174 @@
+# Voidborne Plugin - Systems and Planets
+
+system "Aldhibain"
+	pos -900 400
+	government "Republic"
+	habitable 0.3
+	link "Void Gateway"
+	object
+		sprite planet/rock8
+		distance 300
+		period 50
+		object
+			"add wormhole" "Void Gateway"
+
+system "Dark Expanse"
+	pos -1150 950
+	government "Voidborne"
+	habitable 0.05
+	link "Void Gateway"
+	asteroids "large rock" 60 0.4
+	asteroids "small rock" 40 0.6
+	trade "Heavy Metals" 300
+	fleet "Small Voidborne" 800
+	fleet "Small Devourer" 2300
+	object
+		sprite star/a1
+		period 10
+	object
+		sprite planet/gas8
+		distance 450
+		period 80.14
+		offset 45
+		object
+			sprite planet/ice7
+			distance 150
+			period 18.63
+			offset 90
+	object "Void Observatory"
+		sprite planet/asura #moon2 is a not a valid file
+		distance 900
+		period 210.87
+		offset 180
+		add landscape land/snow11
+		planet "Void Observatory"
+
+planet "Void Observatory"
+	attributes "void" research
+	landscape land/snow11
+	description `A massive orbital platform hangs in the darkness, bristling with sensor arrays and communication dishes pointed toward the galactic core. The Voidborne use this station to monitor the activities of the galaxy's inhabitants.`
+	spaceport `The observatory's docking bay is dimly lit by pulsing violet lights. Holo-displays show real-time data from across the galaxy. Voidborne scientists pay little attention to visitors, absorbed in their endless observations.`
+	shipyard "Voidborne Advanced"
+	outfitter "Voidborne Advanced"
+	"required reputation" 100
+	security 0.95
+	tribute 6000
+		threshold 5000
+		fleet "Large Voidborne" 25
+
+system "Serviskate"
+	pos -1212 860
+	government "Devourer"
+	habitable 0.15
+	asteroids "small rock" 15 1.86
+	asteroids "medium rock" 96 3.05
+	asteroids "large rock" 25 1.92
+	asteroids "large metal" 1 1.07
+	fleet "Small Devourer" 400
+	fleet "Large Devourer" 900
+	fleet "Devourer Superheavy Fleet" 1100
+	fleet "Small Voidborne" 700
+	fleet "Void Patrol" 200
+	fleet "Large Voidborne" 900
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert10
+		distance 191.64
+		period 51.42
+	object "Kinhha"
+		sprite planet/cloud2
+		distance 434.4
+		period 175.48
+		add landscape land/cloud2
+		planet "Kinhha"
+	object
+		sprite planet/uranus
+		distance 1361.65
+		period 973.86
+		object
+			sprite planet/rock0
+			distance 211
+			period 13.09
+		object
+			sprite planet/lava0
+			distance 348
+			period 27.74
+	object
+		sprite planet/gas11
+		distance 2289.94
+		period 2123.89
+
+planet "Kinhha"
+	attributes "devourer"
+	landscape land/cloud2
+	description `Kinhha is a gas giant surrounded by Devourer bio-constructs that drift through its upper atmosphere like floating hives. The planet serves as a forward staging ground for Devourer incursions into Voidborne space.`
+	spaceport `The docking platform is grown, not built — a massive chitinous structure that clings to the edge of the atmosphere. Devourer ships constantly arrive and depart, their passage stirring the clouds below into sick green vortices.`
+	shipyard "Devourer Swarm"
+	outfitter "Devourer Swarm"
+	"required reputation" 800
+	security 1.0
+	tribute 12000
+		threshold 9000
+		fleet "Large Devourer" 15
+		fleet "Devourer Superheavy Fleet" 3
+
+system "Void Gateway"
+	pos -1200 800
+	government "Voidborne"
+	habitable 0.2
+	link "Dark Expanse"
+	asteroids "small rock" 30 0.5
+	asteroids "medium rock" 20 0.3
+	trade Medical 200
+	trade Metal 150
+	fleet "Large Voidborne" 1400
+	fleet "Small Devourer" 1900
+	object
+		sprite star/m3
+		period 10
+	object
+		sprite planet/rock9
+		distance 400
+		period 60.24
+		offset 12
+		object
+			sprite planet/rock17
+			distance 85
+			period 12.38
+			offset 23
+	object
+		sprite planet/gas14
+		distance 780
+		period 185.98
+		offset 150
+		object
+			sprite planet/lava7
+			distance 120
+			period 8.74
+			offset 67
+	object "Void Anchor"
+		sprite planet/desert8
+		distance 600
+		period 180.45
+		offset 280
+		add atmosphere
+		add landscape land/desert4
+		add building "Void Spire" 0.1
+		add building "Void Obelisk" 0.2
+		planet "Void Anchor"
+
+planet "Void Anchor"
+	attributes "void"
+	landscape land/desert4
+	description `This desolate world serves as a foothold for the Voidborne in our galaxy. Strange spires of dark crystal dot the landscape, humming with an otherworldly energy. The air is thin and cold, and the sky holds an unsettling purple hue from the nearby void-touched star.`
+	spaceport `The spaceport is little more than a landing pad surrounded by alien architecture. Voidborne drones scuttle about on unknowable errands. A few enterprising human traders have established a small outpost here, though the atmosphere is tense.`
+	shipyard "Voidborne Basic"
+	outfitter "Voidborne Basic"
+	"required reputation" -10
+	bribe 0.05
+	security 0.8
+	tribute 4000
+		threshold 3000
+		fleet "Large Voidborne" 20
