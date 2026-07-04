@@ -1,16 +1,69 @@
 # Voidborne Plugin - Systems and Planets
 
-system "Aldhibain"
-	pos -900 400
-	government "Republic"
-	habitable 0.3
-	link "Void Gateway"
+system "Beta Lupi"
+	pos -851 417
+	government Republic
+	attributes "south"
+	arrival 625
+	habitable 625
+	belt 1261
+	haze _menu/haze-33
+	link "Kappa Centauri"
+	link Men
+	link Pherkad
+	asteroids "small rock" 12 4.1272
+	asteroids "medium rock" 124 2.2484
+	asteroids "large rock" 14 2.5564
+	asteroids "small metal" 2 3.6036
+	asteroids "medium metal" 4 2.4332
+	asteroids "large metal" 25 3.4496
+	minables gold 4 3.65247
+	minables lead 39 3.41114
+	minables silicon 4 3.54232
+	trade Clothing 325
+	trade Electronics 855
+	trade Equipment 383
+	trade Food 212
+	trade "Heavy Metals" 982
+	trade Industrial 811
+	trade "Luxury Goods" 1242
+	trade Medical 883
+	trade Metal 310
+	trade Plastic 298
+	fleet "Small Southern Merchants" 1000
+	fleet "Small Southern Pirates" 1500
+	fleet "Large Southern Pirates" 2500
+	fleet "Small Militia" 2000
+	fleet "Large Militia" 5000
+	fleet "Human Miners" 3000
 	object
-		sprite planet/rock8
-		distance 300
-		period 50
+		sprite star/g5
+		period 10
+	object
+		sprite planet/lava5-b
+		distance 362.09
+		period 110.241
 		object
-			"add wormhole" "Void Gateway"
+			sprite planet/ice8
+			distance 153
+			period 23.7903
+	object
+		sprite planet/cloud0-b
+		distance 770.93
+		period 342.485
+	object
+		sprite planet/rock12
+		distance 1053.57
+		period 547.160
+	object
+		sprite planet/rock17
+		distance 1976.61
+		period 1406.05
+	object "Void"
+		sprite planet/wormhole
+		distance 2739.92
+		period 1058.3
+
 
 system "Dark Expanse"
 	pos -1150 950
@@ -158,6 +211,10 @@ system "Void Gateway"
 		add building "Void Spire" 0.1
 		add building "Void Obelisk" 0.2
 		planet "Void Anchor"
+	object "Void"
+		sprite planet/wormhole
+		distance 2728.9
+		period 2383.2
 
 planet "Void Anchor"
 	attributes "void"

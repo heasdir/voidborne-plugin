@@ -2,25 +2,17 @@
 
 phrase "devourer"
 	word
-		"Death"
+		"In "
 	word
-		"Quantum"
+		"Vetar "
+		"Schaemakli "
+		"Sevrivekay "
 	word
-		"Kayysinetheyu"
+		"Kayysinetheyu "
+		"Tushaebak "
 	word
-		"Tisli"
-	word
-		"Maw"
-	word
-		"Hunger"
-	word
-		"Void"
-	word
-		"Consume"
-	word
-		"Endless"
-	word
-		"Silence"
+		"O"
+
 
 phrase "devourer hail"
 	word

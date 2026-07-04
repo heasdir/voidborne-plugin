@@ -2,7 +2,7 @@
 
 mission "First Contact: Void Signal"
 	name "Mysterious Signal"
-	description "An unusual signal has been detected from unexplored space near the galactic rim. The source appears artificial but matches no known technology. Investigate the signal origin at the Void Gateway system, accessible via a newly discovered wormhole near Aldhibain."
+	description "An unusual signal has been detected from unexplored space near the galactic rim. The source appears artificial but matches no known technology. Investigate the signal origin at the Void Gateway system, accessible via a newly discovered wormhole near Beta Lupi."
 	landing
 	source "New Boston"
 	destination "Void Anchor"
@@ -10,14 +10,14 @@ mission "First Contact: Void Signal"
 		"combat rating" > 50
 	on offer
 		conversation
-			`A Navy officer approaches you at the spaceport. "Captain," she says, "we've been tracking an anomalous signal from the edge of mapped space. It's not Hai, not Wanderer, not anything we've seen before. The Navy wants someone discreet to investigate. A wormhole near Aldhibain seems to lead toward the signal source. Interested?"`
+			`A Navy officer approaches you at the spaceport. "Captain," she says, "we've been tracking an anomalous signal from the edge of mapped space. It's not Hai, not Wanderer, not anything we've seen before. The Navy wants someone discreet to investigate. A wormhole near Beta Lupi seems to lead toward the signal source. Interested?"`
 			choice
 				`	"What's the pay?"`
 					goto pay
 				`	"Sounds too dangerous."`
 					decline
 			label pay
-			`	"Standard recon pay," she says, "plus a bonus if you bring back actionable intel. 500,000 credits total — half now, half on completion. The coordinates are in your nav computer. You'll need to take the Aldhibain wormhole to reach it. Be careful out there."`
+			`	"Standard recon pay," she says, "plus a bonus if you bring back actionable intel. 500,000 credits total — half now, half on completion. The coordinates are in your nav computer. You'll need to take the Beta Lupi wormhole to reach it. Be careful out there."`
 			choice
 				`	"I'll take the job."`
 					accept
@@ -30,7 +30,7 @@ mission "First Contact: Void Signal"
 		event "voidborne contact made"
 		event "voidborne scout"
 		conversation
-			`You transmit your findings back to Navy Command. The officer's voice crackles through the comm, barely concealing her alarm. "Voidborne? We've heard whispers but never confirmed... Get back through the Aldhibain wormhole immediately, Captain. This changes everything."`
+			`You transmit your findings back to Navy Command. The officer's voice crackles through the comm, barely concealing her alarm. "Voidborne? We've heard whispers but never confirmed... Get back through the Beta Lupi wormhole immediately, Captain. This changes everything."`
 
 mission "Voidborne: The Observation"
 	name "Eyes in the Dark"
