@@ -6,25 +6,26 @@ mission "First Contact: Void Signal"
 	landing
 	source "New Boston"
 	destination "Void Anchor"
+	waypoint "Beta Lupi"
 	to offer
 		"combat rating" > 50
 	on offer
 		conversation
-			`A Navy officer approaches you at the spaceport. "Captain," she says, "we've been tracking an anomalous signal from the edge of mapped space. It's not Hai, not Wanderer, not anything we've seen before. The Navy wants someone discreet to investigate. A wormhole near Beta Lupi seems to lead toward the signal source. Interested?"`
+			`A Navy officer approaches you at the spaceport. "Captain," she says, "we've been tracking an anomalous signal from the edge of mapped space. It's not Coaltion, not Korath, not anything we've seen before. The Navy wants someone discreet to investigate. A wormhole near Beta Lupi seems to lead toward the signal source. Interested?"`
 			choice
 				`	"What's the pay?"`
 					goto pay
 				`	"Sounds too dangerous."`
 					decline
 			label pay
-			`	"Standard recon pay," she says, "plus a bonus if you bring back actionable intel. 500,000 credits total — half now, half on completion. The coordinates are in your nav computer. You'll need to take the Beta Lupi wormhole to reach it. Be careful out there."`
+			`	"Standard recon pay," she says, "plus a bonus if you bring back actionable intel. 500,000 credits total - half now, half on completion. The coordinates are in your nav computer. You'll need to take the Beta Lupi wormhole to reach it. Be careful out there."`
 			choice
 				`	"I'll take the job."`
 					accept
 				`	"On second thought, I'll pass."`
 					decline
 	on visit
-		dialog "You've arrived at the signal source. A strange alien structure floats in the void ahead, surrounded by ships of unknown design. The wormhole flickers behind you — your only way back. You detect a landing pad on the planet below."
+		dialog "You've arrived at the signal source. A strange alien structure floats in the void ahead, surrounded by ships of unknown design. The wormhole flickers behind you - your only way back. You detect a landing pad on the planet below."
 	on complete
 		payment 250000
 		event "voidborne contact made"
@@ -56,14 +57,14 @@ mission "Voidborne: The Observation"
 		payment 100000
 		event "voidborne trust earned"
 		conversation
-			`A Voidborne entity, more organic than the construct, floats in the center of the chamber. Its form shifts subtly, never quite settling. "We are the Voidborne," it says. "We have watched your galaxy for millennia. Now we must act. A threat approaches from the void beyond — the Devourers. They consume everything. Stars, planets, civilizations. They are coming, and your galaxy is in their path. We do not ask you to trust us. We ask you to prepare. Will you help us?"`
+			`A Voidborne entity, more organic than the construct, floats in the center of the chamber. Its form shifts subtly, never quite settling. "We are the Voidborne," it says. "We have watched your galaxy for millennia. Now we must act. A threat approaches from the void beyond - the Devourers. They consume everything. Stars, planets, civilizations. They are coming, and your galaxy is in their path. We do not ask you to trust us. We ask you to prepare. Will you help us?"`
 			choice
 				`	"What kind of threat are we facing?"`
 					goto threat
 				`	"This isn't my fight."`
 					decline
 			label threat
-			`	"The Devourers," the entity says, its form darkening. "They are ancient. They have consumed entire galaxies. We escaped them once. Now they follow. We came here not to conquer, but to build a defense. Your people, the Hai, the Wanderers — all of you are in danger. Take this data. Share it with your leaders. We will contact you again."`
+			`	"The Devourers," the entity says, its form darkening. "They are ancient. They have consumed entire galaxies. We escaped them once. Now they follow. We came here not to conquer, but to build a defense. Your people, the Coaltion, the Humans - all of you are in danger. Take this data. Share it with your leaders. We will contact you again."`
 			choice
 				`	"I'll spread the warning."`
 					goto acceptmission

@@ -1,6 +1,8 @@
 planet "Void"
+	wormhole "Void"
 
 wormhole "Void"
 	display name "Wormhole Of The Void"
 	mappable
 	link "Beta Lupi" "Void Gateway"
+	link "Void Gateway" "Beta Lupi"

@@ -9,17 +9,18 @@ ship "Vindihaa"
 		"cost" 900000
 		"shields" 800
 		"hull" 400
-		"automaton" #required for robotic ships
+		"automaton"
 		"required crew" 0
 		"bunks" 0
 		"mass" 50
 		"drag" 2.3
 		"heat dissipation" 0.85
-		"fuel capacity" 400 #i gave them fuel because the other ships do not have drone bays 
+		"fuel capacity" 400
 		"cargo space" 0
-		"outfit space" 199
+		"outfit space" 205
 		"weapon capacity" 60
 		"engine capacity" 40
+		"gun ports" 1
 		weapon
 			"blast radius" 1
 			"shield damage" 4
@@ -29,6 +30,8 @@ ship "Vindihaa"
 		"Void Reactor"
 		"Void Thruster"
 		"Void Steering"
+		"Void Lance"
+		"Void Construct Guard"
 		"Jump Drive"
 	engine -8 32
 	engine 8 32
@@ -50,9 +53,10 @@ ship "Vind Sxug"
 		"heat dissipation" 0.75
 		"fuel capacity" 600
 		"cargo space" 30
-		"outfit space" 311
+		"outfit space" 330
 		"weapon capacity" 90
 		"engine capacity" 70
+		"gun ports" 2
 		weapon
 			"blast radius" 4
 			"shield damage" 12
@@ -63,6 +67,8 @@ ship "Vind Sxug"
 		"Void Thruster"
 		"Void Steering"
 		"Void Lance" 2
+		"Void Construct Guard" 2
+		"Void Telepathic Ward" 2
 		"Jump Drive"
 	engine -12 45
 	engine 12 45
@@ -85,9 +91,10 @@ ship "Vind Xhemex"
 		"heat dissipation" 0.65
 		"fuel capacity" 800
 		"cargo space" 60
-		"outfit space" 570
+		"outfit space" 650
 		"weapon capacity" 180
 		"engine capacity" 130
+		"gun ports" 6
 		weapon
 			"blast radius" 12
 			"shield damage" 48
@@ -100,6 +107,11 @@ ship "Vind Xhemex"
 		"Void Cannon" 2
 		"Void Lance" 4
 		"Void Shield Generator"
+		"Void Construct Guard" 8
+		"Void Telepathic Ward" 6
+		"Void Crystal Sentry" 6
+		"Void Phase Marines" 4
+		"Void Null Field" 2
 		"Jump Drive"
 	engine -22 75
 	engine 22 75
@@ -126,9 +138,10 @@ ship "Vind Mahathe"
 		"heat dissipation" 0.55
 		"fuel capacity" 1200
 		"cargo space" 200
-		"outfit space" 1000
+		"outfit space" 1200
 		"weapon capacity" 350
 		"engine capacity" 250
+		"gun ports" 16
 		weapon
 			"blast radius" 30
 			"shield damage" 120
@@ -142,6 +155,13 @@ ship "Vind Mahathe"
 		"Void Lance" 8
 		"Void Shield Generator" 2
 		"Void Annihilator" 2
+		"Void Hull Weaver"
+		"Void Construct Guard" 20
+		"Void Telepathic Ward" 15
+		"Void Crystal Sentry" 15
+		"Void Phase Marines" 12
+		"Void Null Field" 8
+		"Void Dimensional Lock" 6
 		"Jump Drive"
 	engine -35 120
 	engine 35 120
@@ -156,5 +176,51 @@ ship "Vind Mahathe"
 	gun -10 -6 "Void Lance"
 	gun 10 -6 "Void Lance"
 	gun -8 -4 "Void Lance"
-	gun 8 -4 "Void Lance" #add 4 more
+	gun 8 -4 "Void Lance"
+	gun -5 -2 "Void Lance"
+	gun 5 -2 "Void Lance"
+	gun 0 -18 "Void Lance"
+	gun 0 -22 "Void Lance"
 	description "Void Motherships or in their language, Vind Mahathe, are rarely seen, and when they are, entire fleets tremble. These massive constructs serve as command centers for Voidborne incursions into our galaxy."
+
+ship "Vind Xhaaxhawar"
+	sprite "ship/cloaker/void cloaker"
+	thumbnail "thumbnail/cloaker/void cloaker"
+	attributes
+		category "Light Warship"
+		"cost" 6200000
+		"shields" 2800
+		"hull" 1600
+		"required crew" 5
+		"bunks" 10
+		"mass" 130
+		"drag" 2.5
+		"heat dissipation" 0.75
+		"fuel capacity" 550
+		"cargo space" 20
+		"outfit space" 340
+		"weapon capacity" 90
+		"engine capacity" 80
+		"gun ports" 3
+		"cloak" 0.12
+		"cloaking energy" 4.0
+		"cloaking heat" 3.0
+		weapon
+			"blast radius" 4
+			"shield damage" 12
+			"hull damage" 7
+			"hit force" 10
+	outfits
+		"Void Reactor" 2
+		"Void Thruster"
+		"Void Steering"
+		"Void Lance" 3
+		"Void Construct Guard" 2
+		"Void Telepathic Ward"
+		"Jump Drive"
+	engine -10 65
+	engine 10 65
+	gun -14 -8 "Void Lance"
+	gun 14 -8 "Void Lance"
+	gun 0 -16 "Void Lance"
+	description "The Vind Xhaaxhawar is a Voidborne stealth vessel capable of partially phasing out of normal space. It grows fainter and fainter until it vanishes from sight entirely, reappearing only when it strikes. Its name translates roughly to 'Ghost That Walks Between.'"

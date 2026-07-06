@@ -1,0 +1,135 @@
+# Devourer Plugin - Boarding Outfits
+
+outfit "Devourer Hive Spawn"
+	category "Hand to Hand"
+	"cost" 320000
+	"mass" 3
+	"outfit space" -3
+	"capture attack" 38
+	"capture defense" 22
+	"unplunderable" 1
+	thumbnail "outfit/devourer hive spawn"
+	description "When boarders breach a Devourer ship, the walls themselves come alive. Hive Spawn - small, vicious, insectoid creatures - pour from every crevice. They overwhelm through sheer numbers, dragging victims into the dark."
+
+outfit "Devourer Corrosive Miasma"
+	category "Hand to Hand"
+	"cost" 520000
+	"mass" 4
+	"outfit space" -4
+	"capture attack" 22
+	"capture defense" 55
+	"unplunderable" 1
+	thumbnail "outfit/devourer corrosive miasma"
+	description "The atmosphere inside a Devourer ship is toxic - corrosive spores that eat through armor seals and exposed skin. Boarders must fight not only the crew but the very air they breathe. Most suffocate before they ever see combat."
+
+outfit "Devourer Broodlord"
+	category "Hand to Hand"
+	"cost" 850000
+	"mass" 6
+	"outfit space" -6
+	"capture attack" 65
+	"capture defense" 40
+	"unplunderable" 1
+	thumbnail "outfit/devourer broodlord"
+	description "A Broodlord is no mere defender - it is a predator. Massive, chitinous, and utterly silent, it stalks boarders through the corridors of its ship. It does not fight. It hunts. And when it catches its prey, it does not kill quickly."
+
+outfit "Devourer Living Corridors"
+	category "Hand to Hand"
+	"cost" 720000
+	"mass" 5
+	"outfit space" -5
+	"capture attack" 30
+	"capture defense" 60
+	"unplunderable" 1
+	thumbnail "outfit/devourer living corridors"
+	description "Devourer ships are alive, and they do not welcome intruders. Corridors contract to crush boarders, organic tendrils ensnare limbs, and acidic fluids spray from hidden pores. The ship itself fights alongside its crew."
+
+outfit "Devourer Swarm Caller"
+	category "Hand to Hand"
+	"cost" 650000
+	"mass" 4
+	"outfit space" -4
+	"capture attack" 48
+	"capture defense" 35
+	"unplunderable" 1
+	thumbnail "outfit/devourer swarm caller"
+	description "The Swarm Caller is a living organ that emits pheromonal signals, summoning every Devourer organism aboard to the point of intrusion. Boarders find themselves facing not a defending crew but an entire ecosystem of hungry creatures."
+
+outfit "Devourer Nest Heart"
+	category "Hand to Hand"
+	"cost" 1200000
+	"mass" 8
+	"outfit space" -8
+	"capture attack" 72
+	"capture defense" 72
+	"unplunderable" 1
+	thumbnail "outfit/devourer nest heart"
+	description "The Nest Heart is the ultimate Devourer defensive organ - a pulsing sac that spawns endless waves of defenders as long as the ship lives. Boarders must destroy the Heart or be buried under an unending tide of chitin and hunger."
+
+# Voidborne Plugin - Boarding Outfits
+
+outfit "Void Construct Guard"
+	category "Hand to Hand"
+	"cost" 280000
+	"mass" 2
+	"outfit space" -2
+	"capture attack" 24
+	"capture defense" 32
+	"unplunderable" 1
+	thumbnail "outfit/void construct guard"
+	description "Voidborne ships are defended by silent, crystalline constructs that move with unsettling precision. They do not feel pain, they do not hesitate, and they do not leave survivors unless ordered to."
+
+outfit "Void Telepathic Ward"
+	category "Hand to Hand"
+	"cost" 450000
+	"mass" 3
+	"outfit space" -3
+	"capture attack" 18
+	"capture defense" 45
+	"unplunderable" 1
+	thumbnail "outfit/void telepathic ward"
+	description "The Telepathic Ward projects a field of psychic interference throughout the ship. Boarders find their thoughts clouded with alien whispers, their coordination shattered, their will to fight draining away with every step."
+
+outfit "Void Phase Marines"
+	category "Hand to Hand"
+	"cost" 680000
+	"mass" 5
+	"outfit space" -5
+	"capture attack" 52
+	"capture defense" 38
+	"unplunderable" 1
+	thumbnail "outfit/void phase marines"
+	description "Phase Marines are elite Voidborne soldiers equipped with personal phasing technology. They flicker in and out of reality, appearing behind boarders before they can react. No corner is safe. No position is defensible."
+
+outfit "Void Crystal Sentry"
+	category "Hand to Hand"
+	"cost" 520000
+	"mass" 4
+	"outfit space" -4
+	"capture attack" 35
+	"capture defense" 55
+	"unplunderable" 1
+	thumbnail "outfit/void crystal sentry"
+	description "Crystal Sentries are immobile defensive constructs embedded in Voidborne ship walls. They activate when intruders pass, firing beams of concentrated void energy. Boarders learn to fear the faint hum of a nearby Sentry."
+
+outfit "Void Null Field"
+	category "Hand to Hand"
+	"cost" 780000
+	"mass" 5
+	"outfit space" -5
+	"capture attack" 20
+	"capture defense" 65
+	"unplunderable" 1
+	thumbnail "outfit/void null field"
+	description "The Null Field generator creates zones of zero-energy within the ship. Boarders' weapons fail, their shields collapse, their comms go silent. In the Null Field, only the Voidborne constructs - designed to function without energy - remain operational."
+
+outfit "Void Dimensional Lock"
+	category "Hand to Hand"
+	"cost" 1100000
+	"mass" 6
+	"outfit space" -6
+	"capture attack" 45
+	"capture defense" 70
+	"unplunderable" 1
+	thumbnail "outfit/void dimensional lock"
+	description "The Dimensional Lock seals sections of the ship in pocket dimensions, trapping boarders in endless corridors that loop back on themselves. Escape is impossible. Rescue is impossible. The boarders simply... vanish."

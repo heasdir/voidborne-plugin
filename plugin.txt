@@ -1,0 +1,7 @@
+# Voidborne Plugin - Metadata
+
+name "Voidborne and Devourers"
+version "1.0.0"
+author "Heasdir"
+description "Adds two new alien factions locked in an ancient war: the crystalline Voidborne refugees and the hungry Devourer swarm. Features new ships, outfits, systems, missions, and a wormhole connection from Beta Lupi."
+description "https://github.com/heasdir/voidborne-plugin"

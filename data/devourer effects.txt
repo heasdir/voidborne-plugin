@@ -1,0 +1,7 @@
+effect "devourer rift open"
+	sprite "effect/devourer rift open"
+	"lifetime" 60
+	"velocity scale" 0
+	"random angle" 0
+	"random spin" 0
+	"random velocity" 0

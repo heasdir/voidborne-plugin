@@ -1,0 +1,31 @@
+outfit "Hit The Orb"
+	category "Turrets"
+	"cost" 4200000
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"turret mounts" -1
+	"flotsam chance" 0.05
+	thumbnail "outfit/orb"
+	description `"Hit the orb, hit the orb, hit the orb, hit the orb, hit the orb, literally when you feel like it just hit the orb." - Vortrox, 2026`
+	description `This mysterious weapon fires a single, perfectly spherical orb of concentrated energy that drifts lazily toward its target before detonating with devastating force. The orb seems almost playful as it travels. Those who witness it feel an overwhelming, inexplicable urge to hit it. So they do. And then it explodes.`
+	weapon
+		sprite "projectile/orb"
+		sound "javelin"
+		"hit effect" "hit the orb detonation"
+		"inaccuracy" 0.2
+		"turret turn" 2
+		"velocity" 6
+		"acceleration" 0.5
+		"drag" 0.02
+		"turn" 0.8
+		"homing" 90
+		"tracking" 2
+		"lifetime" 1200
+		"reload" 180
+		"firing heat" 30.0
+		"firing energy" 40.0
+		"shield damage" 120000000
+		"hull damage" 9000000000
+		"hit force" 120
+		"range" 8000

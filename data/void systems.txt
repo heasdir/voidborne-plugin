@@ -3,11 +3,7 @@
 system "Beta Lupi"
 	pos -851 417
 	government Republic
-	attributes "south"
-	arrival 625
 	habitable 625
-	belt 1261
-	haze _menu/haze-33
 	link "Kappa Centauri"
 	link Men
 	link Pherkad
@@ -17,9 +13,6 @@ system "Beta Lupi"
 	asteroids "small metal" 2 3.6036
 	asteroids "medium metal" 4 2.4332
 	asteroids "large metal" 25 3.4496
-	minables gold 4 3.65247
-	minables lead 39 3.41114
-	minables silicon 4 3.54232
 	trade Clothing 325
 	trade Electronics 855
 	trade Equipment 383
@@ -36,13 +29,34 @@ system "Beta Lupi"
 	fleet "Small Militia" 2000
 	fleet "Large Militia" 5000
 	fleet "Human Miners" 3000
+	attributes south
+	arrival 625
+	belt 1261
+	haze _menu/haze-33
+	minables gold 4 3.65247
+	minables lead 39 3.41114
+	minables silicon 4 3.54232
 	object
 		sprite star/g5
 		period 10
+		attributes south
+		arrival 625
+		belt 1261
+		haze _menu/haze-33
+		minables gold 4 3.65247
+		minables lead 39 3.41114
+		minables silicon 4 3.54232
 	object
 		sprite planet/lava5-b
 		distance 362.09
 		period 110.241
+		attributes south
+		arrival 625
+		belt 1261
+		haze _menu/haze-33
+		minables gold 4 3.65247
+		minables lead 39 3.41114
+		minables silicon 4 3.54232
 		object
 			sprite planet/ice8
 			distance 153
@@ -51,30 +65,63 @@ system "Beta Lupi"
 		sprite planet/cloud0-b
 		distance 770.93
 		period 342.485
+		attributes south
+		arrival 625
+		belt 1261
+		haze _menu/haze-33
+		minables gold 4 3.65247
+		minables lead 39 3.41114
+		minables silicon 4 3.54232
 	object
 		sprite planet/rock12
 		distance 1053.57
-		period 547.160
+		period 547.16
+		attributes south
+		arrival 625
+		belt 1261
+		haze _menu/haze-33
+		minables gold 4 3.65247
+		minables lead 39 3.41114
+		minables silicon 4 3.54232
 	object
 		sprite planet/rock17
 		distance 1976.61
 		period 1406.05
+		attributes south
+		arrival 625
+		belt 1261
+		haze _menu/haze-33
+		minables gold 4 3.65247
+		minables lead 39 3.41114
+		minables silicon 4 3.54232
 	object "Void"
 		sprite planet/wormhole
 		distance 2739.92
 		period 1058.3
-
+		attributes south
+		arrival 625
+		belt 1261
+		haze _menu/haze-33
+		minables gold 4 3.65247
+		minables lead 39 3.41114
+		minables silicon 4 3.54232
 
 system "Dark Expanse"
 	pos -1150 950
-	government "Voidborne"
+	government Voidborne
 	habitable 0.05
 	link "Void Gateway"
 	asteroids "large rock" 60 0.4
 	asteroids "small rock" 40 0.6
 	trade "Heavy Metals" 300
+	trade Medical 150
+	trade Equipment 200
+	trade Metal 180
+	trade "Void Crystals" 120
 	fleet "Small Voidborne" 800
 	fleet "Small Devourer" 2300
+	fleet "Devourer Patrol" 600
+	fleet "Devourer Hunter Pack" 400
 	object
 		sprite star/a1
 		period 10
@@ -89,37 +136,95 @@ system "Dark Expanse"
 			period 18.63
 			offset 90
 	object "Void Observatory"
-		sprite planet/asura #moon2 is a not a valid file
+		sprite planet/asura
 		distance 900
 		period 210.87
 		offset 180
-		add landscape land/snow11
-		planet "Void Observatory"
 
-planet "Void Observatory"
-	attributes "void" research
-	landscape land/snow11
-	description `A massive orbital platform hangs in the darkness, bristling with sensor arrays and communication dishes pointed toward the galactic core. The Voidborne use this station to monitor the activities of the galaxy's inhabitants.`
-	spaceport `The observatory's docking bay is dimly lit by pulsing violet lights. Holo-displays show real-time data from across the galaxy. Voidborne scientists pay little attention to visitors, absorbed in their endless observations.`
-	shipyard "Voidborne Advanced"
-	outfitter "Voidborne Advanced"
-	"required reputation" 100
-	security 0.95
-	tribute 6000
-		threshold 5000
-		fleet "Large Voidborne" 25
+system Sarba
+	pos -1147.25 977.25
+	government Voidborne
+	habitable 806.68
+	link Vihaxaag
+	asteroids "medium rock" 2 1.4756
+	asteroids "large rock" 1 1.9754
+	asteroids "small metal" 2 3.3796
+	asteroids "medium metal" 15 2.023
+	asteroids "large metal" 1 2.9512
+	trade Food 350
+	trade Medical 280
+	trade Metal 400
+	trade "Heavy Metals" 250
+	trade Electronics 180
+	trade Equipment 220
+	fleet "Large Voidborne" 200
+	fleet "Small Voidborne" 120
+	fleet "Small Devourer" 700
+	fleet "Devourer Patrol" 400
+	fleet "Void Patrol" 20
+	object
+		sprite star/k0
+		distance 46.4125
+		period 17.8233
+		offset 180
+	object
+		sprite star/m0
+		distance 70.5875
+		period 17.8233
+	object
+		sprite planet/mars
+		distance 216.588
+		period 44.891
+	object
+		sprite planet/rock19
+		distance 514.398
+		period 164.308
+		object
+			sprite planet/europa
+			distance 144
+			period 23.094
+	object Sahabh
+		sprite planet/forest0
+		distance 935.962
+		period 403.271
+		offset 149.15
+		object "Sarba Station"
+			sprite planet/station2
+			distance 161
+			period 17.4597
+	object
+		sprite planet/gas11
+		distance 2025.77
+		period 1284.09
+		offset 50.3485
+		object
+			sprite planet/tethys
+			distance 232
+			period 11.6549
+		object
+			sprite planet/dust1
+			distance 365
+			period 22.9994
 
-system "Serviskate"
+system Serviskate
 	pos -1212 860
-	government "Devourer"
+	government Devourer
 	habitable 0.15
 	asteroids "small rock" 15 1.86
 	asteroids "medium rock" 96 3.05
 	asteroids "large rock" 25 1.92
 	asteroids "large metal" 1 1.07
+	trade "Heavy Metals" 600
+	trade Metal 450
+	trade "Void Crystals" 200
+	trade Food 150
+	trade Medical 100
 	fleet "Small Devourer" 400
 	fleet "Large Devourer" 900
 	fleet "Devourer Superheavy Fleet" 1100
+	fleet "Devourer Invasion Fleet" 600
+	fleet "Devourer Transport Convoy" 300
+	fleet "Devourer Hunter Pack" 500
 	fleet "Small Voidborne" 700
 	fleet "Void Patrol" 200
 	fleet "Large Voidborne" 900
@@ -130,12 +235,10 @@ system "Serviskate"
 		sprite planet/desert10
 		distance 191.64
 		period 51.42
-	object "Kinhha"
+	object Kinhha
 		sprite planet/cloud2
 		distance 434.4
 		period 175.48
-		add landscape land/cloud2
-		planet "Kinhha"
 	object
 		sprite planet/uranus
 		distance 1361.65
@@ -153,31 +256,91 @@ system "Serviskate"
 		distance 2289.94
 		period 2123.89
 
-planet "Kinhha"
-	attributes "devourer"
-	landscape land/cloud2
-	description `Kinhha is a gas giant surrounded by Devourer bio-constructs that drift through its upper atmosphere like floating hives. The planet serves as a forward staging ground for Devourer incursions into Voidborne space.`
-	spaceport `The docking platform is grown, not built — a massive chitinous structure that clings to the edge of the atmosphere. Devourer ships constantly arrive and depart, their passage stirring the clouds below into sick green vortices.`
-	shipyard "Devourer Swarm"
-	outfitter "Devourer Swarm"
-	"required reputation" 800
-	security 1.0
-	tribute 12000
-		threshold 9000
-		fleet "Large Devourer" 15
-		fleet "Devourer Superheavy Fleet" 3
+system Vihaxaag
+	pos -1151.25 1028.25
+	government Voidborne
+	habitable 486.68
+	link Sarba
+	asteroids "small rock" 2 3.232
+	asteroids "medium rock" 1 4.544
+	asteroids "large rock" 1 1.696
+	asteroids "medium metal" 1 3.136
+	asteroids "large metal" 2 4.096
+	trade Metal 350
+	trade "Heavy Metals" 200
+	trade Food 180
+	trade Medical 120
+	trade Equipment 150
+	fleet "Void Patrol" 30
+	fleet "Small Voidborne" 50
+	fleet "Devourer Patrol" 200
+	fleet "Devourer Hunter Pack" 150
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/gas14
+		distance 758.25
+		period 378.579
+		offset 222.78
+		object "Vind Gaaxavwag"
+			sprite planet/dust3
+			distance 227
+			period 13.9283
+		object
+			sprite planet/callisto
+			distance 332
+			period 24.6358
+		object
+			sprite planet/europa
+			distance 426
+			period 35.8074
+		object
+			sprite planet/station2
+			distance 608
+			period 61.054
+	object
+		sprite planet/gas7
+		distance 1643.74
+		period 1208.34
+		offset 163.189
+	object
+		sprite planet/gas0
+		distance 2905.43
+		period 2839.58
+		offset 33.7497
+		object
+			sprite planet/rock14
+			distance 294
+			period 14.7733
+		object
+			sprite planet/tethys
+			distance 431
+			period 26.2224
+		object
+			sprite planet/lava0
+			distance 536
+			period 36.3667
 
 system "Void Gateway"
 	pos -1200 800
-	government "Voidborne"
+	government Voidborne
 	habitable 0.2
 	link "Dark Expanse"
 	asteroids "small rock" 30 0.5
 	asteroids "medium rock" 20 0.3
-	trade Medical 200
-	trade Metal 150
+	trade Medical 400
+	trade Metal 350
+	trade Equipment 300
+	trade Food 250
+	trade Electronics 220
+	trade "Heavy Metals" 180
+	trade "Void Crystals" 150
 	fleet "Large Voidborne" 1400
 	fleet "Small Devourer" 1900
+	fleet "Devourer Patrol" 500
+	fleet "Devourer Hunter Pack" 300
+	fleet "Devourer Transport Convoy" 200
 	object
 		sprite star/m3
 		period 10
@@ -206,18 +369,52 @@ system "Void Gateway"
 		distance 600
 		period 180.45
 		offset 280
-		add atmosphere
-		add landscape land/desert4
-		add building "Void Spire" 0.1
-		add building "Void Obelisk" 0.2
-		planet "Void Anchor"
 	object "Void"
 		sprite planet/wormhole
 		distance 2728.9
 		period 2383.2
 
+# ============================================================
+# PLANET DEFINITIONS
+# ============================================================
+
+planet Kinhha
+	attributes devourer
+	landscape land/cloud2
+	description `Kinhha is a gas giant surrounded by Devourer bio-constructs that drift through its upper atmosphere like floating hives. The planet serves as a forward staging ground for Devourer incursions into Voidborne space.`
+	spaceport `The docking platform is grown, not built - a massive chitinous structure that clings to the edge of the atmosphere. Devourer ships constantly arrive and depart, their passage stirring the clouds below into sick green vortices.`
+	shipyard "Devourer Swarm"
+	outfitter "Devourer Swarm"
+	"required reputation" 800
+	security 1
+	tribute 12000
+		threshold 9000
+		fleet "Large Devourer" 15
+		fleet "Devourer Superheavy Fleet" 3
+		fleet "Devourer Invasion Fleet" 2
+
+planet Sahabh
+	landscape land/greenmountains1
+	description `Sahabh is a lush, forested world claimed by the Voidborne as a research outpost. Its dense canopy hides ancient ruins that predate the Voidborne's arrival. The ruins suggest a civilization that may have once fought the Devourers.`
+	spaceport `The spaceport is nestled in a clearing among massive, crystalline trees. Voidborne scientists work alongside a handful of human and Hai researchers, studying the artifacts. The air smells of damp earth and ozone. The hum of energy shields is constant.`
+	shipyard "Voidborne Basic"
+	outfitter "Voidborne Basic"
+
+planet "Sarba Station"
+	landscape land/desert6
+	description `Sarba Station is a fortified Voidborne orbital platform serving as a staging point for patrols heading toward the Devourer front. It is a quiet, utilitarian outpost with a clear view of the warzone ahead.`
+	spaceport `The station's corridors are narrow and dimly lit. Voidborne constructs move silently past you. A few traders have set up shops here, selling supplies to pilots brave enough to venture closer to Serviskate. The chatter is nervous. Everyone speaks in hushed tones.`
+	shipyard "Voidborne Advanced"
+	outfitter "Voidborne Advanced"
+
+planet "Vind Gaaxavwag"
+	landscape land/desert4
+	description `A small, rocky moon orbiting a gas giant in Vihaxaag. The Voidborne have established a refueling depot here, tapping into the gas giant's atmosphere to supply their fleets. The view of the gas giant dominates the sky.`
+	spaceport `The depot is a cluster of crystalline structures connected by transparent tubes. The gas giant's swirling bands of purple and green reflect off the depot's surfaces. Voidborne drones tirelessly ferry fuel from the atmosphere to waiting ships.`
+	outfitter "Voidborne Basic"
+
 planet "Void Anchor"
-	attributes "void"
+	attributes void
 	landscape land/desert4
 	description `This desolate world serves as a foothold for the Voidborne in our galaxy. Strange spires of dark crystal dot the landscape, humming with an otherworldly energy. The air is thin and cold, and the sky holds an unsettling purple hue from the nearby void-touched star.`
 	spaceport `The spaceport is little more than a landing pad surrounded by alien architecture. Voidborne drones scuttle about on unknowable errands. A few enterprising human traders have established a small outpost here, though the atmosphere is tense.`
@@ -229,3 +426,16 @@ planet "Void Anchor"
 	tribute 4000
 		threshold 3000
 		fleet "Large Voidborne" 20
+
+planet "Void Observatory"
+	attributes void research
+	landscape land/snow11
+	description `A massive orbital platform hangs in the darkness, bristling with sensor arrays and communication dishes pointed toward the galactic core. The Voidborne use this station to monitor the activities of the galaxy's inhabitants.`
+	spaceport `The observatory's docking bay is dimly lit by pulsing violet lights. Holo-displays show real-time data from across the galaxy. Voidborne scientists pay little attention to visitors, absorbed in their endless observations.`
+	shipyard "Voidborne Advanced"
+	outfitter "Voidborne Advanced"
+	"required reputation" 100
+	security 0.95
+	tribute 6000
+		threshold 5000
+		fleet "Large Voidborne" 25

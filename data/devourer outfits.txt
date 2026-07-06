@@ -9,7 +9,7 @@ outfit "Devourer Bio-Reactor"
 	"heat generation" 4.2
 	"flotsam chance" 0.15
 	thumbnail "outfit/devourer bio reactor"
-	description "The Devourer Bio-Reactor is a living power source — a pulsing organ that converts consumed organic matter into energy. It produces immense power but generates significant waste heat, vented through chitinous exhaust ports."
+	description "The Devourer Bio-Reactor is a living power source - a pulsing organ that converts consumed organic matter into energy. It produces immense power but generates significant waste heat, vented through chitinous exhaust ports."
 
 outfit "Devourer Chitin Thruster"
 	category "Engines"
@@ -17,7 +17,8 @@ outfit "Devourer Chitin Thruster"
 	"mass" 18
 	"outfit space" -18
 	"engine capacity" -18
-	"thrust" 38.0
+	"thrust" 83.9
+	"reverse thrust" 74.5
 	"thrusting energy" 3.5
 	"thrusting heat" 4.5
 	"flare sprite" "effect/devourer engine"
@@ -36,7 +37,7 @@ outfit "Devourer Chitin Steering"
 	"mass" 14
 	"outfit space" -14
 	"engine capacity" -14
-	"turn" 490
+	"turn" 590
 	"turning energy" 3.0
 	"turning heat" 3.8
 	"flare sprite" "effect/devourer engine"
@@ -45,7 +46,44 @@ outfit "Devourer Chitin Steering"
 	"steering flare sound" "ion torch"
 	"flotsam chance" 0.2
 	thumbnail "outfit/devourer chitin steering"
-	description "Grown from the same chitinous material as Devourer thrusters, these steering organs allow Devourer ships to turn with unsettling, jerky precision — like a predator tracking prey."
+	description "Grown from the same chitinous material as Devourer thrusters, these steering organs allow Devourer ships to turn with unsettling, jerky precision - like a predator tracking prey."
+
+outfit "Devourer Rift Drive"
+	category "Engines"
+	"cost" 950000
+	"mass" 28
+	"outfit space" -28
+	"engine capacity" -28
+	"thrust" 394
+	"reverse thrust" 283.9
+	"thrusting energy" 5.5
+	"thrusting heat" 7.0
+	"flare sprite" "effect/devourer rift engine"
+	"reverse flare sprite" "effect/devourer rift engine"
+	"steering flare sprite" "effect/devourer rift engine"
+	"flare sound" "ion torch"
+	"reverse flare sound" "ion torch"
+	"steering flare sound" "ion torch"
+	"flotsam chance" 0.15
+	thumbnail "outfit/devourer rift drive"
+	description "The Rift Drive tears at spacetime itself, propelling the ship forward by collapsing and expanding micro-rifts behind it. Devourer capital ships use these for sudden, terrifying bursts of speed that seem to violate physics."
+
+outfit "Devourer Rift Steering"
+	category "Engines"
+	"cost" 820000
+	"mass" 22
+	"outfit space" -22
+	"engine capacity" -22
+	"turn" 1020
+	"turning energy" 4.8
+	"turning heat" 6.0
+	"flare sprite" "effect/devourer rift engine"
+	"steering flare sprite" "effect/devourer rift engine"
+	"flare sound" "ion torch"
+	"steering flare sound" "ion torch"
+	"flotsam chance" 0.15
+	thumbnail "outfit/devourer rift steering"
+	description "Rift Steering organs create asymmetric micro-rifts that snap the ship into new headings with violent, neck-breaking precision. Watching a Devourer capital ship turn with these is deeply unsettling."
 
 outfit "Devourer Spine Launcher"
 	category "Guns"
@@ -114,7 +152,7 @@ outfit "Devourer Maw Cannon"
 	description "The Maw Cannon is a living weapon grafted onto Devourer warships. It fires dense bolts of calcified bio-matter at devastating velocities. The impact is catastrophic."
 	weapon
 		sprite "projectile/devourer maw"
-		sound "inferno"
+		sound "typhoon"
 		"hit effect" "devourer heavy hit"
 		"inaccuracy" 0.4
 		"velocity" 14
@@ -210,6 +248,33 @@ outfit "Devourer Acid Turret"
 		"corrosion damage" 25
 		"range" 700
 
+outfit "Devourer Maw Turret"
+	category "Turrets"
+	"cost" 2400000
+	"mass" 55
+	"outfit space" -55
+	"weapon capacity" -55
+	"turret mounts" -1
+	"flotsam chance" 0.1
+	thumbnail "outfit/devourer maw turret"
+	description "The Maw Turret is a turreted variant of the devastating Maw Cannon, providing 360-degree coverage with the same catastrophic kinetic impact. Each strike also violently disrupts the target's fuel containment, causing volatile leakage that leaves enemy ships stranded and helpless."
+	weapon
+		sprite "projectile/devourer maw"
+		sound "typhoon"
+		"hit effect" "devourer heavy hit"
+		"inaccuracy" 0.6
+		"turret turn" 2.5
+		"velocity" 14
+		"lifetime" 55
+		"reload" 45
+		"firing heat" 16.0
+		"firing energy" 22.0
+		"shield damage" 480
+		"hull damage" 620
+		"fuel damage" 150
+		"hit force" 70
+		"range" 900
+
 outfit "Devourer Scream Battery"
 	category "Turrets"
 	"cost" 1600000
@@ -219,7 +284,7 @@ outfit "Devourer Scream Battery"
 	"turret mounts" -1
 	"flotsam chance" 0.05
 	thumbnail "outfit/scream battery"
-	description "The Scream Battery is a psychological weapon — a living organ that emits concentrated waves of telepathic agony. It does minimal physical damage but overwhelms enemy crews with pure terror, scrambling their ship systems and causing them to lose control."
+	description "The Scream Battery is a psychological weapon - a living organ that emits concentrated waves of telepathic agony. It does minimal physical damage but overwhelms enemy crews with pure terror, scrambling their ship systems and causing them to lose control."
 	weapon
 		sprite "projectile/devourer scream"
 		sound "javelin"
@@ -248,7 +313,7 @@ outfit "Devourer Carapace Shield"
 	"heat generation" 2.0
 	"flotsam chance" 0.15
 	thumbnail "outfit/carapace shield"
-	description "Devourer ships do not use energy shields — they grow layers of hardened chitin that deflect incoming fire. The Carapace Shield is a living armor plate that regenerates when fed energy, sealing wounds like scar tissue."
+	description "Devourer ships do not use energy shields - they grow layers of hardened chitin that deflect incoming fire. The Carapace Shield is a living armor plate that regenerates when fed energy, sealing wounds like scar tissue."
 
 outfit "Devourer Regeneration Organ"
 	category "Systems"
@@ -271,9 +336,9 @@ outfit "Devourer Dimensional Rift"
 	"jump speed" 0.3
 	"jump fuel" 400
 	"jump heat" 50
-	"jump range" 600 #higher fuel cost means higher fuel range
+	"jump range" 600
 	"jump effect" "devourer rift open"
-	"jump sound" "devourer rift"
+	"jump sound" "gravity well"
 	"flotsam chance" 0.01
 	thumbnail "outfit/devourer dimensional rift"
-	description "The Dimensional Rift organ allows Devourer Superheavy ships to tear holes in spacetime, opening temporary wormholes to the 4th dimension. From these rifts pour Devourer reinforcements — or worse, things that should never exist in three-dimensional space."
+	description "The Dimensional Rift organ allows Devourer Superheavy ships to tear holes in spacetime, opening temporary wormholes to the 4th dimension. From these rifts pour Devourer reinforcements - or worse, things that should never exist in three-dimensional space."

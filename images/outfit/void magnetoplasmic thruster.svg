@@ -1,0 +1,45 @@
+<svg width="64" height="360" viewBox="0 0 64 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="vmtHull" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#664488"/>
+      <stop offset="50%" stop-color="#331855"/>
+      <stop offset="100%" stop-color="#1a0d28"/>
+    </linearGradient>
+    <linearGradient id="vmtPlasma" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="15%" stop-color="#ccbbff" stop-opacity="0.7"/>
+      <stop offset="40%" stop-color="#6644cc" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#220044" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="vmtGlow">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+  <!-- Plasma exhaust -->
+  <ellipse cx="32" cy="280" rx="22" ry="70" fill="url(#vmtPlasma)" filter="url(#vmtGlow)"/>
+  <!-- Hull body -->
+  <rect x="10" y="40" width="44" height="180" rx="8" fill="url(#vmtHull)" stroke="#9977cc" stroke-width="2"/>
+  <!-- Nozzle -->
+  <ellipse cx="32" cy="220" rx="20" ry="8" fill="#1a1030" stroke="#7755bb" stroke-width="1.5"/>
+  <!-- Magnetic coils -->
+  <rect x="14" y="60" width="36" height="8" rx="4" fill="#2a1840" stroke="#6644aa" stroke-width="1"/>
+  <rect x="12" y="85" width="40" height="8" rx="4" fill="#2a1840" stroke="#6644aa" stroke-width="1"/>
+  <rect x="10" y="110" width="44" height="8" rx="4" fill="#2a1840" stroke="#6644aa" stroke-width="1"/>
+  <rect x="12" y="135" width="40" height="8" rx="4" fill="#2a1840" stroke="#6644aa" stroke-width="1"/>
+  <rect x="14" y="160" width="36" height="8" rx="4" fill="#2a1840" stroke="#6644aa" stroke-width="1"/>
+  <rect x="14" y="185" width="36" height="8" rx="4" fill="#2a1840" stroke="#6644aa" stroke-width="1"/>
+  <!-- Coil glows -->
+  <circle cx="24" cy="64" r="2" fill="#cc88ff" opacity="0.6" filter="url(#vmtGlow)"/>
+  <circle cx="40" cy="89" r="2" fill="#cc88ff" opacity="0.6" filter="url(#vmtGlow)"/>
+  <circle cx="24" cy="114" r="2" fill="#cc88ff" opacity="0.6" filter="url(#vmtGlow)"/>
+  <circle cx="40" cy="139" r="2" fill="#cc88ff" opacity="0.6" filter="url(#vmtGlow)"/>
+  <circle cx="24" cy="164" r="2" fill="#cc88ff" opacity="0.6" filter="url(#vmtGlow)"/>
+  <circle cx="40" cy="189" r="2" fill="#cc88ff" opacity="0.6" filter="url(#vmtGlow)"/>
+  <!-- Mount bracket -->
+  <rect x="16" y="28" width="32" height="16" rx="6" fill="#553380" stroke="#8866bb" stroke-width="1.5"/>
+  <!-- Core chamber -->
+  <rect x="18" y="230" width="28" height="60" rx="6" fill="#1a1030" stroke="#7755bb" stroke-width="1.5"/>
+  <circle cx="32" cy="260" r="8" fill="#cc44ff" opacity="0.4" filter="url(#vmtGlow)"/>
+  <circle cx="32" cy="260" r="4" fill="#ffccff" opacity="0.6"/>
+</svg>
