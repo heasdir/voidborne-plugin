@@ -3,7 +3,7 @@
 
 ship "Vindihaa"
 	sprite "ship/void drone"
-	thumbnail "thumbnail/void drone"
+	thumbnail "ship/void drone"
 	attributes
 		category "Drone"
 		"cost" 900000
@@ -17,7 +17,7 @@ ship "Vindihaa"
 		"heat dissipation" 0.85
 		"fuel capacity" 400
 		"cargo space" 0
-		"outfit space" 205
+		"outfit space" 220
 		"weapon capacity" 60
 		"engine capacity" 40
 		"gun ports" 1
@@ -32,15 +32,16 @@ ship "Vindihaa"
 		"Void Steering"
 		"Void Lance"
 		"Void Construct Guard"
+		"Void Thermal Dissipator"
 		"Jump Drive"
-	engine -8 32
-	engine 8 32
+	engine -8 55
+	engine 8 55
 	gun 0 -15 "Void Lance"
 	description "These small, alien drones seem to patrol the edges of known space. Their power source is unlike anything in human technology, drawing energy seemingly from nowhere."
 
 ship "Vind Sxug"
 	sprite "ship/void scout"
-	thumbnail "thumbnail/void scout"
+	thumbnail "ship/void scout"
 	attributes
 		category "Light Warship"
 		"cost" 3400000
@@ -53,7 +54,7 @@ ship "Vind Sxug"
 		"heat dissipation" 0.75
 		"fuel capacity" 600
 		"cargo space" 30
-		"outfit space" 330
+		"outfit space" 350
 		"weapon capacity" 90
 		"engine capacity" 70
 		"gun ports" 2
@@ -69,16 +70,232 @@ ship "Vind Sxug"
 		"Void Lance" 2
 		"Void Construct Guard" 2
 		"Void Telepathic Ward" 2
+		"Void Thermal Dissipator"
 		"Jump Drive"
-	engine -12 45
-	engine 12 45
+	engine -12 75
+	engine 12 75
 	gun -18 -8 "Void Lance"
 	gun 18 -8 "Void Lance"
 	description "Void Scouts, or in their language, Vind Sxug, are the eyes and ears of the Voidborne fleet. Quick and agile, they probe the boundaries of our galaxy, gathering information on the civilizations within."
 
+ship "Vind Naxxaris"
+	sprite "ship/void interceptor"
+	thumbnail "ship/void interceptor"
+	attributes
+		category "Interceptor"
+		"cost" 5200000
+		"shields" 1800
+		"hull" 1200
+		"required crew" 2
+		"bunks" 4
+		"mass" 80
+		"drag" 1.8
+		"heat dissipation" 0.8
+		"fuel capacity" 500
+		"cargo space" 10
+		"outfit space" 300
+		"weapon capacity" 80
+		"engine capacity" 100
+		"gun ports" 3
+		weapon
+			"blast radius" 3
+			"shield damage" 10
+			"hull damage" 6
+			"hit force" 8
+	outfits
+		"Void Reactor" 2
+		"Void Thruster"
+		"Void Steering"
+		"Void Lance" 3
+		"Void Construct Guard" 2
+		"Void Telepathic Ward"
+		"Void Thermal Dissipator"
+		"Jump Drive"
+	engine -8 60
+	engine 8 60
+	gun -12 -8 "Void Lance"
+	gun 12 -8 "Void Lance"
+	gun 0 -15 "Void Lance"
+	description "The Vind Naxxaris is a lightning-fast interceptor designed to chase down and eliminate threats before they can react. Its Void Thrusters give it terrifying speed, and its triple Void Lances can shred smaller ships in a single pass."
+
+ship "Vind Kethara"
+	sprite "ship/void utility"
+	thumbnail "ship/void utility"
+	attributes
+		category "Utility"
+		"cost" 1800000
+		"shields" 1200
+		"hull" 900
+		"required crew" 2
+		"bunks" 4
+		"mass" 90
+		"drag" 3.5
+		"heat dissipation" 0.8
+		"fuel capacity" 600
+		"cargo space" 40
+		"outfit space" 270
+		"weapon capacity" 30
+		"engine capacity" 60
+		"gun ports" 1
+		weapon
+			"blast radius" 2
+			"shield damage" 5
+			"hull damage" 3
+			"hit force" 3
+	outfits
+		"Void Reactor"
+		"Void Thruster"
+		"Void Steering"
+		"Void Lance"
+		"Void Construct Guard"
+		"Void Thermal Dissipator"
+		"Jump Drive"
+	engine -10 50
+	engine 10 50
+	gun 0 -12 "Void Lance"
+	description "The Vind Kethara is a small utility vessel used for repair, scouting, and light transport duties within Voidborne territory. It is unglamorous but essential - the workhorse that keeps the Collective running."
+
+ship "Vind Galaxa"
+	sprite "ship/void freighter"
+	thumbnail "ship/void freighter"
+	attributes
+		category "Light Freighter"
+		"cost" 2800000
+		"shields" 2400
+		"hull" 1600
+		"required crew" 6
+		"bunks" 12
+		"mass" 180
+		"drag" 5.0
+		"heat dissipation" 0.7
+		"fuel capacity" 800
+		"cargo space" 120
+		"outfit space" 380
+		"weapon capacity" 60
+		"engine capacity" 90
+		"gun ports" 2
+		weapon
+			"blast radius" 3
+			"shield damage" 8
+			"hull damage" 5
+			"hit force" 6
+	outfits
+		"Void Reactor" 2
+		"Void Thruster"
+		"Void Steering"
+		"Void Lance" 2
+		"Void Construct Guard" 2
+		"Void Telepathic Ward"
+		"Void Thermal Dissipator" 2
+		"Jump Drive"
+	engine -14 55
+	engine 14 55
+	"reverse engine" -10 -20
+	"reverse engine" 10 -20
+	gun -16 -10 "Void Lance"
+	gun 16 -10 "Void Lance"
+	description "The Vind Galaxa is a light freighter used by Voidborne traders and supply runners. Its crystalline hull is reinforced for long-haul transport through dangerous space, and its modest armament keeps pirates at a respectful distance."
+
+ship "Vind Karataga"
+	sprite "ship/void heavy freighter"
+	thumbnail "ship/void heavy freighter"
+	attributes
+		category "Heavy Freighter"
+		"cost" 6800000
+		"shields" 6800
+		"hull" 4200
+		"required crew" 18
+		"bunks" 30
+		"mass" 420
+		"drag" 8.5
+		"heat dissipation" 0.6
+		"fuel capacity" 1000
+		"cargo space" 680
+		"outfit space" 650
+		"weapon capacity" 120
+		"engine capacity" 150
+		"gun ports" 4
+		"turret mounts" 1
+		weapon
+			"blast radius" 8
+			"shield damage" 20
+			"hull damage" 14
+			"hit force" 15
+	outfits
+		"Void Reactor" 4
+		"Void Thruster" 2
+		"Void Steering" 2
+		"Void Lance" 4
+		"Void Shield Generator"
+		"Void Construct Guard" 4
+		"Void Telepathic Ward" 2
+		"Void Crystal Sentry" 2
+		"Void Thermal Dissipator" 2
+		"Jump Drive"
+	engine -24 90
+	engine 24 90
+	"reverse engine" -16 -25
+	"reverse engine" 16 -25
+	gun -28 -15 "Void Lance"
+	gun 28 -15 "Void Lance"
+	gun -16 -10 "Void Lance"
+	gun 16 -10 "Void Lance"
+	turret 0 -20 "Void Lance"
+	description "The Vind Karataga is the Voidborne's primary heavy freighter, hauling vast quantities of Void Crystals and refined metals between their systems. Its reinforced crystalline armor and turret defense make it a tough target for raiders."
+
+ship "Vind Agathara"
+	sprite "ship/void medium warship"
+	thumbnail "ship/void medium warship"
+	attributes
+		category "Medium Warship"
+		"cost" 8200000
+		"shields" 9800
+		"hull" 5600
+		"required crew" 16
+		"bunks" 28
+		"mass" 260
+		"drag" 4.8
+		"heat dissipation" 0.65
+		"fuel capacity" 700
+		"cargo space" 40
+		"outfit space" 570
+		"weapon capacity" 160
+		"engine capacity" 120
+		"gun ports" 6
+		"turret mounts" 2
+		weapon
+			"blast radius" 10
+			"shield damage" 35
+			"hull damage" 22
+			"hit force" 25
+	outfits
+		"Void Reactor" 4
+		"Void Magnetoplasmic Thruster" 2
+		"Void Magnetoplasmic Steering" 2
+		"Void Cannon" 4
+		"Void Lance" 2
+		"Void Shield Generator" 2
+		"Void Construct Guard" 6
+		"Void Telepathic Ward" 4
+		"Void Crystal Sentry" 4
+		"Void Phase Marines" 2
+		"Void Cryo Lattice"
+		"Jump Drive"
+	engine -18 75
+	engine 18 75
+	gun -24 -12 "Void Cannon"
+	gun 24 -12 "Void Cannon"
+	gun -14 -8 "Void Cannon"
+	gun 14 -8 "Void Cannon"
+	gun -8 -5 "Void Lance"
+	gun 8 -5 "Void Lance"
+	turret -16 -16 "Void Cannon"
+	turret 16 -16 "Void Cannon"
+	description "The Vind Agathara fills the gap between the scout Vind Sxug and the heavy Vind Xhemex. A versatile medium warship, it mounts Void Cannons in both fixed and turret configurations, making it deadly at any angle."
+
 ship "Vind Xhemex"
 	sprite "ship/void harbinger"
-	thumbnail "thumbnail/void harbinger"
+	thumbnail "ship/void harbinger"
 	attributes
 		category "Heavy Warship"
 		"cost" 12800000
@@ -91,7 +308,7 @@ ship "Vind Xhemex"
 		"heat dissipation" 0.65
 		"fuel capacity" 800
 		"cargo space" 60
-		"outfit space" 650
+		"outfit space" 720
 		"weapon capacity" 180
 		"engine capacity" 130
 		"gun ports" 6
@@ -112,9 +329,10 @@ ship "Vind Xhemex"
 		"Void Crystal Sentry" 6
 		"Void Phase Marines" 4
 		"Void Null Field" 2
+		"Void Cryo Lattice" 2
 		"Jump Drive"
-	engine -22 75
-	engine 22 75
+	engine -22 110
+	engine 22 110
 	gun -28 -12 "Void Cannon"
 	gun 28 -12 "Void Cannon"
 	gun -15 -8 "Void Lance"
@@ -125,7 +343,7 @@ ship "Vind Xhemex"
 
 ship "Vind Mahathe"
 	sprite "ship/void mothership"
-	thumbnail "thumbnail/void mothership"
+	thumbnail "ship/void mothership"
 	attributes
 		category "Heavy Warship"
 		"cost" 50000000
@@ -138,7 +356,7 @@ ship "Vind Mahathe"
 		"heat dissipation" 0.55
 		"fuel capacity" 1200
 		"cargo space" 200
-		"outfit space" 1200
+		"outfit space" 1400
 		"weapon capacity" 350
 		"engine capacity" 250
 		"gun ports" 16
@@ -162,9 +380,10 @@ ship "Vind Mahathe"
 		"Void Phase Marines" 12
 		"Void Null Field" 8
 		"Void Dimensional Lock" 6
+		"Void Entropy Nullifier" 2
 		"Jump Drive"
-	engine -35 120
-	engine 35 120
+	engine -35 200
+	engine 35 200
 	gun -40 -20 "Void Annihilator"
 	gun 40 -20 "Void Annihilator"
 	gun -30 -15 "Void Cannon"
@@ -183,9 +402,85 @@ ship "Vind Mahathe"
 	gun 0 -22 "Void Lance"
 	description "Void Motherships or in their language, Vind Mahathe, are rarely seen, and when they are, entire fleets tremble. These massive constructs serve as command centers for Voidborne incursions into our galaxy."
 
+ship "Vind Mahathe Xel"
+	sprite "ship/void superheavy"
+	thumbnail "ship/void superheavy"
+	attributes
+		category "Superheavy"
+		"cost" 85000000
+		"shields" 95000
+		"hull" 52000
+		"required crew" 180
+		"bunks" 350
+		"mass" 1100
+		"drag" 15.0
+		"heat dissipation" 0.5
+		"fuel capacity" 1800
+		"cargo space" 250
+		"outfit space" 1800
+		"weapon capacity" 550
+		"engine capacity" 350
+		"gun ports" 22
+		"turret mounts" 10
+		weapon
+			"blast radius" 40
+			"shield damage" 160
+			"hull damage" 110
+			"hit force" 90
+	outfits
+		"Void Reactor" 12
+		"Void Magnetoplasmic Thruster" 4
+		"Void Magnetoplasmic Steering" 4
+		"Void Annihilator" 4
+		"Void Cannon" 10
+		"Void Lance" 8
+		"Void Shield Generator" 4
+		"Void Hull Weaver" 2
+		"Void Construct Guard" 30
+		"Void Telepathic Ward" 20
+		"Void Crystal Sentry" 20
+		"Void Phase Marines" 15
+		"Void Null Field" 10
+		"Void Dimensional Lock" 8
+		"Void Entropy Nullifier" 4
+		"Jump Drive"
+	engine -40 240
+	engine 40 240
+	engine -28 225
+	engine 28 225
+	gun -48 -28 "Void Annihilator"
+	gun 48 -28 "Void Annihilator"
+	gun -36 -22 "Void Annihilator"
+	gun 36 -22 "Void Annihilator"
+	gun -26 -16 "Void Cannon"
+	gun 26 -16 "Void Cannon"
+	gun -20 -12 "Void Cannon"
+	gun 20 -12 "Void Cannon"
+	gun -16 -10 "Void Cannon"
+	gun 16 -10 "Void Cannon"
+	gun -12 -8 "Void Cannon"
+	gun 12 -8 "Void Cannon"
+	gun -8 -5 "Void Lance"
+	gun 8 -5 "Void Lance"
+	gun -6 -4 "Void Lance"
+	gun 6 -4 "Void Lance"
+	gun -4 -3 "Void Lance"
+	gun 4 -3 "Void Lance"
+	turret -35 -18 "Void Annihilator"
+	turret 35 -18 "Void Annihilator"
+	turret -22 -10 "Void Cannon"
+	turret 22 -10 "Void Cannon"
+	turret -14 -6 "Void Cannon"
+	turret 14 -6 "Void Cannon"
+	turret -8 -2 "Void Cannon"
+	turret 8 -2 "Void Cannon"
+	turret 0 -14 "Void Annihilator"
+	turret 0 -20 "Void Annihilator"
+	description "The Vind Mahathe Xel is the pinnacle of Voidborne engineering - a Superheavy warship built to face the Devourer threat head-on. Four Void Annihilators, ten Void Cannons, and eight Void Lances make it capable of destroying entire fleets. Its dimensional lock system traps boarders in endless corridors while Phase Marines hunt them down."
+
 ship "Vind Xhaaxhawar"
 	sprite "ship/cloaker/void cloaker"
-	thumbnail "thumbnail/cloaker/void cloaker"
+	thumbnail "ship/cloaker/void cloaker"
 	attributes
 		category "Light Warship"
 		"cost" 6200000
@@ -198,7 +493,7 @@ ship "Vind Xhaaxhawar"
 		"heat dissipation" 0.75
 		"fuel capacity" 550
 		"cargo space" 20
-		"outfit space" 340
+		"outfit space" 370
 		"weapon capacity" 90
 		"engine capacity" 80
 		"gun ports" 3
@@ -217,6 +512,7 @@ ship "Vind Xhaaxhawar"
 		"Void Lance" 3
 		"Void Construct Guard" 2
 		"Void Telepathic Ward"
+		"Void Cryo Lattice"
 		"Jump Drive"
 	engine -10 65
 	engine 10 65

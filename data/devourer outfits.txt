@@ -342,3 +342,34 @@ outfit "Devourer Dimensional Rift"
 	"flotsam chance" 0.01
 	thumbnail "outfit/devourer dimensional rift"
 	description "The Dimensional Rift organ allows Devourer Superheavy ships to tear holes in spacetime, opening temporary wormholes to the 4th dimension. From these rifts pour Devourer reinforcements - or worse, things that should never exist in three-dimensional space."
+
+outfit "Devourer Black Hole Spawner"
+	category "Turrets"
+	"cost" 4200000
+	"mass" 70
+	"outfit space" -70
+	"weapon capacity" -70
+	"turret mounts" -1
+	"flotsam chance" 0.03
+	thumbnail "outfit/devourer swarm matrix"
+	description "The Black Hole Spawner tears a temporary singularity into existence - a miniature black hole that hangs in space, dragging ships toward it with crushing gravitational force. Ships caught in its pull are helpless as it slowly consumes their hull and spaghettifies their crew."
+	weapon
+		sprite "projectile/devourer vt"
+		sound "typhoon"
+		"turret turn" 180
+		"hit effect" "devourer heavy hit"
+		"inaccuracy" 0.2
+		"velocity" 20
+		"drag" 5.9
+		"lifetime" 900
+		"reload" 6
+		"firing energy" 60
+		"firing heat" 45
+		shield damage 150000
+		hull damage 200000
+		"hit force" 300
+		"relative shield damage" 0.05
+		"relative hull damage" 0.03
+		"slowing damage" 800
+		"scrambling damage" 1000
+		"fuel damage" 1200

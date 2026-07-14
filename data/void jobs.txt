@@ -1,0 +1,290 @@
+# Voidborne Plugin - Jobs
+
+mission "Voidborne: Learn the Language"
+	name "Learn the Voidborne Language"
+	description "Spend time studying the Voidborne language to understand their hails and communications."
+	job
+	landing
+	source "Void Anchor"
+	to offer
+		has "Voidborne: The Observation: done"
+		not "language: Voidborne"
+	on offer
+		conversation
+			`A Voidborne scholar approaches you at the spaceport. Unlike the constructs, this one seems almost eager. "You have spoken with the Collective," it says. "But you do not understand us. Not truly. I can teach you our language - our words, our meanings. It will take time and focus. Are you willing to learn?"`
+			choice
+				`	"Yes, teach me."`
+					accept
+				`	"Not right now."`
+					decline
+	on accept
+		event "language unlock void"
+		conversation
+			`After weeks of study, the Voidborne language begins to make sense. "Vo Et" - pass by, leave in peace. "Ai Shik" - I see you, acknowledged. "Berideqe" - a warning, stand down. "Anad" - death, the end. You now understand the Voidborne when they speak. The scholar nods. "You learn quickly, for an outsider. Go now. Speak our words."`
+
+mission "Voidborne: Cargo Run - Void Crystals"
+	name "Transport Void Crystals to <planet>"
+	description "Transport a shipment of raw Void Crystals from <source> to <destination>. These crystals are used in Voidborne energy technology and are highly valued."
+	job
+	repeat
+	landing
+	source "Void Anchor"
+	destination "Void Observatory"
+	to offer
+		has "Voidborne: The Observation: done"
+	on offer
+		conversation
+			`A Voidborne trader gestures toward a hovering pallet of dark, faintly glowing crystals. "Void Crystals," it says. "Harvested from the Dark Expanse. The Observatory requires them for their sensors. Deliver this shipment and you will be compensated."`
+			choice
+				`	"I'll take the cargo."`
+					accept
+				`	"Not interested."`
+					decline
+	cargo "Void Crystals" 5
+	payment 80000
+	description "Deliver 5 tons of Void Crystals to the Void Observatory."
+
+mission "Voidborne: Cargo Run - Medical Supplies"
+	name "Medical supplies for <planet>"
+	description "The Voidborne need medical supplies from human space. Transport <cargo> to <destination>."
+	job
+	repeat
+	landing
+	source "Beta Lupi"
+	destination "Void Anchor"
+	to offer
+		has "Voidborne: The Observation: done"
+	on offer
+		conversation
+			`A nervous human trader waves you over. "Look, I've got a contract with the Voidborne - they need medical supplies. Something about their biology not responding to their own medicine anymore. I'd take it myself but... those ships give me the creeps. You do it."`
+			choice
+				`	"I'll handle the delivery."`
+					accept
+				`	"Find someone else."`
+					decline
+	cargo Medical 8
+	payment 120000
+	description "Deliver 8 tons of Medical supplies to the Void Anchor."
+
+mission "Voidborne: Cargo Run - Heavy Metals"
+	name "Heavy metals shipment to <planet>"
+	description "Transport refined heavy metals from <source> to <destination> for Voidborne construction projects."
+	job
+	repeat
+	landing
+	source "Void Anchor"
+	destination "Void Observatory"
+	to offer
+		has "Voidborne: The Observation: done"
+	on offer
+		conversation
+			`A Voidborne engineer inspects a datapad. "We are expanding the Observatory. More sensor arrays, more processing cores. We need heavy metals - the purer, the better. Deliver this to the construction bay and you will be paid."`
+			choice
+				`	"On it."`
+					accept
+				`	"Not my kind of work."`
+					decline
+	cargo "Heavy Metals" 10
+	payment 150000
+	description "Deliver 10 tons of Heavy Metals to the Void Observatory."
+
+mission "Voidborne: Cargo Run - Equipment"
+	name "Equipment delivery to <planet>"
+	description "Transport specialized equipment from <source> to <destination>."
+	job
+	repeat
+	landing
+	source "Sarba Station"
+	destination "Void Anchor"
+	to offer
+		has "Voidborne: The Observation: done"
+	on offer
+		conversation
+			`A Voidborne logistics officer flags you down. "We have crates of sensor equipment that need to reach the forward base at Void Anchor. The Devourer patrols have been thicker lately - we need a pilot who can handle themselves."`
+			choice
+				`	"I can handle it."`
+					accept
+				`	"Too risky for me."`
+					decline
+	cargo Equipment 6
+	payment 100000
+	description "Deliver 6 tons of Equipment to Void Anchor."
+
+mission "Voidborne: Cargo Run - Food"
+	name "Food supplies for <planet>"
+	description "Transport food supplies from Sahabh to <destination>."
+	job
+	repeat
+	landing
+	source Sahabh
+	destination "Sarba Station"
+	to offer
+		has "Voidborne: The Observation: done"
+	on offer
+		conversation
+			`A Voidborne farmer loads crates of bioluminescent produce onto a cargo sled. "Fresh from the fields of Sahabh. The station crews deserve something better than ration packs. Take this to Sarba Station - they'll be grateful."`
+			choice
+				`	"Fresh food delivery, got it."`
+					accept
+				`	"I don't run groceries."`
+					decline
+	cargo Food 12
+	payment 90000
+	description "Deliver 12 tons of Food to Sarba Station."
+
+mission "Voidborne: Cargo Run - Metal"
+	name "Metal shipment for <planet>"
+	description "Transport refined metal from Vihaxaag to <destination>."
+	job
+	repeat
+	landing
+	source "Vind Gaaxavwag"
+	destination "Void Gateway"
+	to offer
+		has "Voidborne: The Observation: done"
+	on offer
+		conversation
+			`A Voidborne refinery operator points to a stack of gleaming metal ingots. "Processed from the gas giant's rings. Pure, strong, ready for the shipyards. Get this to Void Gateway and there's a bonus if you make good time."`
+			choice
+				`	"I'll take the metal."`
+					accept
+				`	"Not my cargo."`
+					decline
+	cargo Metal 15
+	payment 130000
+	description "Deliver 15 tons of Metal to Void Gateway."
+
+mission "Voidborne: Passenger - Refugees"
+	name "Transport Voidborne refugees to <planet>"
+	description "A group of Voidborne civilians wish to travel to <destination>. They are quiet and keep to themselves."
+	job
+	repeat
+	landing
+	source "Void Anchor"
+	destination "Void Observatory"
+	to offer
+		has "Voidborne: The Observation: done"
+	on offer
+		conversation
+			`A small group of Voidborne - smaller than the constructs, more fragile-looking - huddle near the docking bay. One steps forward. "We are refugees. From before. The Observatory has better quarters. We wish to go there. Will you carry us?"`
+			choice
+				`	"Of course. Come aboard."`
+					accept
+				`	"I don't have the space."`
+					decline
+	passengers 6
+	payment 90000
+	description "Transport 6 Voidborne refugees to the Void Observatory."
+
+mission "Voidborne: Passenger - Scholar"
+	name "Transport Voidborne scholar to <planet>"
+	description "A Voidborne scholar wishes to study human space. Transport them to <destination>."
+	job
+	repeat
+	landing
+	source "Void Observatory"
+	destination "Beta Lupi"
+	to offer
+		has "Voidborne: The Observation: done"
+	on offer
+		conversation
+			`A Voidborne scholar approaches, its form shimmering with barely contained excitement. "Your species fascinates me. Your art, your wars, your endless contradictions. I wish to observe human space firsthand. The Beta Lupi system will suffice for my initial research. Take me there."`
+			choice
+				`	"Happy to have you aboard."`
+					accept
+				`	"I travel alone."`
+					decline
+	passengers 1
+	payment 60000
+	description "Transport a Voidborne scholar to Beta Lupi for research purposes."
+
+mission "Voidborne: Passenger - Diplomats"
+	name "Transport Voidborne diplomats to <planet>"
+	description "A delegation of Voidborne diplomats needs transport to <destination> for negotiations."
+	job
+	repeat
+	landing
+	source "Sarba Station"
+	destination "Void Anchor"
+	to offer
+		has "Voidborne: The Observation: done"
+	on offer
+		conversation
+			`Three Voidborne in formal crystalline robes approach your ship. "We are envoys to the human traders at Void Anchor. There are... trade agreements to discuss. Security is a concern. We require discrete transport."`
+			choice
+				`	"I'll take the delegation."`
+					accept
+				`	"Diplomacy isn't my thing."`
+					decline
+	passengers 3
+	payment 110000
+	description "Transport 3 Voidborne diplomats to Void Anchor."
+
+mission "Voidborne: Passenger - Wounded"
+	name "Transport wounded soldiers to <planet>"
+	description "Wounded Voidborne warriors need medical evacuation from the front to <destination>."
+	job
+	repeat
+	landing
+	source "Void Gateway"
+	destination "Sarba Station"
+	to offer
+		has "Voidborne: The Observation: done"
+	on offer
+		conversation
+			`A Voidborne medic waves you down urgently. "We have wounded from a Devourer skirmish. The medical facilities at Sarba Station are better equipped. They won't survive a long transit. Can you get them there quickly?"`
+			choice
+				`	"Load them up. I'll fly fast."`
+					accept
+				`	"I'm not a medical transport."`
+					decline
+	passengers 8
+	payment 140000
+	deadline 3
+	description "Transport 8 wounded Voidborne soldiers to Sarba Station within 3 days."
+
+mission "Voidborne: Rush Delivery"
+	name "Urgent delivery to <planet>"
+	description "The Voidborne need a critical shipment delivered urgently to <destination>. Time is short."
+	job
+	repeat
+	landing
+	source "Void Anchor"
+	destination "Void Observatory"
+	deadline 3
+	to offer
+		has "Voidborne: The Observation: done"
+	on offer
+		conversation
+			`A Voidborne construct pulses with urgency. "Critical components. The Observatory's main sensor array is failing. Without these parts, we will be blind to the Devourers' approach. You have three days. Do not fail us."`
+			choice
+				`	"I won't let you down."`
+					accept
+				`	"Too much pressure."`
+					decline
+	cargo "Void Crystals" 3
+	payment 200000
+	description "Deliver 3 tons of Void Crystals to the Void Observatory within 3 days. The sensor array depends on it."
+
+mission "Voidborne: Rush Delivery - Medical"
+	name "Emergency medical supplies to <planet>"
+	description "A medical emergency at <destination> requires immediate delivery of supplies."
+	job
+	repeat
+	landing
+	source "Sarba Station"
+	destination "Void Gateway"
+	deadline 2
+	to offer
+		has "Voidborne: The Observation: done"
+	on offer
+		conversation
+			`"Thank the void you're here!" A Voidborne medical officer looks desperate. "Devourer attack on the forward patrol. We have dozens of critical cases and we're running out of supplies. Get these to Void Gateway in two days or people will die."`
+			choice
+				`	"I'm on it. Clear the pad."`
+					accept
+				`	"I can't make that deadline."`
+					decline
+	cargo Medical 5
+	payment 180000
+	description "Deliver 5 tons of Medical supplies to Void Gateway within 2 days. Lives depend on it."

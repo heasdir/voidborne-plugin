@@ -31,3 +31,6 @@ event "voidborne escalation"
 event "voidborne scout"
 	system "Aldhibain"
 		add fleet "Voidborne Patrol" 400
+
+event "langauge unlock void"
+	set "language: Voidborne"

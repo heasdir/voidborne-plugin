@@ -16,7 +16,7 @@ ship "Devourer 'Death' IX"
 		"heat dissipation" 0.7
 		"fuel capacity" 300
 		"cargo space" 0
-		"outfit space" 250
+		"outfit space" 270
 		"weapon capacity" 80
 		"engine capacity" 50
 		"gun ports" 2
@@ -31,6 +31,7 @@ ship "Devourer 'Death' IX"
 		"Devourer Chitin Steering"
 		"Devourer Spine Launcher" 2
 		"Devourer Hive Spawn"
+		"Devourer Heat Vent"
 		"Jump Drive"
 	engine -6 55
 	engine 6 55
@@ -52,7 +53,7 @@ ship "Devourer 'Quantum' IV"
 		"heat dissipation" 0.65
 		"fuel capacity" 500
 		"cargo space" 20
-		"outfit space" 450
+		"outfit space" 480
 		"weapon capacity" 140
 		"engine capacity" 90
 		"gun ports" 4
@@ -69,6 +70,7 @@ ship "Devourer 'Quantum' IV"
 		"Devourer Acid Cannon" 2
 		"Devourer Hive Spawn" 2
 		"Devourer Corrosive Miasma"
+		"Devourer Heat Vent" 2
 		"Jump Drive"
 	engine -10 75
 	engine 10 75
@@ -92,7 +94,7 @@ ship "Devourer 'Stalker' II"
 		"heat dissipation" 0.7
 		"fuel capacity" 400
 		"cargo space" 5
-		"outfit space" 260
+		"outfit space" 290
 		"weapon capacity" 80
 		"engine capacity" 100
 		"gun ports" 4
@@ -107,6 +109,7 @@ ship "Devourer 'Stalker' II"
 		"Devourer Chitin Steering"
 		"Devourer Spine Launcher" 4
 		"Devourer Hive Spawn" 2
+		"Devourer Heat Vent" 2
 		"Jump Drive"
 	engine -8 60
 	engine 8 60
@@ -130,7 +133,7 @@ ship "Devourer 'Hunger' VII"
 		"heat dissipation" 0.6
 		"fuel capacity" 600
 		"cargo space" 30
-		"outfit space" 350
+		"outfit space" 380
 		"weapon capacity" 60
 		"engine capacity" 80
 		"gun ports" 2
@@ -146,6 +149,7 @@ ship "Devourer 'Hunger' VII"
 		"Devourer Spine Launcher" 2
 		"Devourer Hive Spawn" 2
 		"Devourer Corrosive Miasma"
+		"Devourer Heat Vent" 2
 		"Jump Drive"
 	engine -12 55
 	engine 12 55
@@ -169,7 +173,7 @@ ship "Devourer 'Consume' III"
 		"heat dissipation" 0.5
 		"fuel capacity" 900
 		"cargo space" 960
-		"outfit space" 550
+		"outfit space" 600
 		"weapon capacity" 100
 		"engine capacity" 130
 		"gun ports" 4
@@ -183,12 +187,13 @@ ship "Devourer 'Consume' III"
 		"Devourer Bio-Reactor" 4
 		"Devourer Chitin Thruster" 2
 		"Devourer Chitin Steering" 2
-		"Devourer Spine is ubLauncher" 4
+		"Devourer Spine Launcher" 4
 		"Devourer Spine Turret" 1
 		"Devourer Carapace Shield"
 		"Devourer Hive Spawn" 4
 		"Devourer Corrosive Miasma" 2
 		"Devourer Living Corridors" 2
+		"Devourer Heat Vent" 2
 		"Jump Drive"
 	engine -22 85
 	engine 22 85
@@ -215,7 +220,7 @@ ship "Devourer 'Ravager' VIII"
 		"heat dissipation" 0.55
 		"fuel capacity" 650
 		"cargo space" 35
-		"outfit space" 580
+		"outfit space" 640
 		"weapon capacity" 180
 		"engine capacity" 140
 		"gun ports" 6
@@ -238,6 +243,7 @@ ship "Devourer 'Ravager' VIII"
 		"Devourer Hive Spawn" 6
 		"Devourer Corrosive Miasma" 4
 		"Devourer Living Corridors" 2
+		"Devourer Thermal Sink" 2
 		"Jump Drive"
 	engine -18 85
 	engine 18 85
@@ -266,7 +272,7 @@ ship "Devourer 'Kayysinetheyu' V"
 		"heat dissipation" 0.55
 		"fuel capacity" 700
 		"cargo space" 50
-		"outfit space" 900
+		"outfit space" 980
 		"weapon capacity" 300
 		"engine capacity" 170
 		"gun ports" 8
@@ -293,6 +299,7 @@ ship "Devourer 'Kayysinetheyu' V"
 		"Devourer Living Corridors" 4
 		"Devourer Broodlord" 4
 		"Devourer Swarm Caller" 2
+		"Devourer Thermal Sink" 3
 		"Jump Drive"
 	engine -20 130
 	engine 20 130
@@ -324,7 +331,7 @@ ship "Devourer 'Tisli' VI"
 		"heat dissipation" 0.45
 		"fuel capacity" 1100
 		"cargo space" 180
-		"outfit space" 1600
+		"outfit space" 1800
 		"weapon capacity" 550
 		"engine capacity" 300
 		"gun ports" 16
@@ -354,6 +361,7 @@ ship "Devourer 'Tisli' VI"
 		"Devourer Broodlord" 10
 		"Devourer Swarm Caller" 8
 		"Devourer Nest Heart" 4
+		"Devourer Cryo Gland" 3
 		"Jump Drive"
 	engine -32 200
 	engine 32 200
@@ -411,7 +419,7 @@ ship "Devourer Superheavy"
 		"heat dissipation" 0.4
 		"fuel capacity" 2000
 		"cargo space" 300
-		"outfit space" 2400
+		"outfit space" 2800
 		"weapon capacity" 800
 		"engine capacity" 450
 		"gun ports" 20
@@ -443,6 +451,7 @@ ship "Devourer Superheavy"
 		"Devourer Broodlord" 20
 		"Devourer Swarm Caller" 15
 		"Devourer Nest Heart" 10
+		"Devourer Cryo Gland" 5
 	engine -25 200
 	engine 46.5 190
 	engine -45 260
@@ -512,3 +521,120 @@ ship "Devourer Superheavy"
 	bay "Heavy Warship" 0 -80
 	bay "Heavy Warship" 0 -85
 	description "Devourer Superheavies are the apex predators of the Devourer fleet - living fortresses that disgorge entire fleets from their cavernous hangar bays while tearing holes in reality itself. Engaging one is not a battle - it is a survival situation. Destroy it before the rift stabilizes, or be consumed."
+
+ship "Devourer 'Swarm Mother'"
+	sprite "ship/devourer swarm mother"
+	thumbnail "thumbnail/devourer swarm mother"
+	attributes
+		category "Superheavy"
+		"cost" 750000000
+		"shields" 720000
+		"hull" 1400000
+		"required crew" 180
+		"bunks" 350
+		"mass" 1300
+		"drag" 20.0
+		"heat dissipation" 0.35
+		"fuel capacity" 1800
+		"cargo space" 250
+		"outfit space" 70000
+		"weapon capacity" 18000
+		"engine capacity" 400
+		"gun ports" 12
+		"turret mounts" 10
+		"drone bays" 40
+		"cooling" 1111
+		"shield generation" 90000
+		"hull repair rate" 208200
+		weapon
+			"blast radius" 60
+			"shield damage" 250
+			"hull damage" 350
+			"hit force" 120
+	outfits
+		"Devourer Bio-Reactor" 14
+		"Devourer Rift Drive" 5
+		"Devourer Rift Steering" 5
+		"Devourer Black Hole Spawner" 4
+		"Devourer Maw Cannon" 4
+		"Devourer Spine Launcher" 8
+		"Devourer Spore Launcher" 4
+		"Devourer Acid Turret" 4
+		"Devourer Spine Turret" 2
+		"Devourer Maw Turret" 2
+		"Devourer Scream Battery" 2
+		"Devourer Dimensional Rift"
+		"Devourer Hive Spawn" 50
+		"Devourer Corrosive Miasma" 30
+		"Devourer Living Corridors" 25
+		"Devourer Broodlord" 25
+		"Devourer Swarm Caller" 20
+		"Devourer Nest Heart" 12
+		"Devourer Cryo Gland" 8
+	engine -30 420
+	engine 30 420
+	engine -50 410
+	engine 50 410
+	engine -20 430
+	engine 20 430
+	gun -50 -25 "Devourer Maw Cannon"
+	gun 50 -25 "Devourer Maw Cannon"
+	gun -40 -20 "Devourer Maw Cannon"
+	gun 40 -20 "Devourer Maw Cannon"
+	gun -30 -15 "Devourer Spine Launcher"
+	gun 30 -15 "Devourer Spine Launcher"
+	gun -22 -12 "Devourer Spine Launcher"
+	gun 22 -12 "Devourer Spine Launcher"
+	gun -14 -8 "Devourer Spore Launcher"
+	gun 14 -8 "Devourer Spore Launcher"
+	gun -8 -5 "Devourer Spore Launcher"
+	gun 8 -5 "Devourer Spore Launcher"
+	turret -40 -15 "Devourer Black Hole Spawner"
+	turret 40 -15 "Devourer Black Hole Spawner"
+	turret -25 -5 "Devourer Black Hole Spawner"
+	turret 25 -5 "Devourer Black Hole Spawner"
+	turret -35 -10 "Devourer Acid Turret"
+	turret 35 -10 "Devourer Acid Turret"
+	turret -20 0 "Devourer Acid Turret"
+	turret 20 0 "Devourer Acid Turret"
+	turret -15 5 "Devourer Spine Turret"
+	turret 15 5 "Devourer Spine Turret"
+	turret -5 10 "Devourer Scream Battery"
+	turret 5 10 "Devourer Scream Battery"
+	bay "Drone" -60 -50
+	bay "Drone" 60 -50
+	bay "Drone" -70 -35
+	bay "Drone" 70 -35
+	bay "Drone" -75 -10
+	bay "Drone" 75 -10
+	bay "Drone" -70 20
+	bay "Drone" 70 20
+	bay "Drone" -60 45
+	bay "Drone" 60 45
+	bay "Light Warship" -50 -60
+	bay "Light Warship" 50 -60
+	bay "Light Warship" -55 -45
+	bay "Light Warship" 55 -45
+	bay "Light Warship" -60 -20
+	bay "Light Warship" 60 -20
+	bay "Light Warship" -55 10
+	bay "Light Warship" 55 10
+	bay "Light Warship" -45 40
+	bay "Light Warship" 45 40
+	bay "Light Warship" -30 60
+	bay "Light Warship" 30 60
+	bay "Light Warship" 0 70
+	bay "Light Warship" 0 75
+	bay "Heavy Warship" -35 -70
+	bay "Heavy Warship" 35 -70
+	bay "Heavy Warship" -25 -80
+	bay "Heavy Warship" 25 -80
+	bay "Heavy Warship" 0 -85
+	bay "Heavy Warship" 0 -90
+	bay "Medium Warship" -40 -40
+	bay "Medium Warship" 40 -40
+	bay "Medium Warship" -30 -30
+	bay "Medium Warship" 30 -30
+	bay "Medium Warship" 0 -20
+	bay "Medium Warship" 0 -10
+	description "The Swarm Mother is a Devourer Superheavy purpose-grown around the terrifying Black Hole Spawner weapon system. Four Spawner turrets each deploy a miniature singularity that drifts through space, dragging ships into its gravity well while draining their fuel and scrambling their systems. Xafawqa Al-Mani himself commands the first Swarm Mother ever grown."

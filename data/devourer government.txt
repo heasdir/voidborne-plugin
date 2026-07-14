@@ -12,7 +12,7 @@ government "Devourer"
 	"hostile hail" "devourer hostile"
 	"hostile disabled" "devourer disabled"
 		attitude toward
-		"Voidborne" -1.0
+		"Voidborne" -10000
 		"Merchant" -1.0
 		"Republic" -1.0
 		"Syndicate" -1.0

@@ -118,7 +118,10 @@ system "Dark Expanse"
 	trade Equipment 200
 	trade Metal 180
 	trade "Void Crystals" 120
+	fleet "Large Voidborne" 600
 	fleet "Small Voidborne" 800
+	fleet "Void Patrol" 400
+	fleet "Voidborne Interceptor Wing" 300
 	fleet "Small Devourer" 2300
 	fleet "Devourer Patrol" 600
 	fleet "Devourer Hunter Pack" 400
@@ -157,11 +160,13 @@ system Sarba
 	trade "Heavy Metals" 250
 	trade Electronics 180
 	trade Equipment 220
-	fleet "Large Voidborne" 200
-	fleet "Small Voidborne" 120
+	fleet "Large Voidborne" 600
+	fleet "Small Voidborne" 360
+	fleet "Voidborne Defense Fleet" 300
+	fleet "Voidborne Supply Convoy" 200
+	fleet "Void Patrol" 60
 	fleet "Small Devourer" 700
 	fleet "Devourer Patrol" 400
-	fleet "Void Patrol" 20
 	object
 		sprite star/k0
 		distance 46.4125
@@ -219,15 +224,17 @@ system Serviskate
 	trade "Void Crystals" 200
 	trade Food 150
 	trade Medical 100
+	fleet "Large Voidborne" 2700
+	fleet "Small Voidborne" 2100
+	fleet "Voidborne Superheavy Fleet" 900
+	fleet "Voidborne Interceptor Wing" 800
+	fleet "Void Patrol" 600
 	fleet "Small Devourer" 400
 	fleet "Large Devourer" 900
 	fleet "Devourer Superheavy Fleet" 1100
 	fleet "Devourer Invasion Fleet" 600
 	fleet "Devourer Transport Convoy" 300
 	fleet "Devourer Hunter Pack" 500
-	fleet "Small Voidborne" 700
-	fleet "Void Patrol" 200
-	fleet "Large Voidborne" 900
 	object
 		sprite star/k5
 		period 10
@@ -271,8 +278,9 @@ system Vihaxaag
 	trade Food 180
 	trade Medical 120
 	trade Equipment 150
-	fleet "Void Patrol" 30
-	fleet "Small Voidborne" 50
+	fleet "Small Voidborne" 150
+	fleet "Voidborne Interceptor Wing" 200
+	fleet "Void Patrol" 90
 	fleet "Devourer Patrol" 200
 	fleet "Devourer Hunter Pack" 150
 	object
@@ -336,7 +344,11 @@ system "Void Gateway"
 	trade Electronics 220
 	trade "Heavy Metals" 180
 	trade "Void Crystals" 150
-	fleet "Large Voidborne" 1400
+	fleet "Large Voidborne" 4200
+	fleet "Small Voidborne" 2400
+	fleet "Voidborne Defense Fleet" 900
+	fleet "Voidborne Supply Convoy" 400
+	fleet "Void Patrol" 1200
 	fleet "Small Devourer" 1900
 	fleet "Devourer Patrol" 500
 	fleet "Devourer Hunter Pack" 300
@@ -399,6 +411,10 @@ planet Sahabh
 	spaceport `The spaceport is nestled in a clearing among massive, crystalline trees. Voidborne scientists work alongside a handful of human and Hai researchers, studying the artifacts. The air smells of damp earth and ozone. The hum of energy shields is constant.`
 	shipyard "Voidborne Basic"
 	outfitter "Voidborne Basic"
+	tribute 5000
+		threshold 3500
+		fleet "Small Voidborne" 15
+		fleet "Void Patrol" 10
 
 planet "Sarba Station"
 	landscape land/desert6
@@ -406,12 +422,20 @@ planet "Sarba Station"
 	spaceport `The station's corridors are narrow and dimly lit. Voidborne constructs move silently past you. A few traders have set up shops here, selling supplies to pilots brave enough to venture closer to Serviskate. The chatter is nervous. Everyone speaks in hushed tones.`
 	shipyard "Voidborne Advanced"
 	outfitter "Voidborne Advanced"
+	tribute 10000
+		threshold 7000
+		fleet "Large Voidborne" 10
+		fleet "Voidborne Defense Fleet" 5
 
 planet "Vind Gaaxavwag"
 	landscape land/desert4
 	description `A small, rocky moon orbiting a gas giant in Vihaxaag. The Voidborne have established a refueling depot here, tapping into the gas giant's atmosphere to supply their fleets. The view of the gas giant dominates the sky.`
 	spaceport `The depot is a cluster of crystalline structures connected by transparent tubes. The gas giant's swirling bands of purple and green reflect off the depot's surfaces. Voidborne drones tirelessly ferry fuel from the atmosphere to waiting ships.`
 	outfitter "Voidborne Basic"
+	tribute 3000
+		threshold 2000
+		fleet "Void Patrol" 8
+		fleet "Small Voidborne" 5
 
 planet "Void Anchor"
 	attributes void

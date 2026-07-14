@@ -1,0 +1,86 @@
+# Omnis - Voidborne Language Unlock
+
+event "omnis language unlock void"
+	set "language: Voidborne"
+
+mission "Omnis: Unlock Voidborne Language"
+	name "Unlock Voidborne Language"
+	description "Instantly learn the Voidborne language through Omnis debug tools."
+	job
+	landing
+	to offer
+		government "Omnis"
+		not "language: Voidborne"
+	on offer
+		conversation
+			`Omnis Debug Interface - Language Module`
+			`Target language: Voidborne (Vo Etti dialect)`
+			`Status: Locked`
+			``
+			`Would you like to unlock the Voidborne language? This will allow you to understand Voidborne hails and communications.`
+			choice
+				`	"Yes, unlock the language."`
+					accept
+				`	"Not right now."`
+					decline
+	on accept
+		event "language unlock void"
+		conversation
+			`Omnis Debug Interface - Language Module`
+			`Target language: Voidborne`
+			`Status: Unlocked`
+			``
+			`The Voidborne language has been unlocked. Key phrases:`
+			`  "Vo Et" - Who are you? / Pass by`
+			`  "Ai Shik" - We see you / Acknowledged`
+			`  "Berideqe" - Warning / Stand down`
+			`  "Anad" - Death / The end`
+			``
+			`You will now understand Voidborne hails and transmissions.`
+
+# Omnis - Devourer Telepathic Link
+
+event "omnis telepathy unlock devourer"
+	set "language: Devourer"
+
+mission "Omnis: Establish Devourer Telepathic Link"
+	name "Establish Devourer Telepathic Link"
+	description "Use Omnis to tune into the Devourer hive mind and understand their telepathic communications."
+	landing
+	to offer
+		government "Omnis"
+		not "language: Devourer"
+	on offer
+		conversation
+			`Omnis Debug Interface - Psionic Module`
+			`Target species: Devourer Swarm (Armensajdalnakaulaa)`
+			`Telepathic Status: Unlinked`
+			``
+			`WARNING: Establishing a direct psionic link to the Devourer hive mind is extremely dangerous. The Devourers do not communicate through language - they project pure thought, emotion, and hunger directly into the minds of their prey.`
+			``
+			`Omnis can filter the signal and translate the concepts into comprehensible language, but the underlying hunger will remain. You will feel what they feel.`
+			``
+			`Are you certain you wish to proceed?`
+			choice
+				`	"Yes. Establish the link."`
+					accept
+				`	"No. I don't need that in my head."`
+					decline
+	on accept
+		event "omnis telepathy unlock devourer"
+		conversation
+			`Omnis Debug Interface - Psionic Module`
+			`Target species: Devourer Swarm (Armensajdalnakaulaa)`
+			`Telepathic Status: Linked`
+			``
+			`The link snaps into place.`
+			``
+			`For a moment, you feel EVERYTHING. The hunger of a trillion minds. The taste of dying stars. The endless, aching need to consume. Your hands shake. Your heart races.`
+			``
+			`Then the filters engage. The hunger recedes to a dull ache at the back of your skull. You can hear them now - not words, but meaning. Intent.`
+			``
+			`"Prey." "Consume." "More." "Not finished." "We are endless."`
+			``
+			`You understand the Devourers now. You wish you didn't.`
+			``
+			`The link is permanent. You can hear them whenever they're near. Sleep well, Captain.`

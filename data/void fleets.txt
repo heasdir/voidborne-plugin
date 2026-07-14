@@ -6,39 +6,134 @@ fleet "Small Voidborne"
 	cargo 2
 	commodities Medical Metal
 	variant 3
-		"Vindihaa" 4
-		"Vind Sxug" 2
+		"Vindihaa" 12
+		"Vind Sxug" 6
+		"Vind Naxxaris" 8
 	variant 2
-		"Vind Sxug" 3
+		"Vind Sxug" 9
+		"Vind Naxxaris" 10
+		"Vind Kethara" 3
 	variant 1
-		"Vindihaa" 6
-		"Vind Sxug" 1
+		"Vindihaa" 18
+		"Vind Sxug" 8
+		"Vind Naxxaris" 12
+		"Vind Kethara" 4
 
 fleet "Large Voidborne"
 	government "Voidborne"
 	names "void"
 	cargo 5
 	commodities Medical Metal "Heavy Metals"
+	variant 3
+		"Vind Xhemex" 6
+		"Vind Agathara" 8
+		"Vind Sxug" 12
+		"Vind Naxxaris" 15
+		"Vindihaa" 24
 	variant 2
-		"Vind Xhemex" 2
-		"Vind Sxug" 4
-		"Vindihaa" 8
+		"Vind Mahathe" 2
+		"Vind Xhemex" 5
+		"Vind Agathara" 7
+		"Vind Sxug" 14
+		"Vind Naxxaris" 18
+		"Vindihaa" 30
 	variant 1
-		"Vind Mahathe" 1
-		"Vind Xhemex" 2
-		"Vind Sxug" 6
-		"Vindihaa" 12
+		"Vind Mahathe" 3
+		"Vind Xhemex" 8
+		"Vind Agathara" 10
+		"Vind Sxug" 16
+		"Vind Naxxaris" 20
+		"Vind Galaxa" 4
+		"Vind Karataga" 2
+
+fleet "Voidborne Superheavy Fleet"
+	government "Voidborne"
+	names "void"
+	cargo 8
+	variant 2
+		"Vind Mahathe Xel" 1
+		"Vind Mahathe" 4
+		"Vind Xhemex" 10
+		"Vind Agathara" 15
+		"Vind Sxug" 25
+		"Vind Naxxaris" 30
+		"Vindihaa" 50
+		"Vind Galaxa" 8
+		"Vind Karataga" 5
 	variant 1
-		"Vind Xhemex" 3
-		"Vind Sxug" 5
-		"Vindihaa" 10
+		"Vind Mahathe Xel" 2
+		"Vind Mahathe" 6
+		"Vind Xhemex" 15
+		"Vind Agathara" 20
+		"Vind Sxug" 35
+		"Vind Naxxaris" 40
+		"Vindihaa" 70
+		"Vind Galaxa" 12
+		"Vind Karataga" 8
 
 fleet "Void Patrol"
 	government "Voidborne"
 	names "void"
 	cargo 0
+	variant 3
+		"Vind Sxug" 6
+		"Vind Naxxaris" 8
 	variant 2
-		"Vind Sxug" 2
+		"Vind Sxug" 8
+		"Vind Naxxaris" 12
+		"Vind Kethara" 2
 	variant 1
-		"Vindihaa" 3
-		"Vind Sxug" 1
+		"Vindihaa" 10
+		"Vind Sxug" 6
+		"Vind Naxxaris" 10
+		"Vind Kethara" 3
+
+fleet "Voidborne Defense Fleet"
+	government "Voidborne"
+	names "void"
+	cargo 10
+	variant 2
+		"Vind Mahathe" 5
+		"Vind Xhemex" 12
+		"Vind Agathara" 16
+		"Vind Sxug" 25
+		"Vind Naxxaris" 30
+		"Vindihaa" 50
+		"Vind Xhaaxhawar" 6
+	variant 1
+		"Vind Mahathe Xel" 1
+		"Vind Mahathe" 8
+		"Vind Xhemex" 18
+		"Vind Agathara" 24
+		"Vind Sxug" 35
+		"Vind Naxxaris" 45
+		"Vindihaa" 70
+		"Vind Xhaaxhawar" 10
+
+fleet "Voidborne Supply Convoy"
+	government "Voidborne"
+	names "void"
+	cargo 20
+	variant 2
+		"Vind Galaxa" 10
+		"Vind Karataga" 6
+		"Vind Sxug" 8
+		"Vind Naxxaris" 10
+	variant 1
+		"Vind Galaxa" 15
+		"Vind Karataga" 10
+		"Vind Xhemex" 3
+		"Vind Sxug" 12
+		"Vind Naxxaris" 14
+
+fleet "Voidborne Interceptor Wing"
+	government "Voidborne"
+	names "void"
+	cargo 1
+	variant 2
+		"Vind Naxxaris" 20
+		"Vind Sxug" 10
+	variant 1
+		"Vind Naxxaris" 30
+		"Vind Sxug" 15
+		"Vind Xhaaxhawar" 4

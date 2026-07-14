@@ -18,6 +18,7 @@ outfit "Void Thruster"
 	"outfit space" -15
 	"engine capacity" -15
 	"thrust" 40
+	"reverse thrust" 32
 	"thrusting energy" 2.8
 	"thrusting heat" 3.4
 	"flare sprite" "effect/void engine"
@@ -46,6 +47,43 @@ outfit "Void Steering"
 	"flotsam chance" 0.4
 	thumbnail "outfit/void steering"
 	description "Using the same principles as Void Thrusters, these steering modules provide exceptional maneuverability for Voidborne ships."
+
+outfit "Void Magnetoplasmic Thruster"
+	category "Engines"
+	"cost" 580000
+	"mass" 22
+	"outfit space" -22
+	"engine capacity" -22
+	"thrust" 72.0
+	"reverse thrust" 58.0
+	"thrusting energy" 4.5
+	"thrusting heat" 5.2
+	"flare sprite" "effect/magnetoplasmic/magnetoplasmic engine"
+	"reverse flare sprite" "effect/magnetoplasmic/magnetoplasmic engine"
+	"steering flare sprite" "effect/magnetoplasmic/magnetoplasmic engine"
+	"flare sound" "impulse engine"
+	"reverse flare sound" "impulse engine"
+	"steering flare sound" "impulse engine"
+	"flotsam chance" 0.3
+	thumbnail "outfit/void magnetoplasmic thruster"
+	description "Magnetoplasmic Thrusters channel superheated void-plasma through magnetic coils, providing immense thrust for Voidborne capital ships. The blue-white exhaust is a signature of Voidborne heavy fleet elements."
+
+outfit "Void Magnetoplasmic Steering"
+	category "Engines"
+	"cost" 520000
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"turn" 3800
+	"turning energy" 3.8
+	"turning heat" 4.5
+	"flare sprite" "effect/magnetoplasmic/magnetoplasmic engine"
+	"steering flare sprite" "effect/magnetoplasmic/magnetoplasmic engine"
+	"flare sound" "impulse engine"
+	"steering flare sound" "impulse engine"
+	"flotsam chance" 0.3
+	thumbnail "outfit/void magnetoplasmic steering"
+	description "Magnetoplasmic Steering arrays use the same plasma-channeling technology as their thruster counterparts. Voidborne capital ships equipped with these can bring their weapons to bear with frightening speed."
 
 outfit "Void Lance"
 	category "Guns"
@@ -134,3 +172,81 @@ outfit "Void Shield Generator"
 	"flotsam chance" 0.3
 	thumbnail "outfit/void shield generator"
 	description "Void Shield Generators create a barrier of warped space around the ship, efficiently regenerating shields even under fire."
+
+outfit "Void Hull Weaver"
+	category "Systems"
+	"cost" 750000
+	"mass" 22
+	"outfit space" -22
+	"hull repair rate" 3.5
+	"hull energy" 2.8
+	"hull heat" 2.2
+	"flotsam chance" 0.2
+	thumbnail "outfit/void hull weaver"
+	description "The Void Hull Weaver projects a lattice of crystalline nanites that flow into hull breaches and rebuild damaged structure at the molecular level. Unlike Devourer regeneration, the Weaver is precise and silent - repairing damage with no biological mess, just the faint shimmer of crystal growth."
+
+outfit "Void Construct Guard"
+	category "Hand to Hand"
+	"cost" 280000
+	"mass" 2
+	"outfit space" -2
+	"capture attack" 24
+	"capture defense" 32
+	"unplunderable" 1
+	thumbnail "outfit/void construct guard"
+	description "Voidborne ships are defended by silent, crystalline constructs that move with unsettling precision. They do not feel pain, they do not hesitate, and they do not leave survivors unless ordered to."
+
+outfit "Void Telepathic Ward"
+	category "Hand to Hand"
+	"cost" 450000
+	"mass" 3
+	"outfit space" -3
+	"capture attack" 18
+	"capture defense" 45
+	"unplunderable" 1
+	thumbnail "outfit/void telepathic ward"
+	description "The Telepathic Ward projects a field of psychic interference throughout the ship. Boarders find their thoughts clouded with alien whispers, their coordination shattered, their will to fight draining away with every step."
+
+outfit "Void Phase Marines"
+	category "Hand to Hand"
+	"cost" 680000
+	"mass" 5
+	"outfit space" -5
+	"capture attack" 52
+	"capture defense" 38
+	"unplunderable" 1
+	thumbnail "outfit/void phase marines"
+	description "Phase Marines are elite Voidborne soldiers equipped with personal phasing technology. They flicker in and out of reality, appearing behind boarders before they can react. No corner is safe. No position is defensible."
+
+outfit "Void Crystal Sentry"
+	category "Hand to Hand"
+	"cost" 520000
+	"mass" 4
+	"outfit space" -4
+	"capture attack" 35
+	"capture defense" 55
+	"unplunderable" 1
+	thumbnail "outfit/void crystal sentry"
+	description "Crystal Sentries are immobile defensive constructs embedded in Voidborne ship walls. They activate when intruders pass, firing beams of concentrated void energy. Boarders learn to fear the faint hum of a nearby Sentry."
+
+outfit "Void Null Field"
+	category "Hand to Hand"
+	"cost" 780000
+	"mass" 5
+	"outfit space" -5
+	"capture attack" 20
+	"capture defense" 65
+	"unplunderable" 1
+	thumbnail "outfit/void null field"
+	description "The Null Field generator creates zones of zero-energy within the ship. Boarders' weapons fail, their shields collapse, their comms go silent. In the Null Field, only the Voidborne constructs - designed to function without energy - remain operational."
+
+outfit "Void Dimensional Lock"
+	category "Hand to Hand"
+	"cost" 1100000
+	"mass" 6
+	"outfit space" -6
+	"capture attack" 45
+	"capture defense" 70
+	"unplunderable" 1
+	thumbnail "outfit/void dimensional lock"
+	description "The Dimensional Lock seals sections of the ship in pocket dimensions, trapping boarders in endless corridors that loop back on themselves. Escape is impossible. Rescue is impossible. The boarders simply... vanish."

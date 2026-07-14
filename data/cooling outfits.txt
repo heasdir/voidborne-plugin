@@ -1,0 +1,61 @@
+outfit "Devourer Heat Vent"
+	category "Systems"
+	"cost" 350000
+	"mass" 15
+	"outfit space" -15
+	"cooling" 80.0
+	"flotsam chance" 0.3
+	thumbnail "outfit/unknown"
+	description "Devourer ships vent excess heat through organic heat-exchanger organs - pulsing sacs that radiate thermal energy directly into space. The vent glows with sick green light as it works, the heat of the hive's metabolism bleeding into the void."
+
+outfit "Devourer Thermal Sink"
+	category "Systems"
+	"cost" 720000
+	"mass" 28
+	"outfit space" -28
+	"cooling" 200.0
+	"flotsam chance" 0.2
+	thumbnail "outfit/unknown"
+	description "The Thermal Sink is a dense chitinous organ that absorbs and dissipates massive amounts of heat. Its surface constantly sheds layers of superheated carapace, regrowing them almost as fast as they burn away."
+
+outfit "Devourer Cryo Gland"
+	category "Systems"
+	"cost" 1200000
+	"mass" 40
+	"outfit space" -40
+	"cooling" 500.0
+	"energy consumption" 1.5
+	"flotsam chance" 0.15
+	thumbnail "outfit/unknown"
+	description "The Cryo Gland is a rare Devourer organ that violates thermodynamics itself - it consumes energy to actively destroy heat, leaving frosted chitin in its wake. Ships equipped with multiple Cryo Glands can fire their weapons near-continuously without overheating."
+
+outfit "Void Thermal Dissipator"
+	category "Systems"
+	"cost" 300000
+	"mass" 12
+	"outfit space" -12
+	"cooling" 60.0
+	"flotsam chance" 0.3
+	thumbnail "outfit/unknown"
+	description "Voidborne thermal dissipators use crystalline lattice structures to radiate heat with exceptional efficiency. The crystals glow faintly purple as they work, channeling thermal energy away from critical systems."
+
+outfit "Void Cryo Lattice"
+	category "Systems"
+	"cost" 680000
+	"mass" 24
+	"outfit space" -24
+	"cooling" 180.0
+	"flotsam chance" 0.2
+	thumbnail "outfit/unknown"
+	description "The Cryo Lattice is a matrix of supercooled void-crystals that absorb heat at an extraordinary rate. Ships equipped with these can sustain extended weapons fire that would melt lesser vessels."
+
+outfit "Void Entropy Nullifier"
+	category "Systems"
+	"cost" 1100000
+	"mass" 35
+	"outfit space" -35
+	"cooling" 450.0
+	"energy consumption" 1.2
+	"flotsam chance" 0.15
+	thumbnail "outfit/unknown"
+	description "The Entropy Nullifier is one of the Voidborne's most advanced technologies - a device that directly cancels thermal energy at the quantum level. It consumes significant power, but the cooling it provides allows Voidborne capital ships to fire their Annihilators without pause."
