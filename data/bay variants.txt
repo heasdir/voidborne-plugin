@@ -1,0 +1,536 @@
+# Voidborne & Devourer - Bay Variants
+
+ship "Vind Sxug" "Vind Sxug (Bay)"
+	sprite "ship/void scout"
+	thumbnail "ship/void scout"
+	attributes
+		category "Light Warship Carry"
+		"cost" 3400000
+		"shields" 3200
+		"hull" 1800
+		"required crew" 4
+		"bunks" 8
+		"mass" 120
+		"drag" 3.1
+		"heat dissipation" 0.75
+		"fuel capacity" 600
+		"cargo space" 30
+		"outfit space" 350
+		"weapon capacity" 90
+		"engine capacity" 70
+		"gun ports" 2
+		weapon
+			"blast radius" 4
+			"shield damage" 12
+			"hull damage" 6
+			"hit force" 10
+	outfits
+		"Void Reactor" 2
+		"Void Thruster"
+		"Void Steering"
+		"Void Lance" 2
+		"Void Construct Guard" 2
+		"Void Telepathic Ward" 2
+		"Void Thermal Dissipator"
+		"Jump Drive"
+	engine -12 75
+	engine 12 75
+	gun -18 -8 "Void Lance"
+	gun 18 -8 "Void Lance"
+	description "A Vind Sxug configured for carrier deployment."
+
+ship "Vind Naxxaris" "Vind Naxxaris (Bay)"
+	sprite "ship/void interceptor"
+	thumbnail "ship/void interceptor"
+	attributes
+		category "Light Warship Carry"
+		"cost" 5200000
+		"shields" 1800
+		"hull" 1200
+		"required crew" 2
+		"bunks" 4
+		"mass" 80
+		"drag" 1.8
+		"heat dissipation" 0.8
+		"fuel capacity" 500
+		"cargo space" 10
+		"outfit space" 300
+		"weapon capacity" 80
+		"engine capacity" 100
+		"gun ports" 3
+		weapon
+			"blast radius" 3
+			"shield damage" 10
+			"hull damage" 6
+			"hit force" 8
+	outfits
+		"Void Reactor" 2
+		"Void Thruster"
+		"Void Steering"
+		"Void Lance" 3
+		"Void Construct Guard" 2
+		"Void Telepathic Ward"
+		"Void Thermal Dissipator"
+		"Jump Drive"
+	engine -8 60
+	engine 8 60
+	gun -12 -8 "Void Lance"
+	gun 12 -8 "Void Lance"
+	gun 0 -15 "Void Lance"
+	description "A Vind Naxxaris configured for carrier deployment."
+
+ship "Vind Kethara" "Vind Kethara (Bay)"
+	sprite "ship/void utility"
+	thumbnail "ship/void utility"
+	attributes
+		category "Light Warship Carry"
+		"cost" 1800000
+		"shields" 1200
+		"hull" 900
+		"required crew" 2
+		"bunks" 4
+		"mass" 90
+		"drag" 3.5
+		"heat dissipation" 0.8
+		"fuel capacity" 600
+		"cargo space" 40
+		"outfit space" 270
+		"weapon capacity" 30
+		"engine capacity" 60
+		"gun ports" 1
+		weapon
+			"blast radius" 2
+			"shield damage" 5
+			"hull damage" 3
+			"hit force" 3
+	outfits
+		"Void Reactor"
+		"Void Thruster"
+		"Void Steering"
+		"Void Lance"
+		"Void Construct Guard"
+		"Void Thermal Dissipator"
+		"Jump Drive"
+	engine -10 50
+	engine 10 50
+	gun 0 -12 "Void Lance"
+	description "A Vind Kethara configured for carrier deployment."
+
+ship "Vind Xhaaxhawar" "Vind Xhaaxhawar (Bay)"
+	sprite "ship/cloaker/void cloaker"
+	thumbnail "ship/cloaker/void cloaker"
+	attributes
+		category "Light Warship Carry"
+		"cost" 6200000
+		"shields" 2800
+		"hull" 1600
+		"required crew" 5
+		"bunks" 10
+		"mass" 130
+		"drag" 2.5
+		"heat dissipation" 0.75
+		"fuel capacity" 550
+		"cargo space" 20
+		"outfit space" 370
+		"weapon capacity" 90
+		"engine capacity" 80
+		"gun ports" 3
+		"cloak" 0.12
+		"cloaking energy" 4.0
+		"cloaking heat" 3.0
+		weapon
+			"blast radius" 4
+			"shield damage" 12
+			"hull damage" 7
+			"hit force" 10
+	outfits
+		"Void Reactor" 2
+		"Void Thruster"
+		"Void Steering"
+		"Void Lance" 3
+		"Void Construct Guard" 2
+		"Void Telepathic Ward"
+		"Void Cryo Lattice"
+		"Jump Drive"
+	engine -10 65
+	engine 10 65
+	gun -14 -8 "Void Lance"
+	gun 14 -8 "Void Lance"
+	gun 0 -16 "Void Lance"
+	description "A Vind Xhaaxhawar configured for carrier deployment."
+
+ship "Vind Agathara" "Vind Agathara (Bay)"
+	sprite "ship/void medium warship"
+	thumbnail "ship/void medium warship"
+	attributes
+		category "Heavy Warship Carry"
+		"cost" 8200000
+		"shields" 9800
+		"hull" 5600
+		"required crew" 16
+		"bunks" 28
+		"mass" 260
+		"drag" 4.8
+		"heat dissipation" 0.65
+		"fuel capacity" 700
+		"cargo space" 40
+		"outfit space" 570
+		"weapon capacity" 160
+		"engine capacity" 120
+		"gun ports" 6
+		"turret mounts" 2
+		weapon
+			"blast radius" 10
+			"shield damage" 35
+			"hull damage" 22
+			"hit force" 25
+	outfits
+		"Void Reactor" 4
+		"Void Magnetoplasmic Thruster" 2
+		"Void Magnetoplasmic Steering" 2
+		"Void Cannon" 4
+		"Void Lance" 2
+		"Void Shield Generator" 2
+		"Void Construct Guard" 6
+		"Void Telepathic Ward" 4
+		"Void Crystal Sentry" 4
+		"Void Phase Marines" 2
+		"Void Cryo Lattice"
+		"Jump Drive"
+	engine -18 75
+	engine 18 75
+	gun -24 -12 "Void Cannon"
+	gun 24 -12 "Void Cannon"
+	gun -14 -8 "Void Cannon"
+	gun 14 -8 "Void Cannon"
+	gun -8 -5 "Void Lance"
+	gun 8 -5 "Void Lance"
+	turret -16 -16 "Void Cannon"
+	turret 16 -16 "Void Cannon"
+	description "A Vind Agathara configured for carrier deployment."
+
+ship "Vind Xhemex" "Vind Xhemex (Bay)"
+	sprite "ship/void harbinger"
+	thumbnail "ship/void harbinger"
+	attributes
+		category "Heavy Warship Carry"
+		"cost" 12800000
+		"shields" 18000
+		"hull" 9500
+		"required crew" 32
+		"bunks" 50
+		"mass" 380
+		"drag" 6.8
+		"heat dissipation" 0.65
+		"fuel capacity" 800
+		"cargo space" 60
+		"outfit space" 720
+		"weapon capacity" 180
+		"engine capacity" 130
+		"gun ports" 6
+		weapon
+			"blast radius" 12
+			"shield damage" 48
+			"hull damage" 32
+			"hit force" 35
+	outfits
+		"Void Reactor" 4
+		"Void Thruster" 2
+		"Void Steering" 2
+		"Void Cannon" 2
+		"Void Lance" 4
+		"Void Shield Generator"
+		"Void Construct Guard" 8
+		"Void Telepathic Ward" 6
+		"Void Crystal Sentry" 6
+		"Void Phase Marines" 4
+		"Void Null Field" 2
+		"Void Cryo Lattice" 2
+		"Jump Drive"
+	engine -22 110
+	engine 22 110
+	gun -28 -12 "Void Cannon"
+	gun 28 -12 "Void Cannon"
+	gun -15 -8 "Void Lance"
+	gun 15 -8 "Void Lance"
+	gun -8 -6 "Void Lance"
+	gun 8 -6 "Void Lance"
+	description "A Vind Xhemex configured for carrier deployment."
+
+ship "Devourer 'Quantum' IV" "Devourer 'Quantum' IV (Bay)"
+	sprite "ship/devourer quantum iv"
+	attributes
+		category "Light Warship Carry"
+		"cost" 4200000
+		"shields" 2800
+		"hull" 4200
+		"required crew" 3
+		"bunks" 6
+		"mass" 110
+		"drag" 2.8
+		"heat dissipation" 0.65
+		"fuel capacity" 500
+		"cargo space" 20
+		"outfit space" 480
+		"weapon capacity" 140
+		"engine capacity" 90
+		"gun ports" 4
+		weapon
+			"blast radius" 5
+			"shield damage" 15
+			"hull damage" 22
+			"hit force" 12
+	outfits
+		"Devourer Bio-Reactor" 2
+		"Devourer Chitin Thruster"
+		"Devourer Chitin Steering"
+		"Devourer Spine Launcher" 2
+		"Devourer Acid Cannon" 2
+		"Devourer Hive Spawn" 2
+		"Devourer Corrosive Miasma"
+		"Devourer Heat Vent" 2
+		"Jump Drive"
+	engine -10 75
+	engine 10 75
+	gun -16 -8 "Devourer Spine Launcher"
+	gun 16 -8 "Devourer Spine Launcher"
+	gun -10 -6 "Devourer Acid Cannon"
+	gun 10 -6 "Devourer Acid Cannon"
+	description "A Quantum IV configured for carrier deployment."
+
+ship "Devourer 'Stalker' II" "Devourer 'Stalker' II (Bay)"
+	sprite "ship/devourer stalker"
+	attributes
+		category "Light Warship Carry"
+		"cost" 4800000
+		"shields" 1400
+		"hull" 2200
+		"required crew" 2
+		"bunks" 3
+		"mass" 75
+		"drag" 1.5
+		"heat dissipation" 0.7
+		"fuel capacity" 400
+		"cargo space" 5
+		"outfit space" 290
+		"weapon capacity" 80
+		"engine capacity" 100
+		"gun ports" 4
+		weapon
+			"blast radius" 4
+			"shield damage" 12
+			"hull damage" 18
+			"hit force" 10
+	outfits
+		"Devourer Bio-Reactor" 2
+		"Devourer Chitin Thruster"
+		"Devourer Chitin Steering"
+		"Devourer Spine Launcher" 4
+		"Devourer Hive Spawn" 2
+		"Devourer Heat Vent" 2
+		"Jump Drive"
+	engine -8 60
+	engine 8 60
+	gun -12 -8 "Devourer Spine Launcher"
+	gun 12 -8 "Devourer Spine Launcher"
+	gun -6 -4 "Devourer Spine Launcher"
+	gun 6 -4 "Devourer Spine Launcher"
+	description "A Stalker II configured for carrier deployment."
+
+ship "Devourer 'Hunger' VII" "Devourer 'Hunger' VII (Bay)"
+	sprite "ship/devourer transport"
+	attributes
+		category "Light Warship Carry"
+		"cost" 2800000
+		"shields" 1800
+		"hull" 3200
+		"required crew" 8
+		"bunks" 120
+		"mass" 180
+		"drag" 4.5
+		"heat dissipation" 0.6
+		"fuel capacity" 600
+		"cargo space" 30
+		"outfit space" 380
+		"weapon capacity" 60
+		"engine capacity" 80
+		"gun ports" 2
+		weapon
+			"blast radius" 4
+			"shield damage" 10
+			"hull damage" 16
+			"hit force" 8
+	outfits
+		"Devourer Bio-Reactor" 2
+		"Devourer Chitin Thruster" 2
+		"Devourer Chitin Steering" 2
+		"Devourer Spine Launcher" 2
+		"Devourer Hive Spawn" 2
+		"Devourer Corrosive Miasma"
+		"Devourer Heat Vent" 2
+		"Jump Drive"
+	engine -12 55
+	engine 12 55
+	"reverse engine" -8 -18
+	"reverse engine" 8 -18
+	gun -14 -10 "Devourer Spine Launcher"
+	gun 14 -10 "Devourer Spine Launcher"
+	description "A Hunger VII configured for carrier deployment."
+
+ship "Devourer 'Consume' III" "Devourer 'Consume' III (Bay)"
+	sprite "ship/devourer heavy transport"
+	attributes
+		category "Light Warship Carry"
+		"cost" 5800000
+		"shields" 5200
+		"hull" 8800
+		"required crew" 12
+		"bunks" 22
+		"mass" 380
+		"drag" 7.8
+		"heat dissipation" 0.5
+		"fuel capacity" 900
+		"cargo space" 960
+		"outfit space" 600
+		"weapon capacity" 100
+		"engine capacity" 130
+		"gun ports" 4
+		"turret mounts" 1
+		weapon
+			"blast radius" 8
+			"shield damage" 22
+			"hull damage" 32
+			"hit force" 16
+	outfits
+		"Devourer Bio-Reactor" 4
+		"Devourer Chitin Thruster" 2
+		"Devourer Chitin Steering" 2
+		"Devourer Spine Launcher" 4
+		"Devourer Spine Turret" 1
+		"Devourer Carapace Shield"
+		"Devourer Hive Spawn" 4
+		"Devourer Corrosive Miasma" 2
+		"Devourer Living Corridors" 2
+		"Devourer Heat Vent" 2
+		"Jump Drive"
+	engine -22 85
+	engine 22 85
+	"reverse engine" -14 -22
+	"reverse engine" 14 -22
+	gun -24 -14 "Devourer Spine Launcher"
+	gun 24 -14 "Devourer Spine Launcher"
+	gun -14 -8 "Devourer Spine Launcher"
+	gun 14 -8 "Devourer Spine Launcher"
+	turret 0 -18 "Devourer Spine Turret"
+	description "A Consume III configured for carrier deployment."
+
+ship "Devourer 'Ravager' VIII" "Devourer 'Ravager' VIII (Bay)"
+	sprite "ship/devourer medium warship"
+	attributes
+		category "Heavy Warship Carry"
+		"cost" 9500000
+		"shields" 9800
+		"hull" 14800
+		"required crew" 14
+		"bunks" 24
+		"mass" 280
+		"drag" 5.2
+		"heat dissipation" 0.55
+		"fuel capacity" 650
+		"cargo space" 35
+		"outfit space" 640
+		"weapon capacity" 180
+		"engine capacity" 140
+		"gun ports" 6
+		"turret mounts" 3
+		weapon
+			"blast radius" 12
+			"shield damage" 40
+			"hull damage" 58
+			"hit force" 28
+	outfits
+		"Devourer Bio-Reactor" 4
+		"Devourer Chitin Thruster" 2
+		"Devourer Chitin Steering" 2
+		"Devourer Acid Cannon" 4
+		"Devourer Spine Launcher" 2
+		"Devourer Acid Turret" 2
+		"Devourer Spine Turret" 1
+		"Devourer Carapace Shield" 2
+		"Devourer Regeneration Organ"
+		"Devourer Hive Spawn" 6
+		"Devourer Corrosive Miasma" 4
+		"Devourer Living Corridors" 2
+		"Devourer Thermal Sink" 2
+		"Jump Drive"
+	engine -18 85
+	engine 18 85
+	gun -26 -14 "Devourer Acid Cannon"
+	gun 26 -14 "Devourer Acid Cannon"
+	gun -16 -10 "Devourer Acid Cannon"
+	gun 16 -10 "Devourer Acid Cannon"
+	gun -8 -6 "Devourer Spine Launcher"
+	gun 8 -6 "Devourer Spine Launcher"
+	turret -20 -8 "Devourer Acid Turret"
+	turret 20 -8 "Devourer Acid Turret"
+	turret 0 -16 "Devourer Spine Turret"
+	description "A Ravager VIII configured for carrier deployment."
+
+ship "Devourer 'Kayysinetheyu' V" "Devourer 'Kayysinetheyu' V (Bay)"
+	sprite "ship/kayysinetheyu"
+	attributes
+		category "Heavy Warship Carry"
+		"cost" 15000000
+		"shields" 16000
+		"hull" 24000
+		"required crew" 28
+		"bunks" 45
+		"mass" 360
+		"drag" 6.2
+		"heat dissipation" 0.55
+		"fuel capacity" 700
+		"cargo space" 50
+		"outfit space" 980
+		"weapon capacity" 300
+		"engine capacity" 170
+		"gun ports" 8
+		"turret mounts" 3
+		weapon
+			"blast radius" 15
+			"shield damage" 50
+			"hull damage" 70
+			"hit force" 35
+	outfits
+		"Devourer Bio-Reactor" 4
+		"Devourer Chitin Thruster" 2
+		"Devourer Chitin Steering" 2
+		"Devourer Maw Cannon" 2
+		"Devourer Acid Cannon" 4
+		"Devourer Spine Launcher" 2
+		"Devourer Acid Turret" 2
+		"Devourer Spine Turret" 1
+		"Devourer Maw Turret" 1
+		"Devourer Carapace Shield" 2
+		"Devourer Regeneration Organ"
+		"Devourer Hive Spawn" 8
+		"Devourer Corrosive Miasma" 6
+		"Devourer Living Corridors" 4
+		"Devourer Broodlord" 4
+		"Devourer Swarm Caller" 2
+		"Devourer Thermal Sink" 3
+		"Jump Drive"
+	engine -20 130
+	engine 20 130
+	gun -30 -15 "Devourer Maw Cannon"
+	gun 30 -15 "Devourer Maw Cannon"
+	gun -22 -10 "Devourer Acid Cannon"
+	gun 22 -10 "Devourer Acid Cannon"
+	gun -14 -8 "Devourer Acid Cannon"
+	gun 14 -8 "Devourer Acid Cannon"
+	gun -8 -5 "Devourer Spine Launcher"
+	gun 8 -5 "Devourer Spine Launcher"
+	turret -25 -5 "Devourer Acid Turret"
+	turret 25 -5 "Devourer Acid Turret"
+	turret 0 -12 "Devourer Spine Turret"
+	turret 0 -18 "Devourer Maw Turret"
+	description "A Kayysinetheyu V configured for carrier deployment."

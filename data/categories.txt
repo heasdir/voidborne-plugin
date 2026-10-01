@@ -1,3 +1,7 @@
 category "bay type"
-	"Light Warship"
-	"Heavy Warship"
+	"Light Warship Carry"
+	"Heavy Warship Carry"
+
+category "ship"
+	"Light Warship Carry"
+	"Heavy Warship Carry"

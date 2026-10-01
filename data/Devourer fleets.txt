@@ -5,113 +5,81 @@ fleet "Small Devourer"
 	names "devourer"
 	cargo 0
 	variant 3
-		"Devourer 'Death' IX" 8
-		"Devourer 'Quantum' IV" 3
-		"Devourer 'Stalker' II" 6
+		"Devourer 'Death' IX" 6
+		"Devourer 'Quantum' IV" 2
+		"Devourer 'Stalker' II" 4
 	variant 2
-		"Devourer 'Quantum' IV" 5
-		"Devourer 'Stalker' II" 10
-		"Devourer 'Hunger' VII" 2
+		"Devourer 'Quantum' IV" 4
+		"Devourer 'Stalker' II" 6
 	variant 1
-		"Devourer 'Death' IX" 14
-		"Devourer 'Stalker' II" 12
-		"Devourer 'Hunger' VII" 3
+		"Devourer 'Death' IX" 10
+		"Devourer 'Stalker' II" 8
 
 fleet "Large Devourer"
 	government "Devourer"
 	names "devourer"
-	cargo 5
-	variant 3
-		"Devourer 'Kayysinetheyu' V" 3
-		"Devourer 'Ravager' VIII" 4
-		"Devourer 'Quantum' IV" 8
-		"Devourer 'Death' IX" 16
-		"Devourer 'Stalker' II" 14
-		"Devourer 'Hunger' VII" 4
+	cargo 3
 	variant 2
+		"Devourer 'Kayysinetheyu' V" 3
+		"Devourer 'Ravager' VIII" 2
+		"Devourer 'Quantum' IV" 6
+		"Devourer 'Death' IX" 12
+		"Devourer 'Stalker' II" 10
+	variant 1
 		"Devourer 'Tisli' VI" 1
 		"Devourer 'Kayysinetheyu' V" 2
 		"Devourer 'Ravager' VIII" 3
-		"Devourer 'Quantum' IV" 10
-		"Devourer 'Death' IX" 24
-		"Devourer 'Stalker' II" 20
-		"Devourer 'Consume' III" 3
-	variant 1
-		"Devourer 'Kayysinetheyu' V" 4
-		"Devourer 'Ravager' VIII" 6
-		"Devourer 'Quantum' IV" 12
-		"Devourer 'Stalker' II" 22
-		"Devourer 'Hunger' VII" 6
-		"Devourer 'Consume' III" 2
+		"Devourer 'Quantum' IV" 8
+		"Devourer 'Death' IX" 20
+		"Devourer 'Stalker' II" 18
 
 fleet "Devourer Superheavy Fleet"
 	government "Devourer"
 	names "devourer"
-	cargo 8
+	cargo 5
 	variant 10
 		"Devourer Superheavy" 1
+		"Devourer 'Tisli' VI" 2
+			"Devourer 'Quantum' IV (Bay)" 4
+			"Devourer 'Stalker' II (Bay)" 4
+			"Devourer 'Ravager' VIII (Bay)" 2
+		"Devourer 'Kayysinetheyu' V" 4
+		"Devourer 'Ravager' VIII" 4
+		"Devourer 'Quantum' IV" 12
+		"Devourer 'Death' IX" 30
+		"Devourer 'Stalker' II" 26
+	variant 5
+		"Devourer Superheavy" 2
+			"Devourer 'Quantum' IV (Bay)" 8
+			"Devourer 'Stalker' II (Bay)" 6
+			"Devourer 'Ravager' VIII (Bay)" 4
+			"Devourer 'Kayysinetheyu' V (Bay)" 2
 		"Devourer 'Tisli' VI" 3
+			"Devourer 'Quantum' IV (Bay)" 6
+			"Devourer 'Stalker' II (Bay)" 6
 		"Devourer 'Kayysinetheyu' V" 6
-		"Devourer 'Ravager' VIII" 8
+		"Devourer 'Ravager' VIII" 6
 		"Devourer 'Quantum' IV" 16
 		"Devourer 'Death' IX" 40
 		"Devourer 'Stalker' II" 35
-		"Devourer 'Hunger' VII" 10
-		"Devourer 'Consume' III" 5
-	variant 5
-		"Devourer Superheavy" 2
-		"Devourer 'Tisli' VI" 4
-		"Devourer 'Kayysinetheyu' V" 8
-		"Devourer 'Ravager' VIII" 12
-		"Devourer 'Quantum' IV" 20
-		"Devourer 'Stalker' II" 40
-		"Devourer 'Death' IX" 50
-		"Devourer 'Hunger' VII" 15
-		"Devourer 'Consume' III" 8
 	variant 1
 		"Devourer 'Swarm Mother'" 1
+			"Devourer 'Quantum' IV (Bay)" 10
+			"Devourer 'Stalker' II (Bay)" 10
+			"Devourer 'Ravager' VIII (Bay)" 6
+			"Devourer 'Kayysinetheyu' V (Bay)" 4
 		"Devourer Superheavy" 3
-		"Devourer 'Tisli' VI" 8
-		"Devourer 'Kayysinetheyu' V" 16
-		"Devourer 'Ravager' VIII" 24
-		"Devourer 'Quantum' IV" 40
-		"Devourer 'Stalker' II" 60
-		"Devourer 'Death' IX" 100
-		"Devourer 'Hunger' VII" 25
-		"Devourer 'Consume' III" 15
-
-fleet "Devourer Invasion Fleet"
-	government "Devourer"
-	names "devourer"
-	cargo 10
-	variant 10
+			"Devourer 'Quantum' IV (Bay)" 12
+			"Devourer 'Stalker' II (Bay)" 10
+			"Devourer 'Ravager' VIII (Bay)" 6
 		"Devourer 'Tisli' VI" 4
+			"Devourer 'Quantum' IV (Bay)" 8
+			"Devourer 'Stalker' II (Bay)" 8
 		"Devourer 'Kayysinetheyu' V" 8
-		"Devourer 'Ravager' VIII" 12
+		"Devourer 'Ravager' VIII" 8
 		"Devourer 'Quantum' IV" 20
-		"Devourer 'Stalker' II" 30
 		"Devourer 'Death' IX" 50
-		"Devourer 'Consume' III" 8
-	variant 5
-		"Devourer Superheavy" 1
-		"Devourer 'Tisli' VI" 6
-		"Devourer 'Kayysinetheyu' V" 12
-		"Devourer 'Ravager' VIII" 18
-		"Devourer 'Quantum' IV" 30
 		"Devourer 'Stalker' II" 45
-		"Devourer 'Death' IX" 70
-		"Devourer 'Consume' III" 12
-	variant 1
-		"Devourer 'Swarm Mother'" 1
-		"Devourer Superheavy" 2
-		"Devourer 'Tisli' VI" 6
-		"Devourer 'Kayysinetheyu' V" 12
-		"Devourer 'Ravager' VIII" 20
-		"Devourer 'Quantum' IV" 35
-		"Devourer 'Stalker' II" 50
-		"Devourer 'Death' IX" 80
-		"Devourer 'Hunger' VII" 20
-		"Devourer 'Consume' III" 12
 
 fleet "Devourer Patrol"
 	government "Devourer"
@@ -119,15 +87,64 @@ fleet "Devourer Patrol"
 	cargo 0
 	variant 3
 		"Devourer 'Quantum' IV" 3
-		"Devourer 'Stalker' II" 5
 	variant 2
-		"Devourer 'Stalker' II" 8
+		"Devourer 'Stalker' II" 6
 		"Devourer 'Hunger' VII" 1
 	variant 1
-		"Devourer 'Death' IX" 10
-		"Devourer 'Quantum' IV" 2
-		"Devourer 'Stalker' II" 8
-		"Devourer 'Hunger' VII" 2
+		"Devourer 'Death' IX" 8
+		"Devourer 'Quantum' IV" 1
+		"Devourer 'Stalker' II" 6
+
+fleet "Devourer Invasion Fleet"
+	government "Devourer"
+	names "devourer"
+	cargo 10
+	variant 10
+		"Devourer 'Tisli' VI" 4
+			"Devourer 'Quantum' IV (Bay)" 8
+			"Devourer 'Stalker' II (Bay)" 8
+			"Devourer 'Consume' III (Bay)" 2
+		"Devourer 'Kayysinetheyu' V" 8
+		"Devourer 'Ravager' VIII" 8
+		"Devourer 'Quantum' IV" 20
+		"Devourer 'Stalker' II" 30
+		"Devourer 'Death' IX" 50
+		"Devourer 'Consume' III" 8
+	variant 5
+		"Devourer Superheavy" 1
+			"Devourer 'Quantum' IV (Bay)" 14
+			"Devourer 'Stalker' II (Bay)" 10
+			"Devourer 'Ravager' VIII (Bay)" 6
+			"Devourer 'Kayysinetheyu' V (Bay)" 2
+		"Devourer 'Tisli' VI" 6
+			"Devourer 'Quantum' IV (Bay)" 10
+			"Devourer 'Stalker' II (Bay)" 8
+		"Devourer 'Kayysinetheyu' V" 12
+		"Devourer 'Ravager' VIII" 12
+		"Devourer 'Quantum' IV" 30
+		"Devourer 'Stalker' II" 45
+		"Devourer 'Death' IX" 70
+		"Devourer 'Consume' III" 12
+	variant 1
+		"Devourer 'Swarm Mother'" 1
+			"Devourer 'Quantum' IV (Bay)" 24
+			"Devourer 'Stalker' II (Bay)" 16
+			"Devourer 'Ravager' VIII (Bay)" 8
+			"Devourer 'Kayysinetheyu' V (Bay)" 4
+		"Devourer Superheavy" 2
+			"Devourer 'Quantum' IV (Bay)" 14
+			"Devourer 'Stalker' II (Bay)" 12
+			"Devourer 'Ravager' VIII (Bay)" 6
+		"Devourer 'Tisli' VI" 6
+			"Devourer 'Quantum' IV (Bay)" 10
+			"Devourer 'Stalker' II (Bay)" 8
+		"Devourer 'Kayysinetheyu' V" 12
+		"Devourer 'Ravager' VIII" 12
+		"Devourer 'Quantum' IV" 35
+		"Devourer 'Stalker' II" 50
+		"Devourer 'Death' IX" 80
+		"Devourer 'Hunger' VII" 20
+		"Devourer 'Consume' III" 12
 
 fleet "Devourer Transport Convoy"
 	government "Devourer"
@@ -156,3 +173,33 @@ fleet "Devourer Hunter Pack"
 		"Devourer 'Stalker' II" 20
 		"Devourer 'Ravager' VIII" 3
 		"Devourer 'Quantum' IV" 6
+
+fleet "Devourer Apocalypse Fleet"
+	government "Devourer"
+	names "devourer"
+	cargo 15
+	variant 1
+		"Devourer 'Orci Khaxaraguxi'" 1
+			"Devourer 'Quantum' IV (Bay)" 30
+			"Devourer 'Stalker' II (Bay)" 20
+			"Devourer 'Ravager' VIII (Bay)" 12
+			"Devourer 'Kayysinetheyu' V (Bay)" 8
+		"Devourer 'Swarm Mother'" 2
+			"Devourer 'Quantum' IV (Bay)" 48
+			"Devourer 'Stalker' II (Bay)" 32
+			"Devourer 'Ravager' VIII (Bay)" 16
+			"Devourer 'Kayysinetheyu' V (Bay)" 8
+		"Devourer Superheavy" 6
+			"Devourer 'Quantum' IV (Bay)" 42
+			"Devourer 'Stalker' II (Bay)" 36
+			"Devourer 'Ravager' VIII (Bay)" 18
+		"Devourer 'Tisli' VI" 12
+			"Devourer 'Quantum' IV (Bay)" 24
+			"Devourer 'Stalker' II (Bay)" 18
+		"Devourer 'Kayysinetheyu' V" 20
+		"Devourer 'Ravager' VIII" 24
+		"Devourer 'Quantum' IV" 50
+		"Devourer 'Stalker' II" 80
+		"Devourer 'Death' IX" 120
+		"Devourer 'Hunger' VII" 30
+		"Devourer 'Consume' III" 20

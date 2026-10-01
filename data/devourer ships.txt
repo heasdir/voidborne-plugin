@@ -391,18 +391,18 @@ ship "Devourer 'Tisli' VI"
 	turret 25 0 "Devourer Maw Turret"
 	turret -10 5 "Devourer Spine Turret"
 	turret 10 5 "Devourer Spine Turret"
-	bay "Drone" -20 -30
-	bay "Drone" 20 -30
-	bay "Drone" -35 -15
-	bay "Drone" 35 -15
-	bay "Drone" -30 10
-	bay "Drone" 30 10
-	bay "Light Warship" -25 35
-	bay "Light Warship" 25 35
-	bay "Light Warship" -15 45
-	bay "Light Warship" 15 45
-	bay "Light Warship" 0 50
-	bay "Light Warship" 0 55
+	bay "Light Warship Carry" -20 -30
+	bay "Light Warship Carry" 20 -30
+	bay "Light Warship Carry" -35 -15
+	bay "Light Warship Carry" 35 -15
+	bay "Light Warship Carry" -30 10
+	bay "Light Warship Carry" 30 10
+	bay "Light Warship Carry" -25 35
+	bay "Light Warship Carry" 25 35
+	bay "Light Warship Carry" -15 45
+	bay "Light Warship Carry" 15 45
+	bay "Light Warship Carry" 0 50
+	bay "Light Warship Carry" 0 55
 	description "Devourer 'Tisli' VI - the name is deceptively short for something so vast. These capital ships anchor Devourer battle lines and disgorge swarms of smaller Devourer craft from their organic hangar bays."
 
 ship "Devourer Superheavy"
@@ -490,36 +490,26 @@ ship "Devourer Superheavy"
 	turret 15 5 "Devourer Spine Turret"
 	turret -5 10 "Devourer Scream Battery"
 	turret 5 10 "Devourer Scream Battery"
-	bay "Drone" -55 -40
-	bay "Drone" 55 -40
-	bay "Drone" -65 -25
-	bay "Drone" 65 -25
-	bay "Drone" -70 0
-	bay "Drone" 70 0
-	bay "Drone" -65 30
-	bay "Drone" 65 30
-	bay "Drone" -55 50
-	bay "Drone" 55 50
-	bay "Light Warship" -45 -50
-	bay "Light Warship" 45 -50
-	bay "Light Warship" -50 -35
-	bay "Light Warship" 50 -35
-	bay "Light Warship" -55 -10
-	bay "Light Warship" 55 -10
-	bay "Light Warship" -50 20
-	bay "Light Warship" 50 20
-	bay "Light Warship" -40 45
-	bay "Light Warship" 40 45
-	bay "Light Warship" -25 60
-	bay "Light Warship" 25 60
-	bay "Light Warship" 0 70
-	bay "Light Warship" 0 75
-	bay "Heavy Warship" -30 -60
-	bay "Heavy Warship" 30 -60
-	bay "Heavy Warship" -20 -70
-	bay "Heavy Warship" 20 -70
-	bay "Heavy Warship" 0 -80
-	bay "Heavy Warship" 0 -85
+	bay "Light Warship Carry" -45 -50
+	bay "Light Warship Carry" 45 -50
+	bay "Light Warship Carry" -50 -35
+	bay "Light Warship Carry" 50 -35
+	bay "Light Warship Carry" -55 -10
+	bay "Light Warship Carry" 55 -10
+	bay "Light Warship Carry" -50 20
+	bay "Light Warship Carry" 50 20
+	bay "Light Warship Carry" -40 45
+	bay "Light Warship Carry" 40 45
+	bay "Light Warship Carry" -25 60
+	bay "Light Warship Carry" 25 60
+	bay "Light Warship Carry" 0 70
+	bay "Light Warship Carry" 0 75
+	bay "Heavy Warship Carry" -30 -60
+	bay "Heavy Warship Carry" 30 -60
+	bay "Heavy Warship Carry" -20 -70
+	bay "Heavy Warship Carry" 20 -70
+	bay "Heavy Warship Carry" 0 -80
+	bay "Heavy Warship Carry" 0 -85
 	description "Devourer Superheavies are the apex predators of the Devourer fleet - living fortresses that disgorge entire fleets from their cavernous hangar bays while tearing holes in reality itself. Engaging one is not a battle - it is a survival situation. Destroy it before the rift stabilizes, or be consumed."
 
 ship "Devourer 'Swarm Mother'"
@@ -545,7 +535,7 @@ ship "Devourer 'Swarm Mother'"
 		"drone bays" 40
 		"cooling" 1111
 		"shield generation" 90000
-		"hull repair rate" 208200
+		"hull repair" 78200
 		weapon
 			"blast radius" 60
 			"shield damage" 250
@@ -601,40 +591,236 @@ ship "Devourer 'Swarm Mother'"
 	turret 15 5 "Devourer Spine Turret"
 	turret -5 10 "Devourer Scream Battery"
 	turret 5 10 "Devourer Scream Battery"
-	bay "Drone" -60 -50
-	bay "Drone" 60 -50
-	bay "Drone" -70 -35
-	bay "Drone" 70 -35
-	bay "Drone" -75 -10
-	bay "Drone" 75 -10
-	bay "Drone" -70 20
-	bay "Drone" 70 20
-	bay "Drone" -60 45
-	bay "Drone" 60 45
-	bay "Light Warship" -50 -60
-	bay "Light Warship" 50 -60
-	bay "Light Warship" -55 -45
-	bay "Light Warship" 55 -45
-	bay "Light Warship" -60 -20
-	bay "Light Warship" 60 -20
-	bay "Light Warship" -55 10
-	bay "Light Warship" 55 10
-	bay "Light Warship" -45 40
-	bay "Light Warship" 45 40
-	bay "Light Warship" -30 60
-	bay "Light Warship" 30 60
-	bay "Light Warship" 0 70
-	bay "Light Warship" 0 75
-	bay "Heavy Warship" -35 -70
-	bay "Heavy Warship" 35 -70
-	bay "Heavy Warship" -25 -80
-	bay "Heavy Warship" 25 -80
-	bay "Heavy Warship" 0 -85
-	bay "Heavy Warship" 0 -90
-	bay "Medium Warship" -40 -40
-	bay "Medium Warship" 40 -40
-	bay "Medium Warship" -30 -30
-	bay "Medium Warship" 30 -30
-	bay "Medium Warship" 0 -20
-	bay "Medium Warship" 0 -10
+	bay "Light Warship Carry" -50 -60
+	bay "Light Warship Carry" 50 -60
+	bay "Light Warship Carry" -55 -45
+	bay "Light Warship Carry" 55 -45
+	bay "Light Warship Carry" -60 -20
+	bay "Light Warship Carry" 60 -20
+	bay "Light Warship Carry" -55 10
+	bay "Light Warship Carry" 55 10
+	bay "Light Warship Carry" -45 40
+	bay "Light Warship Carry" 45 40
+	bay "Light Warship Carry" -30 60
+	bay "Light Warship Carry" 30 60
+	bay "Light Warship Carry" 0 70
+	bay "Light Warship Carry" 0 75
+	bay "Heavy Warship Carry" -35 -70
+	bay "Heavy Warship Carry" 35 -70
+	bay "Heavy Warship Carry" -25 -80
+	bay "Heavy Warship Carry" 25 -80
+	bay "Heavy Warship Carry" 0 -85
+	bay "Heavy Warship Carry" 0 -90
+	bay "Heavy Warship Carry" -40 -40
+	bay "Heavy Warship Carry" 40 -40
+	bay "Heavy Warship Carry" -30 -30
+	bay "Heavy Warship Carry" 30 -30
+	bay "Heavy Warship Carry" 0 -20
+	bay "Heavy Warship Carry" 0 -10
 	description "The Swarm Mother is a Devourer Superheavy purpose-grown around the terrifying Black Hole Spawner weapon system. Four Spawner turrets each deploy a miniature singularity that drifts through space, dragging ships into its gravity well while draining their fuel and scrambling their systems. Xafawqa Al-Mani himself commands the first Swarm Mother ever grown."
+
+ship "Devourer 'Orci Khaxaraguxi'"
+	sprite "ship/devourer orci khaxaraguxi"
+	thumbnail "thumbnail/devourer orci khaxaraguxi"
+	attributes
+		category "Superheavy"
+		"cost" 1200000000
+		"shields" 1200000
+		"hull" 2400000
+		"required crew" 320
+		"bunks" 600
+		"mass" 2200
+		"drag" 28.0
+		"heat dissipation" 0.3
+		"fuel capacity" 3000
+		"cargo space" 400
+		"outfit space" 90000
+		"weapon capacity" 25000
+		"engine capacity" 600
+		"gun ports" 64
+		"turret mounts" 32
+		"drone bays" 60
+		"cooling" 2000
+		"shield generation" 150000
+		"hull repair" 120000
+		weapon
+			"blast radius" 100
+			"shield damage" 400
+			"hull damage" 600
+			"hit force" 200
+	outfits
+		"Devourer Bio-Reactor" 24
+		"Devourer Rift Drive" 8
+		"Devourer Rift Steering" 8
+		"Devourer Black Hole Spawner" 32
+		"Devourer Maw Cannon" 16
+		"Devourer Acid Cannon" 24
+		"Devourer Spine Launcher" 24
+		"Devourer Spore Launcher" 8
+		"Devourer Acid Turret" 12
+		"Devourer Spine Turret" 8
+		"Devourer Maw Turret" 8
+		"Devourer Scream Battery" 4
+		"Devourer Dimensional Rift"
+		"Devourer Hive Spawn" 80
+		"Devourer Corrosive Miasma" 50
+		"Devourer Living Corridors" 40
+		"Devourer Broodlord" 40
+		"Devourer Swarm Caller" 30
+		"Devourer Nest Heart" 20
+		"Devourer Cryo Gland" 16
+	engine -40 600
+	engine 40 600
+	engine -60 590
+	engine 60 590
+	engine -25 610
+	engine 25 610
+	engine -80 580
+	engine 80 580
+	gun -400 -300 "Devourer Maw Cannon"
+	gun 400 -300 "Devourer Maw Cannon"
+	gun -350 -280 "Devourer Maw Cannon"
+	gun 350 -280 "Devourer Maw Cannon"
+	gun -300 -260 "Devourer Maw Cannon"
+	gun 300 -260 "Devourer Maw Cannon"
+	gun -250 -240 "Devourer Maw Cannon"
+	gun 250 -240 "Devourer Maw Cannon"
+	gun -380 -250 "Devourer Acid Cannon"
+	gun 380 -250 "Devourer Acid Cannon"
+	gun -330 -230 "Devourer Acid Cannon"
+	gun 330 -230 "Devourer Acid Cannon"
+	gun -280 -210 "Devourer Acid Cannon"
+	gun 280 -210 "Devourer Acid Cannon"
+	gun -230 -190 "Devourer Acid Cannon"
+	gun 230 -190 "Devourer Acid Cannon"
+	gun -180 -170 "Devourer Acid Cannon"
+	gun 180 -170 "Devourer Acid Cannon"
+	gun -420 -220 "Devourer Spine Launcher"
+	gun 420 -220 "Devourer Spine Launcher"
+	gun -370 -200 "Devourer Spine Launcher"
+	gun 370 -200 "Devourer Spine Launcher"
+	gun -320 -180 "Devourer Spine Launcher"
+	gun 320 -180 "Devourer Spine Launcher"
+	gun -270 -160 "Devourer Spine Launcher"
+	gun 270 -160 "Devourer Spine Launcher"
+	gun -220 -140 "Devourer Spine Launcher"
+	gun 220 -140 "Devourer Spine Launcher"
+	gun -170 -120 "Devourer Spine Launcher"
+	gun 170 -120 "Devourer Spine Launcher"
+	gun -200 -350 "Devourer Spore Launcher"
+	gun 200 -350 "Devourer Spore Launcher"
+	gun -150 -330 "Devourer Spore Launcher"
+	gun 150 -330 "Devourer Spore Launcher"
+	gun -100 -310 "Devourer Spore Launcher"
+	gun 100 -310 "Devourer Spore Launcher"
+	gun -50 -290 "Devourer Spore Launcher"
+	gun 50 -290 "Devourer Spore Launcher"
+	turret -450 -150 "Devourer Black Hole Spawner"
+	turret 450 -150 "Devourer Black Hole Spawner"
+	turret -420 -120 "Devourer Black Hole Spawner"
+	turret 420 -120 "Devourer Black Hole Spawner"
+	turret -390 -90 "Devourer Black Hole Spawner"
+	turret 390 -90 "Devourer Black Hole Spawner"
+	turret -360 -60 "Devourer Black Hole Spawner"
+	turret 360 -60 "Devourer Black Hole Spawner"
+	turret -330 -30 "Devourer Black Hole Spawner"
+	turret 330 -30 "Devourer Black Hole Spawner"
+	turret -300 0 "Devourer Black Hole Spawner"
+	turret 300 0 "Devourer Black Hole Spawner"
+	turret -270 30 "Devourer Black Hole Spawner"
+	turret 270 30 "Devourer Black Hole Spawner"
+	turret -240 60 "Devourer Black Hole Spawner"
+	turret 240 60 "Devourer Black Hole Spawner"
+	turret -210 90 "Devourer Black Hole Spawner"
+	turret 210 90 "Devourer Black Hole Spawner"
+	turret -180 120 "Devourer Black Hole Spawner"
+	turret 180 120 "Devourer Black Hole Spawner"
+	turret -150 150 "Devourer Black Hole Spawner"
+	turret 150 150 "Devourer Black Hole Spawner"
+	turret -400 40 "Devourer Acid Turret"
+	turret 400 40 "Devourer Acid Turret"
+	turret -360 70 "Devourer Acid Turret"
+	turret 360 70 "Devourer Acid Turret"
+	turret -320 100 "Devourer Acid Turret"
+	turret 320 100 "Devourer Acid Turret"
+	turret -280 130 "Devourer Acid Turret"
+	turret 280 130 "Devourer Acid Turret"
+	turret -240 160 "Devourer Acid Turret"
+	turret 240 160 "Devourer Acid Turret"
+	turret -200 190 "Devourer Acid Turret"
+	turret 200 190 "Devourer Acid Turret"
+	turret -350 -50 "Devourer Spine Turret"
+	turret 350 -50 "Devourer Spine Turret"
+	turret -310 -20 "Devourer Spine Turret"
+	turret 310 -20 "Devourer Spine Turret"
+	turret -260 10 "Devourer Spine Turret"
+	turret 260 10 "Devourer Spine Turret"
+	turret -220 40 "Devourer Spine Turret"
+	turret 220 40 "Devourer Spine Turret"
+	turret -300 60 "Devourer Maw Turret"
+	turret 300 60 "Devourer Maw Turret"
+	turret -260 90 "Devourer Maw Turret"
+	turret 260 90 "Devourer Maw Turret"
+	turret -220 120 "Devourer Maw Turret"
+	turret 220 120 "Devourer Maw Turret"
+	turret -180 150 "Devourer Maw Turret"
+	turret 180 150 "Devourer Maw Turret"
+	turret -120 -30 "Devourer Scream Battery"
+	turret 120 -30 "Devourer Scream Battery"
+	turret -80 0 "Devourer Scream Battery"
+	turret 80 0 "Devourer Scream Battery"
+	bay "Light Warship Carry" -500 -200
+	bay "Light Warship Carry" 500 -200
+	bay "Light Warship Carry" -480 -150
+	bay "Light Warship Carry" 480 -150
+	bay "Light Warship Carry" -460 -100
+	bay "Light Warship Carry" 460 -100
+	bay "Light Warship Carry" -440 -50
+	bay "Light Warship Carry" 440 -50
+	bay "Light Warship Carry" -420 0
+	bay "Light Warship Carry" 420 0
+	bay "Light Warship Carry" -400 50
+	bay "Light Warship Carry" 400 50
+	bay "Light Warship Carry" -380 100
+	bay "Light Warship Carry" 380 100
+	bay "Light Warship Carry" -360 150
+	bay "Light Warship Carry" 360 150
+	bay "Light Warship Carry" -520 -250
+	bay "Light Warship Carry" 520 -250
+	bay "Light Warship Carry" -500 -200
+	bay "Light Warship Carry" 500 -200
+	bay "Light Warship Carry" -480 -150
+	bay "Light Warship Carry" 480 -150
+	bay "Light Warship Carry" -460 -100
+	bay "Light Warship Carry" 460 -100
+	bay "Light Warship Carry" -440 -50
+	bay "Light Warship Carry" 440 -50
+	bay "Light Warship Carry" -420 0
+	bay "Light Warship Carry" 420 0
+	bay "Light Warship Carry" -400 50
+	bay "Light Warship Carry" 400 50
+	bay "Light Warship Carry" -380 100
+	bay "Light Warship Carry" 380 100
+	bay "Heavy Warship Carry" -550 -300
+	bay "Heavy Warship Carry" 550 -300
+	bay "Heavy Warship Carry" -530 -250
+	bay "Heavy Warship Carry" 530 -250
+	bay "Heavy Warship Carry" -510 -200
+	bay "Heavy Warship Carry" 510 -200
+	bay "Heavy Warship Carry" -490 -150
+	bay "Heavy Warship Carry" 490 -150
+	bay "Heavy Warship Carry" -470 -100
+	bay "Heavy Warship Carry" 470 -100
+	bay "Heavy Warship Carry" -450 -50
+	bay "Heavy Warship Carry" 450 -50
+	bay "Heavy Warship Carry" -540 -350
+	bay "Heavy Warship Carry" 540 -350
+	bay "Heavy Warship Carry" -520 -320
+	bay "Heavy Warship Carry" 520 -320
+	bay "Heavy Warship Carry" -500 -280
+	bay "Heavy Warship Carry" 500 -280
+	bay "Heavy Warship Carry" -480 -240
+	bay "Heavy Warship Carry" 480 -240
+	bay "Heavy Warship Carry" -460 -200
+	bay "Heavy Warship Carry" 460 -200
+	description "The Orci Khaxaraguxi - 'The Curved Blade That Harvests Galaxies' - is the largest Krasi warship ever grown. Its arc-shaped hull is designed to envelop entire fleets, bringing 32 Black Hole Spawner turrets and 64 gun ports to bear simultaneously. When the Orci Khaxaraguxi enters a system, the battle is already over. Xataeawatacaxagaontumariukhra of the SKR is said to command this vessel personally, using it as a mobile throne from which the shared feast is declared."

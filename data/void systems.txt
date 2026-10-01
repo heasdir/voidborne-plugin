@@ -235,6 +235,7 @@ system Serviskate
 	fleet "Devourer Invasion Fleet" 600
 	fleet "Devourer Transport Convoy" 300
 	fleet "Devourer Hunter Pack" 500
+	fleet "Devourer Apocalypse Fleet"
 	object
 		sprite star/k5
 		period 10
